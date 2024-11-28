@@ -127,7 +127,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Anwar",
             "last_name": "Ibrahim",
             "election": 21,
-            "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat",
+            "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat)",
             "state": "Tambun",
             "priority": 3,
             "description": "'",
@@ -586,5 +586,69 @@ var soundtracks = {
 // Set up new music player
 
 newMusicPlayer()
+
+// Set up tooltips
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: lightskyblue;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: lightblue;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+
+    styleElem.appendChild(document.createTextNode(css));
+
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+    {searchString: "Pakatan Harapan", explanationText: "Neolibs"},
+    {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"}
+];
 
 //#endcode
