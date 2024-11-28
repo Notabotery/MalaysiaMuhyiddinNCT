@@ -256,7 +256,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6110,
         "fields": {
             "question": 1300,
-            "description": "This election is a battle for the soul of America. The radical Democrats want to destroy free speech, handcuff our police, open our borders, and implement a nationwide program of socialism. You must stop them."
+            "description": "Whether we like it or not it is an electoral promise we’ve made to the Rakyat, a promise we must fulfill. Mahathir should provide a concrete timetable for the handover."
         }
     },
     {
@@ -264,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6111,
         "fields": {
             "question": 1300,
-            "description": "The crooked media is in the tank for Joe Biden and his son Hunter, and they are doing everything they can to make my term, one of the most successful ever, look like a disaster. Don't fall for it!"
+            "description": "Publicly call for a consensus to be reached by the upper echelons of Pakatan Harapan while secretly reassure Mahathir of your full support for his tenureship. "
         }
     },
     {
@@ -272,7 +272,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6112,
         "fields": {
             "question": 1300,
-            "description": "We've done some unbelievable things for conservatism in America, things people wouldn't have dreamed of four years ago. The largest tax cuts in history. Fighting for religious freedom. Standing up to China. I'm very proud."
+            "description": "Nothing, no comment"
         }
     },
     {
