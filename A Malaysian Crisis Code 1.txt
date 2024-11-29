@@ -1,3 +1,13 @@
+function updateRunningMateForm() {
+  try {
+    const form = document.querySelector("#running_mate_form form");
+    const heading = form.querySelector("h3");
+
+    heading.textContent = "Please select your party:";
+  } catch {}
+}
+window.setInterval(updateRunningMateForm,200)
+
 let z = new MutationObserver((mutationsList, observer) => {
     let runningMateSummary = document.querySelector("#running_mate_summary");
     if (runningMateSummary && runningMateSummary.children[0].children[1].innerHTML != runningMateSummary.children[0].children[1].innerHTML.replaceAll("Party", "Ideology")) {
@@ -51,13 +61,13 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2022,
             "summary": "The wave of enthusiasm that swept the nation in the 2018 General Election and ended 6 decades of Barisan Nasional (BN - National Front) rule in exchange for a Pakatan Harapan (PH - Alliance of Hope) government had long been drowned out by failed promises and abortive reforms.<br><br>Prime Minister Mahathir Mohamad's reluctance to handover premiership to Anwar Ibrahim, a pivotal government coalition partner as agreed upon before the election has only created divisions within the unlikely alliance of disgruntled conservatives and disillusioned reformists.<br><br>With faltering approval ratings and a stagnant economy, the coaliton teeters on the brink of collapse as conspirators from within plan to override the democratic process and end Malaysia's brief flirtation with reformism. Meanwhile the spectre of an unprecedented pandemic looms over the nation.",
-            "image_url": "https://cdn.discordapp.com/attachments/1275832400513073258/1309165226901372949/TitlePhoto.png?ex=67413f61&is=673fede1&hm=426c5d930aec398cc74845eeeba47164cb8c887e6a299048b0ed28e5b5dc6227&",
+            "image_url": "https://i.imgur.com/apkFx9P.png",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://imgur.com/1FpcI84",
+            "advisor_url": "https://i.imgur.com/r2Qn19U.png",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
+            "creator": "Straits, Simple_Peasant, Hezrin",
             "display_year": "2022 - A Malaysian Crisis"
         }
     }
@@ -78,7 +88,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#008800",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
-            "image_url": "https://cdn.discordapp.com/attachments/1275832565848215592/1308791375868727398/MuhyiddinPortraitSmall.png?ex=674134b4&is=673fe334&hm=63bf5b3281bc810388fb15d05b60df83ab938f67f1dfc7e804019b6ef1459641&",
+            "image_url": "https://i.imgur.com/gJNUXlT.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>Things may have been closer and more contested than you hoped for, but the final result remains. Can you help bring the country back together after a tumultuous few years? Or will you be seen as a lame duck from the first day -- unable to keep the two wings of your party coordinated? Time will tell.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024. As for yourself, it seems that your long, illustrious political career has surely drawn to a close.</p>",
             "no_electoral_majority_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024.</p>",
@@ -117,7 +127,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Anwar",
             "last_name": "Ibrahim",
             "election": 21,
-            "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat",
+            "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat)",
             "state": "Tambun",
             "priority": 3,
             "description": "'",
@@ -563,8 +573,12 @@ var soundtracks = {
 	  },
 	  {
 		"name": "Internasionale - Dum Dum Tak",
-		"url": "https://files.catbox.moe/4lqmiy.mp3"
-	  }
+		"url": "https://files.catbox.moe/1vkbm4.mp3"
+	  },
+	  {
+		"name": "Bersatulah Kaum Muslimin - PAS",
+		"url": "https://files.catbox.moe/46wjrv.mp3"
+	  },
     ]
   }
 }
