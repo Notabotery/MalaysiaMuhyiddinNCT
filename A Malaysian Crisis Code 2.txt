@@ -25583,7 +25583,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3004,
         "fields": {
             "answer": 6204,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
         }
     },
@@ -25592,7 +25592,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3005,
         "fields": {
             "answer": 6205,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
         }
     },
@@ -25601,7 +25601,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3006,
         "fields": {
             "answer": 6206,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
         }
     },
@@ -25610,7 +25610,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3007,
         "fields": {
             "answer": 6207,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
         }
     },
@@ -25619,7 +25619,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3058,
         "fields": {
             "answer": 6109,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Though Mahathir secretly wants to remain as Prime Minister, in public he has only evaded questions on the date. Still he is glad you’ve affirmed your support, the same can’t be said for others in the alliance."
         }
     },
@@ -25628,8 +25628,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3059,
         "fields": {
             "answer": 6110,
-            "candidate": 301,
-            "answer_feedback": "Your core supporters believe every word of this, but does it have enough appeal to swing voters?"
+            "candidate": 300,
+            "answer_feedback": "Mahathir is furious, a betrayal from the man he co-founded the party with? Though you’ve gained allies from the other component parties of Pakatan Harapan, in BERSATU good luck with being ostracized."
         }
     },
     {
@@ -25637,8 +25637,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3060,
         "fields": {
             "answer": 6111,
-            "candidate": 301,
-            "answer_feedback": "Lord knows you've gone on aggrieved attack mode plenty of times over the past four years. But is it enough to get you over the hump for a second term?"
+            "candidate": 300,
+            "answer_feedback": "This is a non-statement calling for peace without rocking the boat. Still he is glad you’ve affirmed your support, though suspicion has grown within the alliance of your true allegiance."
         }
     },
     {
@@ -25646,8 +25646,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3061,
         "fields": {
             "answer": 6112,
-            "candidate": 301,
-            "answer_feedback": "This seems like a confident, assertive, but well-grounded theme to base your campaign on."
+            "candidate": 300,
+            "answer_feedback": "Many wished for you to take a side. To them your silence has only become increasingly deafening. However with the people tired of politicking maybe staying above the fray is the best course of action?"
         }
     },
     {
@@ -25655,7 +25655,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3062,
         "fields": {
             "answer": 6113,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "It's good to mix things up and hit Democrats where they're vulnerable, especially in areas where your criticism might catch on with independent voters."
         }
     },
@@ -25664,7 +25664,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3063,
         "fields": {
             "answer": 6115,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You are the incumbent President with four years of accomplishments to run on. You're playing into everyone's worst caricature of you when you focus on petty insults like this."
         }
     },
@@ -25673,7 +25673,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3064,
         "fields": {
             "answer": 6116,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You have your own way of stating it, but Biden would be the oldest President in history. Is it really a bad idea to point that out, loudly and repeatedly?"
         }
     },
@@ -25682,7 +25682,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3065,
         "fields": {
             "answer": 6117,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Your statements on COVID and China are quite inflammatory here. Of course, that may not matter to your supporters this November."
         }
     },
@@ -25691,7 +25691,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3066,
         "fields": {
             "answer": 6119,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "The trick with COVID is to strike a sensible compromise between slowing the spread of the disease, and protecting the health of the economy."
         }
     },
@@ -25700,7 +25700,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3067,
         "fields": {
             "answer": 6120,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "There are certainly rumblings of discontent with the scientific establishment, but your best path to reelection probably consists in handling COVID well."
         }
     },
@@ -25709,7 +25709,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3068,
         "fields": {
             "answer": 6121,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Joe Biden is definitely more popular with independents than the progressive left is. One way to hit at Biden is to suggest that he's not the one really calling the shots in the modern Democratic Party."
         }
     },
@@ -25718,7 +25718,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3069,
         "fields": {
             "answer": 6124,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Trying to drive a wedge between the two wings of the Democratic Party might not be a bad idea. Then again, they hate you far more than they hate each other."
         }
     },
@@ -25727,7 +25727,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3070,
         "fields": {
             "answer": 6125,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "In part due to statements like this, America is rapidly becoming polarized on the question of COVID precautions. Will that help you in November?"
         }
     },
@@ -25736,7 +25736,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3071,
         "fields": {
             "answer": 6126,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Health authorities express concern about your refusal to wear a mask at some large events, but will your supporters care?"
         }
     },
@@ -25745,7 +25745,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3072,
         "fields": {
             "answer": 6128,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You seem to be gambling that your voters will reluctantly follow your lead on this issue. And who knows, if COVID goes away sooner, it can only help you."
         }
     },
@@ -25754,7 +25754,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3073,
         "fields": {
             "answer": 6132,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Commentators have noticed a remarkably restrained public persona over the last few weeks."
         }
     },
@@ -25763,7 +25763,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3074,
         "fields": {
             "answer": 6133,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "It has been a raucous and emotional couple of weeks in America, and you are certainly doing your part to keep it that way."
         }
     },
@@ -25772,7 +25772,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3075,
         "fields": {
             "answer": 6136,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Democrats like to portray themselves as stronger on racial justice issues. Maybe your best strategy is, indeed, to turn the tables on them. When is the last time Republicans ran anything in Minneapolis?"
         }
     },
@@ -25781,7 +25781,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3076,
         "fields": {
             "answer": 6138,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "It's hard to make Hunter Biden stay in the mainstream news, but your supporters are certainly keeping up with his story."
         }
     },
@@ -25790,7 +25790,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3077,
         "fields": {
             "answer": 6142,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "It might not be traditional Republican policy, but no one can deny that these are unusual and exceptional times."
         }
     },
@@ -25799,7 +25799,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3078,
         "fields": {
             "answer": 6143,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You might not win this battle, but maybe you can shame Nancy Pelosi as much as possible while it's taking place."
         }
     },
@@ -25808,7 +25808,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3079,
         "fields": {
             "answer": 6145,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You seem to be striking a balanced, measured tone on something for a change."
         }
     },
@@ -25817,7 +25817,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3080,
         "fields": {
             "answer": 6146,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You seem to be striking a balanced, measured tone on something for a change."
         }
     },
@@ -25826,7 +25826,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3081,
         "fields": {
             "answer": 6147,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You might enjoy folk hero status among your fervent supporters, but not even your endorsement can make a lockdown politically palatable."
         }
     },
@@ -25835,7 +25835,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3083,
         "fields": {
             "answer": 6152,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Your plans in Afghanistan seem to trigger bipartisan alarm within the Beltway. But... many average people want the troops gone from Afghanistan."
         }
     },
@@ -25844,7 +25844,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3084,
         "fields": {
             "answer": 6159,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Your latest statements on China have led to a lot of confusion and raised eyebrows, even from a number of your own supporters."
         }
     },
@@ -25853,7 +25853,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3085,
         "fields": {
             "answer": 6160,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "If you think that the current political dynamic is good for you, then hammering on The Wall in your speeches will do nothing but reinforce it."
         }
     },
@@ -25862,7 +25862,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3086,
         "fields": {
             "answer": 6163,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Talk of immigration reform is not popular in your own party. However, you seem to keep your support almost no matter what you say."
         }
     },
@@ -25871,7 +25871,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3087,
         "fields": {
             "answer": 6164,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "This seems like basic, common sense to most of your supporters."
         }
     },
@@ -25880,7 +25880,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3088,
         "fields": {
             "answer": 6166,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You're hitting the traditional Republican talking points here."
         }
     },
@@ -25889,7 +25889,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3089,
         "fields": {
             "answer": 6167,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Your core supporters listen politely as you say these words. But they don't quite seem to cheer the way they normally do."
         }
     },
@@ -25898,7 +25898,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3090,
         "fields": {
             "answer": 6170,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Pundits question whether you're giving the right number here, but it is true that many other politicians are quite wealthy."
         }
     },
@@ -25907,7 +25907,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3091,
         "fields": {
             "answer": 6172,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "The fact of the matter is, there is no way that Republicans will not fill these seats on the Court, and you're simply stating the obvious."
         }
     },
@@ -25916,7 +25916,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3092,
         "fields": {
             "answer": 6175,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Who knows if anything will come of your openness to negotiate on this issue. In the short term, perhaps not really."
         }
     },
@@ -25925,7 +25925,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3093,
         "fields": {
             "answer": 6176,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Many people believe that you are escalating and tacitly encouraging this situation, rather than speaking out against it."
         }
     },
@@ -25934,7 +25934,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3094,
         "fields": {
             "answer": 6180,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "This is a very popular pick among religious conservatives, many of whom believe that Barrett shares their core beliefs on religious freedom and abortion."
         }
     },
@@ -25943,7 +25943,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3095,
         "fields": {
             "answer": 6181,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Skeptics believe that you passed over more experienced nominees to select someone from Florida. Which isn't to say that Lagoa isn't highly qualified."
         }
     },
@@ -25952,7 +25952,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3096,
         "fields": {
             "answer": 6182,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You always hate to have litmus tests for the Court, but Democrats are definitely turning it into a “war on women” issue that you replaced Justice Ginsburg with a man. On the other hand, he is an Indian-American man."
         }
     },
@@ -25961,7 +25961,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3097,
         "fields": {
             "answer": 6183,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You know that this kind of a compromise will never happen. After a couple of days of hemming and hawing, you go ahead and nominate Justice Barrett."
         }
     },
@@ -25970,7 +25970,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3098,
         "fields": {
             "answer": 6184,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Skeptics wonder if you're even close to making a real vaccine announcement, but it's certainly in line with your personality to promise big."
         }
     },
@@ -25979,7 +25979,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3099,
         "fields": {
             "answer": 6187,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Harris hits back at you and clarifies her statement (she wouldn't take the vaccine unless the CDC endorsed it), but no matter."
         }
     },
@@ -25988,7 +25988,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3100,
         "fields": {
             "answer": 6188,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
         }
     },
@@ -25997,7 +25997,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3101,
         "fields": {
             "answer": 6189,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
         }
     },
@@ -26006,7 +26006,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3102,
         "fields": {
             "answer": 6190,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
         }
     },
@@ -26015,7 +26015,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3103,
         "fields": {
             "answer": 6191,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Maybe these debates have outlived their usefullness anyway. Still, there are some whispers that you may have made a mistake."
         }
     },
@@ -26024,7 +26024,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3104,
         "fields": {
             "answer": 6192,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "You're certainly not the type to second guess yourself. There's no sense in changing that now."
         }
     },
@@ -26033,7 +26033,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3105,
         "fields": {
             "answer": 6196,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Many pundits deride your remarks as dangerous and inflammatory, and also point to the polls showing you way behind in the race."
         }
     },
@@ -26042,7 +26042,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3106,
         "fields": {
             "answer": 6199,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "A lot of people are pleasantly surprised to hear you back away from some of the more dangerous statements you've made. Maybe that will include some independent voters?"
         }
     },
@@ -26051,7 +26051,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3107,
         "fields": {
             "answer": 6200,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Let's see what kind of an effect this story has on the final days of the campaign."
         }
     },
@@ -26060,7 +26060,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3108,
         "fields": {
             "answer": 6201,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Let's see what kind of an effect this story has on the final days of the campaign."
         }
     },
@@ -26069,7 +26069,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3109,
         "fields": {
             "answer": 6202,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Let's see what kind of an effect this story has on the final days of the campaign."
         }
     },
@@ -26129,6 +26129,12 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
+
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HolnW3W.png';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/ackG5Jz.png';
+campaignTrail_temp.candidate_last_name = 'Muhyiddin';
+campaignTrail_temp.running_mate_last_name = 'Perikatan Nasional';
+campaignTrail_temp.running_mate_state_id = '1104';
 
 // Set up tooltips
     function getTooltips(str) {
@@ -26192,4 +26198,3 @@ function applyTooltipsToObject(obj) {
 applyTooltipsToObject(campaignTrail_temp.questions_json);
 applyTooltipsToObject(campaignTrail_temp.answers_json);
 applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
-
