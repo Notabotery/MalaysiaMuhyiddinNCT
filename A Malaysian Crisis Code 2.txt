@@ -26078,7 +26078,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3110,
         "fields": {
             "answer": 6203,
-            "candidate": 301,
+            "candidate": 300,
             "answer_feedback": "Let's see what kind of an effect this story has on the final days of the campaign."
         }
     }
