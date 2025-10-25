@@ -1,3 +1,8 @@
+const introTitle = document.querySelector("#inner_window_1 h3");
+  if (introTitle) {
+	introTitle.textContent = "Do you have what it takes to destroy Malaysian democracy?";
+  }
+
 function updateRunningMateForm() {
   try {
     const form = document.querySelector("#running_mate_form form");
@@ -116,7 +121,7 @@ campaignTrail_temp.candidate_json = [
             "election": 21,
             "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
             "state": "Port Dickson",
-            "priority": 1,
+            "priority": 2,
             "description": "<p>Put description here</p>",
             "color_hex": "#0000FF",
             "secondary_color_hex": null,
@@ -139,7 +144,7 @@ campaignTrail_temp.candidate_json = [
             "election": 21,
             "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat)",
             "state": "No Seat",
-            "priority": 2,
+            "priority": 3,
             "description": "'",
             "color_hex": "#FFFF00",
             "secondary_color_hex": "#FFFFC0",
