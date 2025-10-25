@@ -26130,10 +26130,10 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HolnW3W.png';
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/ackG5Jz.png';
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/4bgnkfr.png';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/x4mHOWp.png';
 campaignTrail_temp.candidate_last_name = 'Muhyiddin';
-campaignTrail_temp.running_mate_last_name = 'Perikatan Nasional';
+campaignTrail_temp.running_mate_last_name = 'BERSATU';
 campaignTrail_temp.running_mate_state_id = '1104';
 
 // Set up tooltips

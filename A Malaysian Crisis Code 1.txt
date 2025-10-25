@@ -3,7 +3,7 @@ function updateRunningMateForm() {
     const form = document.querySelector("#running_mate_form form");
     const heading = form.querySelector("h3");
 
-    heading.textContent = "Please select your party:";
+    heading.textContent = "Introducing the parties:";
   } catch {}
 }
 window.setInterval(updateRunningMateForm,200)
@@ -61,9 +61,9 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2022,
             "summary": "The wave of enthusiasm that swept the nation in the 2018 General Election and ended 6 decades of Barisan Nasional (BN - National Front) rule in exchange for a Pakatan Harapan (PH - Alliance of Hope) government had long been drowned out by failed promises and abortive reforms.<br><br>Prime Minister Mahathir Mohamad's reluctance to handover premiership to Anwar Ibrahim, a pivotal government coalition partner as agreed upon before the election has only created divisions within the unlikely alliance of disgruntled conservatives and disillusioned reformists.<br><br>With faltering approval ratings and a stagnant economy, the coaliton teeters on the brink of collapse as conspirators from within plan to override the democratic process and end Malaysia's brief flirtation with reformism. Meanwhile the spectre of an unprecedented pandemic looms over the nation.",
-            "image_url": "https://i.imgur.com/apkFx9P.png",
+            "image_url": "https://i.imgur.com/KG83ngs.png",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://i.imgur.com/r2Qn19U.png",
+            "advisor_url": "https://i.imgur.com/cdmCwsD.png",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
@@ -170,17 +170,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 304,
         "fields": {
-            "first_name": "Perikatan",
-            "last_name": "Nasional",
+            "first_name": "BERSATU",
+            "last_name": "",
             "election": 21,
-            "party": "Conservatism",
+            "party": "Ketuanan Melayu",
             "state": "Malaysia",
             "priority": 5,
             "description": "'",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/ackG5Jz.png",
+            "image_url": "https://i.imgur.com/x4mHOWp.png",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -342,9 +342,9 @@ $(".container")[0].style.backgroundColor = "#364b5c";
 
 document.getElementById("header").src = "https://i.imgur.com/T87PVFP.png";
 
-document.body.background = "https://i.imgur.com/nhESQyu.png";
+document.body.background = "https://i.imgur.com/t9TvSnq.png";
 document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundSize = "cover";
+//document.body.style.backgroundSize = "cover";
 
 // Music Player
 
