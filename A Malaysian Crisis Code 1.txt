@@ -3,10 +3,20 @@ function updateRunningMateForm() {
     const form = document.querySelector("#running_mate_form form");
     const heading = form.querySelector("h3");
 
-    heading.textContent = "Introducing the parties:";
+    heading.textContent = "Your loyal men:";
   } catch {}
 }
-window.setInterval(updateRunningMateForm,200)
+window.setInterval(updateRunningMateForm,50)
+
+function updateCandidateForm() {
+  try {
+      const form = document.querySelector("#candidate_form form");
+      const heading = form.querySelector("h3");
+
+      heading.textContent = "You:";
+    } catch {}
+}
+window.setInterval(updateCandidateForm,50)
 
 let z = new MutationObserver((mutationsList, observer) => {
     let runningMateSummary = document.querySelector("#running_mate_summary");
@@ -84,7 +94,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Parti Pribumi Bersatu Malaysia (BERSATU - Malaysian United Indigenous Party)",
             "state": "Pagoh",
             "priority": 1,
-            "description": "<p>Balls</p>",
+            "description": "<div style=\"max-height: 200px; overflow-y: auto;\"><p>Operating under the nom de guerre of Muhyiddin Yassin, this rebel is a creature born out of Malaysia’s oldest and grandest political party - UMNO. Son of a cleric and protege of Mahathir Mohammad’s, he was the experienced model stalwart of flag and faith conservatism with a seemingly inevitable path to the premiership ahead of him.</p>  <p>Yet he was sacked by then Prime Minister Najib Razak for the crime of being against corruption. Despite the fall from grace the sacking had altered his name into one of equality and fairness aligned to the tune of the ever more desperate opposition who soon cooperated with him. The fools gladly opened the door for him, and his footprints now dot the Ministry of Home Affairs.</p> <p>The historic upset in the election has paved a way for the prodigal son who had seemingly returned, but beneath it was nothing more than a wolf in sheep’s clothing.</p>",
             "color_hex": "#008800",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -101,11 +111,11 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 301,
         "fields": {
-            "first_name": "Pakatan",
-            "last_name": "Harapan",
+            "first_name": "Anwar",
+            "last_name": "Ibrahim",
             "election": 21,
-            "party": "",
-            "state": "Reformist Progressivism",
+            "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
+            "state": "Port Dickson",
             "priority": 1,
             "description": "<p>Put description here</p>",
             "color_hex": "#0000FF",
@@ -124,12 +134,12 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 302,
         "fields": {
-            "first_name": "Anwar",
-            "last_name": "Ibrahim",
+            "first_name": "Rafizi",
+            "last_name": "Ramli",
             "election": 21,
             "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat)",
-            "state": "Tambun",
-            "priority": 3,
+            "state": "No Seat",
+            "priority": 2,
             "description": "'",
             "color_hex": "#FFFF00",
             "secondary_color_hex": "#FFFFC0",
@@ -173,7 +183,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "BERSATU",
             "last_name": "",
             "election": 21,
-            "party": "Ketuanan Melayu",
+            "party": "Ketuanan Melayu (Malay Supremacy)",
             "state": "Malaysia",
             "priority": 5,
             "description": "'",
@@ -648,7 +658,8 @@ addDynamicCSS();
 
 tooltipList = [
     {searchString: "Pakatan Harapan", explanationText: "Neolibs"},
-    {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"}
+    {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"},
+    {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
 
 //
