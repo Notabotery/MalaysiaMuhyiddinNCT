@@ -44,6 +44,7 @@ let y = new MutationObserver((mutationsList, observer) => {
 
 y.observe(document, { subtree: true, childList: true });
 
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>You will navigate the filth that is parliamentary politics. </li><li>The answers will affect your popularity for better or worse, both nationally and in individual constituencies. </li><li>Walk the fine line between ideological dogma and convenient opportunism. </li><li>Additionally, the game has been modified to support the sidestepping of fairness and justice. </li>`;
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -93,8 +94,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 300,
         "fields": {
-            "first_name": "Muhyiddin",
-            "last_name": "Yassin",
+            "first_name": "Muhyiddin Yassin - ",
+            "last_name": "PN",
             "election": 21,
             "party": "Parti Pribumi Bersatu Malaysia (BERSATU - Malaysian United Indigenous Party)",
             "state": "Pagoh",
@@ -116,8 +117,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 301,
         "fields": {
-            "first_name": "Anwar",
-            "last_name": "Ibrahim",
+            "first_name": "Anwar Ibrahim - ",
+            "last_name": "PH",
             "election": 21,
             "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
             "state": "Port Dickson",
@@ -139,10 +140,10 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 302,
         "fields": {
-            "first_name": "Rafizi",
-            "last_name": "Ramli",
+            "first_name": "Rafizi Ramli - ",
+            "last_name": "PH",
             "election": 21,
-            "party": "Parti Keadilan Rakyat (PKR - Parti Keadilan Rakyat)",
+            "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
             "state": "No Seat",
             "priority": 3,
             "description": "'",
@@ -162,11 +163,11 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 303,
         "fields": {
-            "first_name": "Howie",
-            "last_name": "Hawkins/Other",
+            "first_name": "Saifuddin Nasution - ",
+            "last_name": "PH",
             "election": 21,
-            "party": "Green",
-            "state": "New York",
+            "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
+            "state": "Kulim-Bandar Baharu",
             "priority": 4,
             "description": "'",
             "color_hex": "#00C100",
@@ -184,6 +185,190 @@ campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
         "pk": 304,
+        "fields": {
+            "first_name": "Wan Azizah - ",
+            "last_name": "PH",
+            "election": 21,
+            "party": "Parti Keadilan Rakyat (PKR - People's Justice Party)",
+            "state": "No Seat",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Syed Saddiq - ",
+            "last_name": "PH",
+            "election": 21,
+            "party": "Malaysian United Democratic Alliance (MUDA)",
+            "state": "Muar",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Mat Sabu - ",
+            "last_name": "PH",
+            "election": 21,
+            "party": "Parti Amanah Negara (AMANAH - National Trust Party)",
+            "state": "Kota Raja",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 307,
+        "fields": {
+            "first_name": "Ahmad Zahid Hamidi - ",
+            "last_name": "BN",
+            "election": 21,
+            "party": "United Malays National Organisation (UMNO)",
+            "state": "Bagan Datuk",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 308,
+        "fields": {
+            "first_name": "Abang Johari - ",
+            "last_name": "GPS",
+            "election": 21,
+            "party": "Parti Pesaka Bumiputera Bersatu (PBB - United Bumiputera Heritage Party)",
+            "state": "Gedong (State Seat)",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Hajiji Noor - ",
+            "last_name": "GRS",
+            "election": 21,
+            "party": "BERSATU Sabah",
+            "state": "Sulaman (State Seat)",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 310,
+        "fields": {
+            "first_name": "Shafie Apdal - ",
+            "last_name": "WARISAN",
+            "election": 21,
+            "party": "Parti Warisan (Warisan - Heritage Party)",
+            "state": "Misc.",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 349,
+        "fields": {
+            "first_name": "Mat Ganja - ",
+            "last_name": "Others",
+            "election": 21,
+            "party": "Others",
+            "state": "Misc.",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 350,
         "fields": {
             "first_name": "BERSATU",
             "last_name": "",
@@ -203,75 +388,6 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 0,
             "running_mate": true
         }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 310,
-        "fields": {
-            "first_name": "Nikki",
-            "last_name": "Haley",
-            "election": 21,
-            "party": "Republican",
-            "state": "South Carolina",
-            "priority": 11,
-            "description": "'",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/nikki-haley-2020.jpg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Nikki Haley has served as the Governor of South Carolina, and as a UN Ambassador. She could help you moderate your image and try to close the female vote. Choosing her would probably lead to hard feelings between yourself and Pence, but would your voters care?</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 311,
-        "fields": {
-            "first_name": "Spike",
-            "last_name": "Cohen",
-            "election": 21,
-            "party": "Libertarian",
-            "state": "Maryland",
-            "priority": 12,
-            "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 312,
-        "fields": {
-            "first_name": "Angela",
-            "last_name": "Walker",
-            "election": 21,
-            "party": "Green",
-            "state": "Wisconsin",
-            "priority": 13,
-            "description": "'",
-            "color_hex": "#00C100",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 0,
-            "running_mate": false
-        }
     }
 ]
 
@@ -281,7 +397,7 @@ campaignTrail_temp.running_mate_json = [
         "pk": 200,
         "fields": {
             "candidate": 300,
-            "running_mate": 304
+            "running_mate": 350
         }
     },
     {
@@ -301,8 +417,12 @@ campaignTrail_temp.opponents_default_json = [
         "election": 21,
         "candidates": [
             300,
-            302,
-            303
+            301,
+            307,
+            308,
+            309,
+            310,
+            349
         ]
     }
 ]
@@ -312,8 +432,12 @@ campaignTrail_temp.opponents_weighted_json = [
         "election": 21,
         "candidates": [
             300,
-            302,
-            303
+            301,
+            307,
+            308,
+            309,
+            310,
+            349
         ]
     }
 ]
@@ -647,6 +771,16 @@ function addDynamicCSS() {
         .mytooltip:hover .mytooltiptext {
             opacity: 1;
             transition-delay: 0.5s;
+        }
+
+        #overall_result_container {
+                    height: auto;
+                    min-height: 6em;
+        }
+
+        #state_result_container {
+            height: auto;
+            min-height: 6em;
         }
     `;
 
