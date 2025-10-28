@@ -20,7 +20,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1300,
         "fields": {
             "priority": 1,
-            "description": "Unity within our alliance — Pakatan Harapan has faltered as Anwar Ibrahim continues to press Prime Minister Mahathir Mohamad for a succession plan in accordance to a promise made between the two men, a question he has thus far evaded. As President of BERSATU, a component party of the alliance, many await your response.",
+            "description": "More than a year on from our victory in 2018 treachery is being committed. Leader of PKR Anwar remains adamant on his self-proclaimed righteous liberal reformasi and a handover date of the Prime Ministership from your mentor Mahathir. But he is an inherently incapable man, your mentor is smart in keeping Anwar away from the throne all those years ago and it would be wise to repeat the same today. Azmin Ali is the only guy wise enough in PKR to understand Anwar’s threat and the havoc he would bring to Malay-kind, he is your ally there. The Sword of Damocles in the form of a potential motion of no confidence hangs above your mentor, what shall you do?",
             "likelihood": 1
         }
     },
@@ -29,16 +29,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1301,
         "fields": {
             "priority": 2,
-            "description": "Which of these themes will you emphasize the most as you campaign for President this year?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1304,
-        "fields": {
-            "priority": 3,
-            "description": "As the leader of this country, do you plan to wear a mask as you appear at various campaign events and official functions?",
+            "description": "Tun M disdains the men in UMNO, especially against Najib and his ilk for “ruining the Malay spirit”. Given that our plan is predicated on their support, how should we approach them?",
             "likelihood": 1
         }
     },
@@ -47,16 +38,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1302,
         "fields": {
             "priority": 3,
-            "description": "An outbreak of COVID-19 has led to a wave of stay-at-home orders and business closures. How will you address this issue as President?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1305,
-        "fields": {
-            "priority": 3,
-            "description": "How much of an issue do you plan to make out of the Democrats' attempt to impeach you, which began in 2019?",
+            "description": "For the first time since your days as Deputy Prime Minister you have a chance of securing the premiership. Tun M understands his mortality and is keen on finding a steward who can keep the seat warm for his son to take the reins. Azmin used to be the old man’s favourite, but the sex tapes scandal and the ECRL project fiasco has made him a liability.",
             "likelihood": 1
         }
     },
@@ -65,16 +47,25 @@ campaignTrail_temp.questions_json = [
         "pk": 1303,
         "fields": {
             "priority": 3,
-            "description": "Joe Biden has been meeting with Bernie Sanders, Elizabeth Warren, and other such politicians in an attempt to unite the Democratic Party. Do you plan to highlight these events in your speeches?",
+            "description": "Your eyes and ears, Syed Saddiq and Azmin were in the meeting with the other leaders of PH. Old and frail, Tun M had reportedly given in to Anwar’s demands signalling a potential handover after APEC in November. This could squander your effort assembling the Signatory Declaration list.",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1325,
+        "pk": 1304,
         "fields": {
-            "priority": 4,
-            "description": "There were some rumors that you might replace Mike Pence as your running mate this year. What made you decide to keep him on board?",
+            "priority": 3,
+            "description": "It's 9pm. Chants of “Hidup Tun!” echo throughout the Sheraton Hotel, shouted by supporters clad in BERSATU red. An announcement was to be made soon and there would be no turning back, and yet amidst the crowd you see Syed Saddiq and Rina Harun charging right through the front door. “Call it off!”, they cried.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1305,
+        "fields": {
+            "priority": 3,
+            "description": "The swift end to the government has made the Rakyat shocked and the aristocracy now scrambles for a new leader. The King has decided to interview all 221 MPs except Tun M in search of a candidate with parliamentarian backing. So far the list of supporters you’ve gained was done under the old man’s name, not yours. If you’re to see any chance of securing a position, tread carefully.",
             "likelihood": 1
         }
     },
@@ -83,16 +74,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1306,
         "fields": {
             "priority": 4,
-            "description": "What are your thoughts on the death of George Floyd and the wave of protests in the wake of his death? What will you say to the nation?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1309,
-        "fields": {
-            "priority": 4,
-            "description": "Are you considering policies such as a national lockdown or a mask mandate to control COVID-19? Conversely, do you plan to speak out against these ideas?",
+            "description": "Emerging from the debris is you—Muhyiddin Yassin. Once thought to have been a politically exhausted roadside attraction, you now stand as the 8th Prime Minister. Flanked by the Jalur Gemilang on your sides, you begin your first ever televised speech to a disoriented Rakyat.",
             "likelihood": 1
         }
     },
@@ -100,17 +82,8 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1307,
         "fields": {
-            "priority": 5,
-            "description": "Do you have anything to say about some of the stories that have circulated around your opponent's son, Hunter Biden?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1317,
-        "fields": {
-            "priority": 5,
-            "description": "There has been an increase in Asian-American hate crimes in 2020, along with the rise of COVID and some of your inflammatory statements (such as Kung-flu!). What do you have to say on this topic?",
+            "priority": 4,
+            "description": "You’ve barely started picking out your cabinet when another crisis has been thrusted upon your desk. It appears that the emerging pandemic has since developed into a full blown global crisis as the Tablighi Jamaat conference which coincidentally occurred just a day before your speech has now become South East Asia’s largest COVID-19 superspreader event.",
             "likelihood": 1
         }
     },
@@ -118,26 +91,71 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1308,
         "fields": {
-            "priority": 5,
-            "description": "To what extent do you support emergency economic legislation to address the effects of COVID-19 on society?",
+            "priority": 4,
+            "description": "Managing the executive branch is a much trickier task. Thankfully our constitution is much more forgiving in this regard allowing you some leniency in opening and closing positions. This works in your favour when you need to get as much support as possible. You need to figure out where to distribute your sweets, which backdoor deals to seal.",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1319,
+        "pk": 1309,
+        "fields": {
+            "priority": 5,
+            "description": "Elephants do not forget, and Tun M is an old elephant who has toiled in the halls of politics for as long as anyone can remember. Still seeking vengeance from your betrayal, rumours have spread of a collaboration between him and Shafie Apdal in tabling a motion of no confidence against your rule on the 18th of May a few weks from now. Though a passing of the motion is unlikely, a motion being tabled at all is not a good look.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1310,
+        "fields": {
+            "priority": 5,
+            "description": "The party you founded and led alongside Tun M still remains bitterly divided even as your hold on leadership remains strong. It appears that a faction within the party led by Syed Saddiq, along with the old man himself, still harbours delusions of remaining within PH. Syed Saddiq reaches out to you to try and make amends but a part of you laughs. You hold all the cards.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1311,
+        "fields": {
+            "priority": 5,
+            "description": "Next up the chopping block is the Speaker Mohamad Ariff. The margin of support for and against him is slim and the voting procedure could go down to the wire. Even if we manage to vote him out, there’s still the question of his replacement. If we are able to elect a sympathetic speaker, it will make passing any substantive legislation all the more easier.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1312,
         "fields": {
             "priority": 6,
-            "description": "How close are we to having an effective vaccine for COVID-19, and what can you tell the American people about its safety and effectiveness.",
+            "description": "As much as Shafie Apdal’s rule in Sabah is a nuisance, it is a nuisance that can easily be solved. His government relies on the support of a patchwork of alliances between several parties with conflicting allegiances that would buckle at the slightest of external pressure. It is a shame that his rival Musa Aman is being probed by the courts for corruption, if only he had a clean slate.",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1318,
+        "pk": 1313,
         "fields": {
             "priority": 7,
-            "description": "With the tragic passing of Ruth Bader-Ginsburg, you have the opportunity to nominate a new Supreme Court Justice. Who will you choose?",
+            "description": "After months of planning the Sabah State election season has commenced with fears of another COVID superspreader event arising. There have been calls for postal voting in lieu of traditional in-person voting to prevent the spread. However such a move would be unprecedented, with the counting of ballots slowed due to the undeveloped nature of much of the state’s interior.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1314,
+        "fields": {
+            "priority": 7,
+            "description": "Vote counting for the Sabah State election has begun. There is no more we could do to affect the results now.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1315,
+        "fields": {
+            "priority": 8,
+            "description": "Anwar remains steadfast in his foolhardy attempts at overthrowing you, now with another hail mary claiming he has majority support in a public press conference. The timing comes right before the 2021 Budget, ensuring the budget’s status as an impromptu motion of confidence vote against your government. It doesn’t help that UMNO has become much more brash with its demands, most likely a result of its inability to accept being overshadowed by BERSATU in the government.",
             "likelihood": 1
         }
     },
@@ -145,23 +163,41 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1316,
         "fields": {
-            "priority": 7,
-            "description": "Many Democrats are calling for an expansion to the Supreme Court, to counteract some of your controversial appointments. Will you be adding your voice to this debate?",
+            "priority": 8,
+            "description": "Unluckily for you UMNO’s resentment against BERSATU has since grown into a full-blown revolt with many calling for a snap election to be held and decrying your reign as illegitimate. Some have even crossed the floor to the opposition, reducing your once paltry majority into a pathetic 110 seats minority government.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1317,
+        "fields": {
+            "priority": 8,
+            "description": "Recent articles have discussed you paying no federal income taxes in some previous years, or having a secret Chinese bank account. What is your response?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1318,
+        "fields": {
+            "priority": 8,
+            "description": "Recent articles have discussed you paying no federal income taxes in some previous years, or having a secret Chinese bank account. What is your response?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1319,
+        "fields": {
+            "priority": 8,
+            "description": "Recent articles have discussed you paying no federal income taxes in some previous years, or having a secret Chinese bank account. What is your response?",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1320,
-        "fields": {
-            "priority": 8,
-            "description": "Are you open to attending the customary three debates with your opponent, Mr. Biden?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1315,
         "fields": {
             "priority": 8,
             "description": "Recent articles have discussed you paying no federal income taxes in some previous years, or having a secret Chinese bank account. What is your response?",
@@ -183,42 +219,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 9,
             "description": "You have repeatedly dodged the question when asked whether you will accept the results of this year's election. Do you have any statements to make?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1311,
-        "fields": {
-            "priority": 10,
-            "description": "What is your rationale for the recent truce in Afghanistan? Do you plan to pull out all American troops before the election?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1313,
-        "fields": {
-            "priority": 10,
-            "description": "Your immigration policies have antagonized opponents and pleased your core supporters, but your signature wall remains unfinished. What do you plan to do next?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1312,
-        "fields": {
-            "priority": 10,
-            "description": "Many accuse you of being too antagonistic towards China in your first term. Do you have any response?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1314,
-        "fields": {
-            "priority": 10,
-            "description": "Do you have any statements to make in regards to gun control or the right to bear arms?",
             "likelihood": 1
         }
     },
@@ -248,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6109,
         "fields": {
             "question": 1300,
-            "description": "There is no binding agreement between the two men, I don’t see why Mahathir should step down before the end of his term and cause potential for a chaotic handover."
+            "description": "Azmin Ali and his faction in PKR are already willing frogs. However his faction and BERSATU alone wouldn’t be sufficient for a parliamentary majority, you’d still need the ever pissed off UMNO that condemned you as a traitor for working with DAP."
         }
     },
     {
@@ -256,7 +256,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6110,
         "fields": {
             "question": 1300,
-            "description": "Whether we like it or not it is an electoral promise we’ve made to the Rakyat, a promise we must fulfill. Mahathir should provide a concrete timetable for the handover."
+            "description": "The handover date was nothing but a gentlemanly agreement between Mahathir and Anwar, the old man should be free to walk at his own pace."
         }
     },
     {
@@ -264,15 +264,15 @@ campaignTrail_temp.answers_json = [
         "pk": 6111,
         "fields": {
             "question": 1300,
-            "description": "Publicly call for a consensus to be reached by the upper echelons of Pakatan Harapan while secretly reassure Mahathir of your full support for his tenureship. "
+            "description": "PAS and UMNO together hold nearly 1/3rd of the Dewan Rakyat."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6112,
         "fields": {
-            "question": 1300,
-            "description": "Nothing, no comment"
+            "question": 1301,
+            "description": "No love lost by sidelining Najib, he is a bastard who ruined the Razak legacy. I will give some concessions to Zahid, maybe drop one or two cases but I will not cooperate with him directly."
         }
     },
     {
@@ -280,302 +280,334 @@ campaignTrail_temp.answers_json = [
         "pk": 6113,
         "fields": {
             "question": 1301,
-            "description": "I am the law and order candidate. The riots, the Democrat riots really, and the efforts to undermine the Supreme Court, the phony Russia investigation, and ignoring our immigration laws. It's all coming from the Democrats."
+            "description": "Tun M is vengeful and seeking blood but I can’t let him tear the Grand Old Party apart just because we are temporarily opposed to each other. He will not like this but it’s the best way to secure a win."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6114,
         "fields": {
-            "question": 1301,
-            "description": "We had unbelivable economic growth and it helped out the middle class, and the working people really. Then the Democrats destroyed it with this COVID scare. It's going to come roaring back with me here, just wait."
+            "question": 1302,
+            "description": "Azmin commands the support of 16 PKR MPs, we can’t risk his loyalty by throwing him to the curb. I’ll talk to Tun M, he’s wise, he should know how important this guy is."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6115,
         "fields": {
-            "question": 1301,
-            "description": "The Democrats are running on a surrender platform. Surrender to COVID, surrender to illegal immigrants, surrender to China, Iran, and Palestine. These aren't people who love America, folks, believe me."
+            "question": 1302,
+            "description": "Things are moving very fast right now, Azmin might’ve already caught wind of his falling out with the old man. Schedule me a meeting with Tun M. I formed this party with him, I fought Najib, I know the game."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6116,
         "fields": {
-            "question": 1301,
-            "description": "Joe Biden is a joke, really. He's 78 years old, sits in his basement all day, probably has dementia, and many other issues. Is he the person who will stand up for you and for America?"
+            "question": 1302,
+            "description": "Tun M is an astute man who knows his cards, if I’m going to play I should play by his rules. Get me Daim and we’ll have a meeting."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6117,
         "fields": {
-            "question": 1302,
-            "description": "Kung flu is nothing but a criminal attempt by China, an act of war almost, if you think about it, to plunge the globe into chaos and undermine our election in favor of Joe Biden. Let's not forget which one of us is a stooge to China."
+            "question": 1303,
+            "description": "Coward! I can’t let him derail all our progress so close to fruition. I’m doing this with or without him."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6118,
         "fields": {
-            "question": 1302,
-            "description": "This is just a little thing, like the flu almost, that the media and the Democrats are attempting to spin into the second coming of the plague. They would rather destroy the American economy and society than see me get reelected."
+            "question": 1303,
+            "description": "We have to convince him, maybe a compromise can be made without his involvement?"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6119,
         "fields": {
-            "question": 1302,
-            "description": "We can all do basic things like wearing masks to slow the spread. And at the same time, we need to be careful about the impact on small business and the economy. I don't think these Democrat lockdowns are sustainable."
+            "question": 1303,
+            "description": "Fine, I’m not risking going against his orders."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6120,
         "fields": {
-            "question": 1302,
-            "description": "Democrat or Republican, we all need to take this situation extremely seriously and listen to qualified medical experts like Dr. Anthony Fauci. I like to call him Tony, he's a hell of a guy!"
+            "question": 1304,
+            "description": "Call it off."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6121,
         "fields": {
-            "question": 1303,
-            "description": "Unfortunately Joe Biden is so senile, he's probably meeting with them to get this marching orders. He's really just the Crazy Bernie and Commie Liz candidate when you get right down to it."
+            "question": 1304,
+            "description": "No."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6122,
         "fields": {
-            "question": 1303,
-            "description": "We really can't say it enough, the Democrats want to implement radical socialism in this country. What more proof do you need than incidents like this one?"
+            "question": 1305,
+            "description": "Tun M had the right idea before his cowardice overtook him. We need a unity government with all the previous PH component parties and the opposition. Dire times call for dire measures."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6123,
         "fields": {
-            "question": 1303,
-            "description": "Joe Biden is acting like a moderate right now, but you'd better believe that behind the scenes, he'll be spending a lot of time listening to out-of-touch liberals like Elizabeth Warren."
+            "question": 1305,
+            "description": "We share the same ideological roots with UMNO and PAS and I know they would definitely abhor any deal with DAP and PKR. We just have to convince them that I would lead a truly Malay government."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6124,
         "fields": {
-            "question": 1303,
-            "description": "Honestly I think Bernie is more popular than Joe is, to tell the truth. I don't know why he's allowing himself to be placated like this when he won the last two primaries. It's very weak."
+            "question": 1306,
+            "description": "'...I'm not a traitor, I only wanted to save the country…'"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6125,
         "fields": {
-            "question": 1304,
-            "description": "There's absolutely no evidence that masks do anything to stop coronavirus. Even Dr. Fauci said so -- he changed his mind because he hates me, by the way -- but he was clearly saying masks do not help against coronavirus. Look it up!"
+            "question": 1307,
+            "description": "Light Controls."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6126,
         "fields": {
-            "question": 1304,
-            "description": "When it makes sense to wear a mask, I wear a mask. I have a mask in my pocket right now. Sometimes it makes sense, and sometimes there's no reason to wear one."
+            "question": 1307,
+            "description": "Medium Controls."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6127,
         "fields": {
-            "question": 1304,
-            "description": "Yeah I mean, if you're in a crowd, mingling, it makes sense. You do see some people, and there's no one within 100 feet of these people and they're in the middle of a field, and they're walking around with masks on, and it's insane."
+            "question": 1307,
+            "description": "Heavy Controls."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6128,
         "fields": {
-            "question": 1304,
-            "description": "Masks are a big factor, as you can see I'm wearing one right now. Our businesses are getting killed by these Democrat lockdowns. Anything that will help us reopen, if it's masks or anything, it's a good thing."
+            "question": 1307,
+            "description": "Racism."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6129,
         "fields": {
-            "question": 1305,
-            "description": "Hunter's payments were an attempt to bribe Joe Biden, end of story. All we wanted to do was look into it, and we had this impeachment nonsense. If this doesn't show how crooked the Democrats are, I don't know what does."
+            "question": 1308,
+            "description": "We need the Rakyat’s support as much as the parliamentarians. Technocrats, young guns, mid-level bureaucrats that won’t bat an eye, those that haven’t gotten enough time to tarnish their own reputation, those will be my men."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6130,
         "fields": {
-            "question": 1305,
-            "description": "Maybe it was illegal, maybe it wasn't. Mr. Barr can decide that. All I'm saying is, does it matter? We know that Hunter had no expertise in the oil industry, and they're paying him $1 million a year while his father is Vice President."
+            "question": 1308,
+            "description": "We need to consolidate parliamentary support to pass legislation and that means consolidating support from Muafakat Nasional as well. What Azmin started in PKR could very well happen over here as well and I’m not looking forward to a repeat."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6131,
         "fields": {
-            "question": 1305,
-            "description": "I was just asking questions, you know, and then we had this entire phony impeachment scandal. I never said he did something wrong, I just said we have to look into this, and we really should, and Ukraine is the country that can do it."
+            "question": 1309,
+            "description": "All I need is to convince the old man to drop the charade and that a fight against me would be worthless, after all a sweetener always works."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6132,
         "fields": {
-            "question": 1305,
-            "description": "You know, we can spend all day talking about who did what and when. I'm not the kind of guy who gets into that stuff. We have a terrific tax cut, a terrific economy, we're building the wall. We have a lot of incredible things to highlight."
+            "question": 1309,
+            "description": "Shafie Apdal’s position in Sabah isn’t the most stable. What if I help shore up his support in exchange for his silence?"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6133,
         "fields": {
-            "question": 1306,
-            "description": "This was a pretty typical arrest, really. We don’t have any idea why George Floyd died. Maybe it was the drugs, who knows? Then you have the media fomenting riots and using them to get China Joe elected this fall."
+            "question": 1309,
+            "description": "If we remove any sympathisers within the Dewan Rakyat’s bureaucracy the plan won’t go anywhere. The secretary seems suspicious."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6134,
         "fields": {
-            "question": 1306,
-            "description": "Whatever happened, there's no excuse for the riots, the fires, the hatred of white people, and the hatred of police that we're seeing. We have to respect our police or we won't have a country."
+            "question": 1310,
+            "description": "Purge the traitors within our ranks."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6135,
         "fields": {
-            "question": 1306,
-            "description": "I really don't have a lot to say about this situation. You never like to see a situation like this, whether it's the police, whether it's the drugs. It's just sad."
+            "question": 1310,
+            "description": "Don’t be too hasty, let’s just expel the liberals and their associates."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6136,
         "fields": {
-            "question": 1306,
-            "description": "It's unbelievable really. I saw the video, we all saw the video. And think, this is in a place run entirely by Democrats. We've all seen them cover up these incidents before, maybe they'll step in this time and prosecute the officer."
+            "question": 1310,
+            "description": "Malay Unity must hold."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6137,
         "fields": {
-            "question": 1307,
-            "description": "It's incredible that Hunter Biden isn't in jail right now, when you get down to it. Some Ukranian oligarch was giving him $1 million to do absolutely nothing, and Sleepy Joe was in on it too. Where is the FBI?"
+            "question": 1311,
+            "description": "Sack the guy and skip the voting process for our nominee, just state that it's an emergency nomination due to COVID."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6138,
         "fields": {
-            "question": 1307,
-            "description": "Democrats keep saying these allegations are debunked and that there's no evidence. Can you imagine what they'd be saying if one of my kids was doing cocaine, making $1 million a year in Ukraine? This is media hypocrisy at its finest."
+            "question": 1311,
+            "description": "We still need to respect the democratic process at the very least. Let the vote happen and nominate our own."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6139,
         "fields": {
-            "question": 1307,
-            "description": "The liberal media would rather cover this kind of salacious gossip than focus on my record-low unemployment, booming economy, and incredibly successful foreign policy victories. We're too smart to play into their hands."
+            "question": 1311,
+            "description": "We still need to respect the democratic process at the very least. Let the vote happen and nominate our own."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6140,
         "fields": {
-            "question": 1307,
-            "description": "Maybe there wasn't a crime here after all. I can admit when I'm wrong. I just thought these payments looked weird and that someone should look into it, was that a crime?"
+            "question": 1312,
+            "description": "Tell the Attorney General Chambers to drop their case against Musa Aman, I want him back on the field fighting as soon as possible."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6141,
         "fields": {
-            "question": 1308,
-            "description": "We passed a terrific relief bill way back in April, I was very proactive. And you know, we need to think about spending and defecits as well, before we come out with another huge thing."
+            "question": 1312,
+            "description": "Musa Aman just has too much baggage and will drag the party down. What if GRS dropped him in favour of someone else to fight?."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6142,
         "fields": {
-            "question": 1308,
-            "description": "I'm working around the clock right now to put $2,000 into the hands of every American. We need to get the economy open again, and we need to get people spending money."
+            "question": 1313,
+            "description": "Postal voting would be a gift to WARISAN, all the liberals working out the state would be able to swamp the electorate entirely."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6143,
         "fields": {
-            "question": 1308,
-            "description": "If you look at what's happening right now with Dirty Nancy, it's a disgrace. We have a second package all ready to go, and she's blocking it until the election to make me look bad. They're putting dirty politics over helping Americans."
+            "question": 1313,
+            "description": "Postal voting is a horrible idea but I’m not risking another Movement Control Order, the economy is already suffering enough."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6144,
         "fields": {
-            "question": 1309,
-            "description": "The socialist Democratic Party is pushing for lockdowns at every opportunity. They will stop at nothing to exert their control over patriotic, hard-working American citizens and businesses. Not on my watch!"
+            "question": 1314,
+            "description": "Hope for the best and Inshallah. (Win)"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6145,
         "fields": {
-            "question": 1309,
-            "description": "I don't think these mandates and lockdowns are a good idea, really. But if that's what San Francisco and New York want to do, as long as they don't impose on the rest of us."
+            "question": 1314,
+            "description": "Hope for the best and Inshallah. (Hung Parliament)"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6146,
         "fields": {
-            "question": 1309,
-            "description": "I would encourage everyone out there to wear a mask in public. It's just common sense and it will help our struggling small businesses. There could be some legal issues around a mandate, I'm not the expert, but just wear the mask, people!"
+            "question": 1314,
+            "description": "Hope for the best and Inshallah. (Loss)"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6147,
         "fields": {
-            "question": 1309,
-            "description": "We have some incredibly gifted scientists, people who have been there long before Obama was around by the way, and we've got to listen to them. We could be talking about hundreds of thousands of lives."
+            "question": 1315,
+            "description": "It's no secret the King is displeased by the current hullabaloo and is planning on avoiding another crisis. His majesty will most likely thwart any attempt by Anwar to overthrow me, we’re fine."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6148,
+        "fields": {
+            "question": 1315,
+            "description": "Times like this require compromise. Some dicks at UMNO led by Ku Li are backing the loan moratorium extension proposed by Anwar, if we concede on that front they’ll have no reason to reject. It’ll be slim but it’ll suffice."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6149,
+        "fields": {
+            "question": 1315,
+            "description": "UMNO is a hungry dog that you have to feed once in a while. I just need to reshuffle the cabinet and throw some meat, metaphorically speaking. Heck, reintroduce the DPM office for one of their men."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6150,
+        "fields": {
+            "question": 1315,
+            "description": "What I need is insurance not kicking the can down the road. Right now COVID cases are high and just perfect for an emergency to be declared which will let me bypass the stupid MPs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6151,
+        "fields": {
+            "question": 1316,
+            "description": "Enough with the rowdy parliamentarians. If we move fast enough and declare an emergency the King would be forced to consent to it which would be better than a failed attempt."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6152,
         "fields": {
-            "question": 1311,
-            "description": "Our strategy in Afghanistan under Barack Obama was a total disaster with the surge. All I'm saying is we need to stop wasting our time and get our troops out, and I'd like to see that happen by the end of my term."
+            "question": 1316,
+            "description": "I suppose this is the end. I’ll stand down and announce my resignation."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6153,
         "fields": {
-            "question": 1311,
-            "description": "We have a timetable. I'm confident that when I'm reelected we'll be getting our troops out. Now if I gave you an exact date, the date depends on a lot of factors. I can't even tell you what all those factors are because some of them are secret."
+            "question": 1316,
+            "description": "Enough with the rowdy parliamentarians. His majesty is most likely not amused by the current chaos caused by the opposition, I’m sure this time around he’ll consent to an emergency."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 6154,
         "fields": {
-            "question": 1311,
+            "question": 1320,
             "description": "Liberals have been complaining about Afghanistan for years, practically since we went there. Now when I finally do something about it, they can't stand that I'm the one fixing this and they start attacking me."
         }
     },
@@ -583,7 +615,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6155,
         "fields": {
-            "question": 1311,
+            "question": 1320,
             "description": "A truce is just a truce. That's it. We're looking to see if the Taliban meet their commitments, and if not, we're going to pulverize them. We have some terrific planes, terrific missiles, and I'm pretty sure they can get the job done."
         }
     },
@@ -591,7 +623,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6156,
         "fields": {
-            "question": 1312,
+            "question": 1320,
             "description": "This is a country that has stolen our jobs, destroyed us in trade, and by the way it's practically the Fourth Reich over there if you look at what they're doing to their own people. How can I be too tough on China?"
         }
     },
@@ -599,7 +631,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6157,
         "fields": {
-            "question": 1312,
+            "question": 1320,
             "description": "For too long, American policians of both parties opened us up to China under the fantasy that trade would democratize, it's a very special word, “democratize” the country. But we can see how much of a failure that has been."
         }
     },
@@ -607,7 +639,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6158,
         "fields": {
-            "question": 1312,
+            "question": 1321,
             "description": "I'm proud of our record on China during my first term, and we'll see where it goes from here. You know, I made some very small adjustments and the media tried to make me look like some kind of a madman, it was really something."
         }
     },
@@ -615,7 +647,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6159,
         "fields": {
-            "question": 1312,
+            "question": 1321,
             "description": "I haven't been tough on China at all. You know, here and there we try to do things, but I love China. Even husbands and wives have disagreements sometimes, but it doesn't mean anything."
         }
     },
@@ -623,7 +655,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6160,
         "fields": {
-            "question": 1313,
+            "question": 1321,
             "description": "We've already built most of the wall during my first term, actually. The failing New York Times barely talks about it. I feel pretty good that The Wall will be there for a long time to come."
         }
     },
@@ -631,7 +663,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6161,
         "fields": {
-            "question": 1313,
+            "question": 1321,
             "description": "I'm doing everything in my power to get the wall built. We've made some good progress actually, and another four years will really help us all out."
         }
     },
@@ -639,7 +671,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6162,
         "fields": {
-            "question": 1313,
+            "question": 1322,
             "description": "You know, some bleeding heart types on the left just won't let it happen. It's okay, we have ICE, we have lasers and night vision goggles. Rome wasn't built in a day, that's what they always told me."
         }
     },
@@ -647,7 +679,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6163,
         "fields": {
-            "question": 1313,
+            "question": 1322,
             "description": "If the radical left would stop stonewalling me on every issue, maybe we could come together and find a better solution on immigration reform."
         }
     },
@@ -655,7 +687,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6164,
         "fields": {
-            "question": 1314,
+            "question": 1322,
             "description": "You've seen what's going on out there. Riots, fires, disrespect for police. We need to do everything we can to allow law-abiding citizens to defend themselves at home and in public."
         }
     },
@@ -663,7 +695,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6165,
         "fields": {
-            "question": 1314,
+            "question": 1322,
             "description": "It's pretty simple, really. The left wants to take all of the guns in this country and destroy them, whatever the Constitution says about it. Some of them might not admit that, but it's the truth."
         }
     },
@@ -671,7 +703,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6166,
         "fields": {
-            "question": 1314,
+            "question": 1323,
             "description": "I think my position on guns has been pretty clear, really. We've stood firm against any new restrictions on gun ownership."
         }
     },
@@ -679,7 +711,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6167,
         "fields": {
-            "question": 1314,
+            "question": 1323,
             "description": "I've supported gun regulations when and where they actually make sense. But the leftist media just wants to make me look like an extremist, regardless of the facts."
         }
     },
@@ -687,7 +719,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6168,
         "fields": {
-            "question": 1315,
+            "question": 1323,
             "description": "I don't know how they come up with these stories, but I can assure you they are all lies. You'd better believe there will be some libel suits coming!"
         }
     },
@@ -695,7 +727,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6169,
         "fields": {
-            "question": 1315,
+            "question": 1323,
             "description": "Any normal businessman -- Bill Gates, Michael Bloomberg, whoever -- they try to pay as little in taxes as legally possible. It's funny how they never go after these people as long as they fund and support the left."
         }
     },
@@ -703,7 +735,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6170,
         "fields": {
-            "question": 1315,
+            "question": 1324,
             "description": "How is Nancy Pelosi worth $100 million? I'm not saying that I've never made a single mistake in my 50 year business career, but I earned my money fair and square."
         }
     },
@@ -711,7 +743,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6171,
         "fields": {
-            "question": 1315,
+            "question": 1324,
             "description": "Do I even need to stoop down to the level of CNN and the New York Times? The most important thing is my agenda for American security, liberty, and prosperity."
         }
     },
@@ -719,7 +751,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6172,
         "fields": {
-            "question": 1316,
+            "question": 1324,
             "description": "What controversy? Three seats opened up, and I filled those seats. Now Democrats want to destroy the very foundation of judicial independence that our entire democracy rests upon."
         }
     },
@@ -727,7 +759,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6173,
         "fields": {
-            "question": 1316,
+            "question": 1324,
             "description": "Who cares what I think about this issue? Go ask Joe Biden about it -- he's the one who will have no qualms about signing off on this insane plan if he's elected President."
         }
     },
@@ -735,7 +767,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6174,
         "fields": {
-            "question": 1316,
+            "question": 1325,
             "description": "What do you want me to say? That I'd be happy if Sleepy Joe nominated four leftist judges to the Supreme Court in some hare-brained court-packing scheme? I'm sure if he does that, we'll be more than happy to retaliate when the voters put us back in charge."
         }
     },
@@ -743,7 +775,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6175,
         "fields": {
-            "question": 1316,
+            "question": 1325,
             "description": "I hate how politicized the Democrats have made the Court, but there are better ways of dealing with it than court-packing. Maybe we can all sit together and come up with some term limits, as long as it's fair for everyone."
         }
     },
@@ -751,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6176,
         "fields": {
-            "question": 1317,
+            "question": 1325,
             "description": "Is this even a real issue, or just some propoganda being put out there by Xi Jingping and the Communist Chinese Party?"
         }
     },
@@ -759,7 +791,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 6177,
         "fields": {
-            "question": 1317,
+            "question": 1325,
             "description": "It's funny how a lot of these supposed hate crimes are taking place in New York and San Francisco. I'm sure they're very inspired by me!"
         }
     },
@@ -841,182 +873,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1319,
             "description": "People on the left continue to spread lies and misinformation about our attempts to develop a vaccine. No less than Kamala Harris just said she wouldn't take it. That's the biggest threat to recovery during my second term."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6188,
-        "fields": {
-            "question": 1320,
-            "description": "For seven months now, Sleepy Joe Biden has barely left the basement of his house. That ends now, and I'm pretty confident the American people won't like what they see from him."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6189,
-        "fields": {
-            "question": 1320,
-            "description": "For seven months now, Sleepy Joe Biden has barely left the basement of his house. That ends now, and I'm pretty confident the American people won't like what they see from him."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6190,
-        "fields": {
-            "question": 1320,
-            "description": "For seven months now, Sleepy Joe Biden has barely left the basement of his house. That ends now, and I'm pretty confident the American people won't like what they see from him."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6191,
-        "fields": {
-            "question": 1320,
-            "description": "Year after after, Republicans subject themselves to sham debates with slanted questions and one-sided moderators. Why should we force the voters to watch that charade again?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6192,
-        "fields": {
-            "question": 1321,
-            "description": "Sleepy Joe couldn't get 100 people to show up to his rallies if he tried -- so he's using COVID as an excuse. It almost makes you wonder if anyone's even voting for him."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6193,
-        "fields": {
-            "question": 1321,
-            "description": "I'm feeling great now. I was a little sick, and now I'm not. I'm looking forward to closing this campaign out strong with some huge Keep America Great rallies."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6194,
-        "fields": {
-            "question": 1321,
-            "description": "They say you might be contagious for a little bit, or maybe not, but it's best if we take 3-4 days off before we get back out there."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6195,
-        "fields": {
-            "question": 1321,
-            "description": "We should all take this moment to appreciate the importance of social distancing and other precautions. It won't be long until we roll out one of the best vaccines in history and defeat this pandemic."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6196,
-        "fields": {
-            "question": 1322,
-            "description": "We know that there's an unbelievable amount of election fraud going on right now, and Democrats are making it even worse in 2020. Of course they want me to just lay back and take it!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6197,
-        "fields": {
-            "question": 1322,
-            "description": "We just don't know yet -- I've heard some scary things but we need to see here in a few weeks, it's something we'll be checking very closely."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6198,
-        "fields": {
-            "question": 1322,
-            "description": "If Democrats would join us in supporting a more robust election system with a complete paper audit trail, voter ID, and other common sense measures, then there wouldn't be these questions floating around."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6199,
-        "fields": {
-            "question": 1322,
-            "description": "Sleepy Joe Biden and I have an incredible difference of opinion on what is best for this country, but ultimately whatever the voters say about it, that's the last word."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6200,
-        "fields": {
-            "question": 1323,
-            "description": "We know he's a drug addict and totally corrupt. The FBI needs to be looking into this immediately, and the media needs to be covering the story."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6201,
-        "fields": {
-            "question": 1323,
-            "description": "They talk about October surprises -- this is one the biggest ones ever. And people are trying to post the story and Facebook won't even let them post it. If that's not an assault on democracy, what is?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6202,
-        "fields": {
-            "question": 1323,
-            "description": "I don't know what's really going on here, but can you imagine how the media would be covering it if this was Donald Jr.? Can there be any more doubt they are in the tank for Sleepy Joe?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6203,
-        "fields": {
-            "question": 1323,
-            "description": "Look, when it comes down to it, my policies will Keep America Great, and Joe Biden's will bring socialism and decay back to our great and wonderful country. That's more important than any corruption or scandals that his son is involved in."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6204,
-        "fields": {
-            "question": 1324,
-            "description": "I want us to focus on Pennsylvania, with maybe a quick stop over the border in Ohio."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6205,
-        "fields": {
-            "question": 1324,
-            "description": "We're going to campaign hard in Michigan, Wisconsin, and Minnesota on this final day of the campaign."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6206,
-        "fields": {
-            "question": 1324,
-            "description": "We're going to head out west and do some rallies in Arizona and Nevada. I think we'll win both of those states and really surprise a lot of people."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6207,
-        "fields": {
-            "question": 1324,
-            "description": "We should put our focus into Georgia and North Carolina."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6208,
-        "fields": {
-            "question": 1325,
-            "description": "I'm proud to call Mike Pence one of my closest friends. He's done a terrific job as Vice President and will be great over the next four years."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6209,
-        "fields": {
-            "question": 1325,
-            "description": "This is another fake news story that's basically a lie. The media is always trying to stir up drama between us, but Mike has been great!"
         }
     }
 ]
@@ -4137,9 +3993,9 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 110,
         "fields": {
-            "name": "Ethno-Nationalism",
+            "name": "Identity Politics",
             "description": 0,
-            "stance_1": "Ketuanan Melayu",
+            "stance_1": "Nazi Goreng",
             "stance_desc_1": 0,
             "stance_2": "Malay Majority",
             "stance_desc_2": 0,
@@ -4151,7 +4007,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_5": 0,
             "stance_6": "Other Majority",
             "stance_desc_6": 0,
-            "stance_7": "Completely Colonised",
+            "stance_7": "Agenda Yahudi-Kristian",
             "stance_desc_7": 0,
             "election": 21
         }
@@ -4185,19 +4041,19 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Corruption",
             "description": 0,
-            "stance_1": "Strongly Opposes",
+            "stance_1": "Bersihkan Malaysia!",
             "stance_desc_1": 0,
-            "stance_2": "Strongly Opposes",
+            "stance_2": "Bersihkan Malaysia!",
             "stance_desc_2": 0,
-            "stance_3": "Opposes",
+            "stance_3": "Strongly opposes",
             "stance_desc_3": 0,
             "stance_4": "Opposes",
             "stance_desc_4": 0,
             "stance_5": "Slightly Opposes",
             "stance_desc_5": 0,
-            "stance_6": "Slightly Oppose",
+            "stance_6": "Hidup Bossku!",
             "stance_desc_6": 0,
-            "stance_7": "Indifferent",
+            "stance_7": "Hidup Bossku!",
             "stance_desc_7": 0,
             "election": 21
         }
@@ -4206,7 +4062,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 113,
         "fields": {
-            "name": "Urbanisation",
+            "name": "Development",
             "description": 0,
             "stance_1": "Tree Dwelling",
             "stance_desc_1": 0,
@@ -4229,21 +4085,21 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 114,
         "fields": {
-            "name": "Poverty",
+            "name": "Mosques",
             "description": 0,
-            "stance_1": "Severe",
+            "stance_1": "Very Pro-BN",
             "stance_desc_1": 0,
-            "stance_2": "Severe",
+            "stance_2": "Pro-BN",
             "stance_desc_2": 0,
-            "stance_3": "Manageable",
+            "stance_3": "Slightly Pro-BN",
             "stance_desc_3": 0,
-            "stance_4": "Manageable",
+            "stance_4": "Neutral",
             "stance_desc_4": 0,
-            "stance_5": "Manageable",
+            "stance_5": "Slightly Pro-PAS",
             "stance_desc_5": 0,
-            "stance_6": "Rare",
+            "stance_6": "Pro-PAS",
             "stance_desc_6": 0,
-            "stance_7": "Rare",
+            "stance_7": "Very Pro-PAS",
             "stance_desc_7": 0,
             "election": 21
         }
@@ -25580,47 +25436,11 @@ campaignTrail_temp.answer_score_state_json = []
 campaignTrail_temp.answer_feedback_json = [
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 3004,
-        "fields": {
-            "answer": 6204,
-            "candidate": 300,
-            "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3005,
-        "fields": {
-            "answer": 6205,
-            "candidate": 300,
-            "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3006,
-        "fields": {
-            "answer": 6206,
-            "candidate": 300,
-            "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3007,
-        "fields": {
-            "answer": 6207,
-            "candidate": 300,
-            "answer_feedback": "Based on some early results, it appears that many polls significantly overestimated Biden's support. This may be close after all."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 3058,
         "fields": {
             "answer": 6109,
             "candidate": 300,
-            "answer_feedback": "Though Mahathir secretly wants to remain as Prime Minister, in public he has only evaded questions on the date. Still he is glad you’ve affirmed your support, the same can’t be said for others in the alliance."
+            "answer_feedback": "Though Najib Razak’s indictment remains a thorn against full reconciliation with UMNO, they’ve acted cordially during the meeting. Outwardly you agree to their demands, but of course promises are made to be broken."
         }
     },
     {
@@ -25629,7 +25449,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6110,
             "candidate": 300,
-            "answer_feedback": "Mahathir is furious, a betrayal from the man he co-founded the party with? Though you’ve gained allies from the other component parties of Pakatan Harapan, in BERSATU good luck with being ostracized."
+            "answer_feedback": "You reassure the public of a handover date in the making with a subtle hint of anger at Anwar’s insubordination. This spooks the enemy and they scream."
         }
     },
     {
@@ -25638,7 +25458,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6111,
             "candidate": 300,
-            "answer_feedback": "This is a non-statement calling for peace without rocking the boat. Still he is glad you’ve affirmed your support, though suspicion has grown within the alliance of your true allegiance."
+            "answer_feedback": "Anwar, ever the naive man, believes in you fully and the rumours pause. However Tun M reminds you this is merely a delay, not an end."
         }
     },
     {
@@ -25647,7 +25467,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6112,
             "candidate": 300,
-            "answer_feedback": "Many wished for you to take a side. To them your silence has only become increasingly deafening. However with the people tired of politicking maybe staying above the fray is the best course of action?"
+            "answer_feedback": "[No Feedback Yet]"
         }
     },
     {
@@ -25656,367 +25476,367 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6113,
             "candidate": 300,
-            "answer_feedback": "It's good to mix things up and hit Democrats where they're vulnerable, especially in areas where your criticism might catch on with independent voters."
+            "answer_feedback": "[No Feedback Yet]"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3063,
         "fields": {
-            "answer": 6115,
+            "answer": 6114,
             "candidate": 300,
-            "answer_feedback": "You are the incumbent President with four years of accomplishments to run on. You're playing into everyone's worst caricature of you when you focus on petty insults like this."
+            "answer_feedback": "Tun M is shocked. He had previously put you aside, thought you were too ambitious. But now you’ve gained his full trust by putting the party above your own self-interest. He designates you as his successor."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3064,
         "fields": {
-            "answer": 6116,
+            "answer": 6115,
             "candidate": 300,
-            "answer_feedback": "You have your own way of stating it, but Biden would be the oldest President in history. Is it really a bad idea to point that out, loudly and repeatedly?"
+            "answer_feedback": "Barging right into his house demanding for a spot? He had always thought you were too ambitious, but never so brazen. He says no."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3065,
         "fields": {
-            "answer": 6117,
+            "answer": 6116,
             "candidate": 300,
-            "answer_feedback": "Your statements on COVID and China are quite inflammatory here. Of course, that may not matter to your supporters this November."
+            "answer_feedback": "With Daim’s backing you talked to the old man, he seems to be considering you but he doesn’t give you an answer. Before leaving you hear him whisper to his aide that he would support any victor, maybe it's his way of endorsing."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3066,
         "fields": {
-            "answer": 6119,
+            "answer": 6117,
             "candidate": 300,
-            "answer_feedback": "The trick with COVID is to strike a sensible compromise between slowing the spread of the disease, and protecting the health of the economy."
+            "answer_feedback": "You march for a leaderless cause. Istana Negara rejects the Signatory Declarations list you’ve sent them once they realised Tun M was not supporting it."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3067,
         "fields": {
-            "answer": 6120,
+            "answer": 6118,
             "candidate": 300,
-            "answer_feedback": "There are certainly rumblings of discontent with the scientific establishment, but your best path to reelection probably consists in handling COVID well."
+            "answer_feedback": "The next morning you arrive as the messenger at the gates of Istana Negara with the list of Signatory Declarations made by 134 MPs showing their support. Tun M is not pleased but he decides to monitor the situation back home..."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3068,
         "fields": {
-            "answer": 6121,
+            "answer": 6119,
             "candidate": 300,
-            "answer_feedback": "Joe Biden is definitely more popular with independents than the progressive left is. One way to hit at Biden is to suggest that he's not the one really calling the shots in the modern Democratic Party."
+            "answer_feedback": "Azmin disobeys your orders and goes at it alone, there is no telling what the repercussions of this will be."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3069,
         "fields": {
-            "answer": 6124,
+            "answer": 6120,
             "candidate": 300,
-            "answer_feedback": "Trying to drive a wedge between the two wings of the Democratic Party might not be a bad idea. Then again, they hate you far more than they hate each other."
+            "answer_feedback": "Try as you might, the momentum has grown too strong to control. However, hesitating like this undermines the legitimacy of the coup. BERSATU members are beginning to question your leadership. No matter what, Anwar and others have gotten wind of the situation. The Rubicon has been crossed. Mahathir resigns."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3070,
         "fields": {
-            "answer": 6125,
+            "answer": 6121,
             "candidate": 300,
-            "answer_feedback": "In part due to statements like this, America is rapidly becoming polarized on the question of COVID precautions. Will that help you in November?"
+            "answer_feedback": "The momentum has grown beyond the control of one man, he is now powerless to contain his own creation. Anwar and others have gotten wind of the situation. The Rubicon has been crossed. Mahathir resigns."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3071,
         "fields": {
-            "answer": 6126,
+            "answer": 6122,
             "candidate": 300,
-            "answer_feedback": "Health authorities express concern about your refusal to wear a mask at some large events, but will your supporters care?"
+            "answer_feedback": "UMNO and PAS scoff at your suggestion, in fact Tun M seems to have been touting the same suggestions as well. The system is now in deadlock as neither side has gained enough support while PH remains decapitated."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3072,
         "fields": {
-            "answer": 6128,
+            "answer": 6123,
             "candidate": 300,
-            "answer_feedback": "You seem to be gambling that your voters will reluctantly follow your lead on this issue. And who knows, if COVID goes away sooner, it can only help you."
+            "answer_feedback": "Luckily for you Tun M has made a massive blunder touting a unity government while you were giving sweet candy to the Malay parties. Soon the parties in Borneo fall in line and you’re sworn in as the 8th Prime Minister."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3073,
         "fields": {
-            "answer": 6132,
+            "answer": 6124,
             "candidate": 300,
-            "answer_feedback": "Commentators have noticed a remarkably restrained public persona over the last few weeks."
+            "answer_feedback": "It could’ve gone worse."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3074,
         "fields": {
-            "answer": 6133,
+            "answer": 6125,
             "candidate": 300,
-            "answer_feedback": "It has been a raucous and emotional couple of weeks in America, and you are certainly doing your part to keep it that way."
+            "answer_feedback": "A lot of people die"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3075,
         "fields": {
-            "answer": 6136,
+            "answer": 6126,
             "candidate": 300,
-            "answer_feedback": "Democrats like to portray themselves as stronger on racial justice issues. Maybe your best strategy is, indeed, to turn the tables on them. When is the last time Republicans ran anything in Minneapolis?"
+            "answer_feedback": "Most people die"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3076,
         "fields": {
-            "answer": 6138,
+            "answer": 6127,
             "candidate": 300,
-            "answer_feedback": "It's hard to make Hunter Biden stay in the mainstream news, but your supporters are certainly keeping up with his story."
+            "answer_feedback": "Some people die"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3077,
         "fields": {
-            "answer": 6142,
+            "answer": 6128,
             "candidate": 300,
-            "answer_feedback": "It might not be traditional Republican policy, but no one can deny that these are unusual and exceptional times."
+            "answer_feedback": "Racism"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3078,
         "fields": {
-            "answer": 6143,
+            "answer": 6129,
             "candidate": 300,
-            "answer_feedback": "You might not win this battle, but maybe you can shame Nancy Pelosi as much as possible while it's taking place."
+            "answer_feedback": "A relatively unknown slate of politicians have been chosen and to the surprise of many. Tok Hassan and Hadi Awang have been left out despite their support of the government. Perhaps this would be a moderate government after all and not one of an Islamic outlook."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3079,
         "fields": {
-            "answer": 6145,
+            "answer": 6130,
             "candidate": 300,
-            "answer_feedback": "You seem to be striking a balanced, measured tone on something for a change."
+            "answer_feedback": "A list containing Tok Hassan and Hadi Awang was released in a move highly anticipated by the liberals. Rumours of islamisation that have started ever since PAS’s announcement of support for your government has only been inflamed with their leader’s appointment as one of the ministers. It doesn’t help that this is a blatant attempt at gaining support."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3080,
         "fields": {
-            "answer": 6146,
+            "answer": 6131,
             "candidate": 300,
-            "answer_feedback": "You seem to be striking a balanced, measured tone on something for a change."
+            "answer_feedback": "[No Feedback]"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3081,
         "fields": {
-            "answer": 6147,
+            "answer": 6132,
             "candidate": 300,
-            "answer_feedback": "You might enjoy folk hero status among your fervent supporters, but not even your endorsement can make a lockdown politically palatable."
+            "answer_feedback": "[No Feedback]"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3083,
         "fields": {
-            "answer": 6152,
+            "answer": 6133,
             "candidate": 300,
-            "answer_feedback": "Your plans in Afghanistan seem to trigger bipartisan alarm within the Beltway. But... many average people want the troops gone from Afghanistan."
+            "answer_feedback": "[No Feedback]"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3084,
         "fields": {
-            "answer": 6159,
+            "answer": 6134,
             "candidate": 300,
-            "answer_feedback": "Your latest statements on China have led to a lot of confusion and raised eyebrows, even from a number of your own supporters."
+            "answer_feedback": "Eliminating Syed Saddiq and his clique within Bersatu was expected. Removing all opponents within Bersatu was not. It was a bloodbath. No one would have expected measures as extreme as this. In the end, you managed to take full control of Bersatu but the dissidents started to see what Tun M meant. Tun M’s Pejuang, and to a lesser extent, UMNO’s ranks swell. Syed Saddiq would move on to form a youth oriented party called MUDA aligned with the opposition."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3085,
         "fields": {
-            "answer": 6160,
+            "answer": 6135,
             "candidate": 300,
-            "answer_feedback": "If you think that the current political dynamic is good for you, then hammering on The Wall in your speeches will do nothing but reinforce it."
+            "answer_feedback": "Syed Saddiq was brought onto Bersatu to appeal to Malaysians who weren’t so keen on naked Ketuanan Melayu. The younger Malays. His services are no longer needed. He was disappointed, perhaps naively so. Later you would find out that Syed Saddiq has established a youth oriented party called MUDA, aligned with the Opposition"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3086,
         "fields": {
-            "answer": 6163,
+            "answer": 6136,
             "candidate": 300,
-            "answer_feedback": "Talk of immigration reform is not popular in your own party. However, you seem to keep your support almost no matter what you say."
+            "answer_feedback": "Perhaps you could still find use with Syed Saddiq. He seems grateful that you are giving him a chance but Tun M is outraged by what seems like another betrayal by another protege.Syed Saddiq will remain in BERSATU, saying he will try to reach a compromise with Tun M but you know that will never happen. However, all your other enemies within BERSATU smell weakness."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3087,
         "fields": {
-            "answer": 6164,
+            "answer": 6137,
             "candidate": 300,
-            "answer_feedback": "This seems like basic, common sense to most of your supporters."
+            "answer_feedback": "Mohamad Ariff is fired in the name of a vaguely worded emergency, mentioning COVID somewhere, there’s uproar of course. Art Harun could barely control the Dewan Rakyat which devolved into shouting and throwing matches. Nga Kor Ming resigns in solidarity."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3088,
         "fields": {
-            "answer": 6166,
+            "answer": 6138,
             "candidate": 300,
-            "answer_feedback": "You're hitting the traditional Republican talking points here."
+            "answer_feedback": "Mohamad Ariff is out by a 2 vote margin. Art Harun’s first day was filled with jeers and the booting of one MP from the Dewan Rakyat for disturbance and interference. Nga Kor Ming resigns in solidarity."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3089,
         "fields": {
-            "answer": 6167,
+            "answer": 6139,
             "candidate": 300,
-            "answer_feedback": "Your core supporters listen politely as you say these words. But they don't quite seem to cheer the way they normally do."
+            "answer_feedback": "Mohamad Ariff remains by a 2 vote margin. Stuck in deadlock another attempt to dethrone him is made and succeeds with Art Harun as the new speaker. Trust in your government has been shaken by the whole ordeal."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3090,
         "fields": {
-            "answer": 6170,
+            "answer": 6140,
             "candidate": 300,
-            "answer_feedback": "Pundits question whether you're giving the right number here, but it is true that many other politicians are quite wealthy."
+            "answer_feedback": "And fight he does, immediately claiming he has majority support within Sabah’s state legislature. Sensing pressure, Shafie Apdal cracks and dissolves the parliament with state elections to be held."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3091,
         "fields": {
-            "answer": 6172,
+            "answer": 6141,
             "candidate": 300,
-            "answer_feedback": "The fact of the matter is, there is no way that Republicans will not fill these seats on the Court, and you're simply stating the obvious."
+            "answer_feedback": "A relatively unknown Hajiji Noor takes up the mantle and leads a fine effort against Shafie Apdal. It takes a while but eventually he buckles and a state election is called."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3092,
         "fields": {
-            "answer": 6175,
+            "answer": 6142,
             "candidate": 300,
-            "answer_feedback": "Who knows if anything will come of your openness to negotiate on this issue. In the short term, perhaps not really."
+            "answer_feedback": "Defying expectations, many Sabahans living outside the state return to their home state to vote, causing a superspreader event. WARISAN becomes the largest party however their coalition falls short of government formation, resulting in a GRS led government. Congratulations."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3093,
         "fields": {
-            "answer": 6176,
+            "answer": 6143,
             "candidate": 300,
-            "answer_feedback": "Many people believe that you are escalating and tacitly encouraging this situation, rather than speaking out against it."
+            "answer_feedback": "As expected postal voting increases turnout dramatically with Sabahans living outside of Sabah flooding the electorate. WARISAN manages to eke out a victory, a slap in the face for your allies in the state."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3094,
         "fields": {
-            "answer": 6180,
+            "answer": 6144,
             "candidate": 300,
-            "answer_feedback": "This is a very popular pick among religious conservatives, many of whom believe that Barrett shares their core beliefs on religious freedom and abortion."
+            "answer_feedback": "You win!"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3095,
         "fields": {
-            "answer": 6181,
+            "answer": 6145,
             "candidate": 300,
-            "answer_feedback": "Skeptics believe that you passed over more experienced nominees to select someone from Florida. Which isn't to say that Lagoa isn't highly qualified."
+            "answer_feedback": "Meh"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3096,
         "fields": {
-            "answer": 6182,
+            "answer": 6146,
             "candidate": 300,
-            "answer_feedback": "You always hate to have litmus tests for the Court, but Democrats are definitely turning it into a “war on women” issue that you replaced Justice Ginsburg with a man. On the other hand, he is an Indian-American man."
+            "answer_feedback": "You lose!"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3097,
         "fields": {
-            "answer": 6183,
+            "answer": 6147,
             "candidate": 300,
-            "answer_feedback": "You know that this kind of a compromise will never happen. After a couple of days of hemming and hawing, you go ahead and nominate Justice Barrett."
+            "answer_feedback": "Surprisingly your gamble at inaction has played off as his majesty releases a public announcement encouraging cooperation between the government and opposition. The bill passes."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3098,
         "fields": {
-            "answer": 6184,
+            "answer": 6148,
             "candidate": 300,
-            "answer_feedback": "Skeptics wonder if you're even close to making a real vaccine announcement, but it's certainly in line with your personality to promise big."
+            "answer_feedback": "Almost all of UMNO falls in line and votes in favour, as expected it passes without much issues. However Ku Li publicly called out against and abstained during the voting. It appears the rift remains."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3099,
         "fields": {
-            "answer": 6187,
+            "answer": 6149,
             "candidate": 300,
-            "answer_feedback": "Harris hits back at you and clarifies her statement (she wouldn't take the vaccine unless the CDC endorsed it), but no matter."
+            "answer_feedback": "It's a big shakeup that causes a lot of unwanted attention, unwanted attention that is soon quickly overshadowed by an announcement two hours later that UMNO is leaving the government."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3100,
         "fields": {
-            "answer": 6188,
+            "answer": 6150,
             "candidate": 300,
-            "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
+            "answer_feedback": "The King is unsympathetic, though he wishes for order he still wants to maintain a semblance of democracy. He denies the request in a rare move. The bill fails, the government falls."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3101,
         "fields": {
-            "answer": 6189,
+            "answer": 6151,
             "candidate": 300,
-            "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
+            "answer_feedback": "No Feedback"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3102,
         "fields": {
-            "answer": 6190,
+            "answer": 6152,
             "candidate": 300,
-            "answer_feedback": "Pundits are unanimous that you seemed, by far, the less presidential of the two candidates. Many are skeptical, though, that it will have any effect in this environment."
+            "answer_feedback": "No Feedback"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 3103,
         "fields": {
-            "answer": 6191,
+            "answer": 6153,
             "candidate": 300,
-            "answer_feedback": "Maybe these debates have outlived their usefullness anyway. Still, there are some whispers that you may have made a mistake."
+            "answer_feedback": "No Feedback"
         }
     },
     {
