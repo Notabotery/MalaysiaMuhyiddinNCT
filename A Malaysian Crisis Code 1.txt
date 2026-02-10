@@ -1,7 +1,11 @@
+// Changes to text to make it fit more to a Malaysian format
+
 const introTitle = document.querySelector("#inner_window_1 h3");
   if (introTitle) {
 	introTitle.textContent = "Do you have what it takes to destroy Malaysian democracy?";
   }
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>You will navigate the filth that is parliamentary politics. </li><li>The answers will affect your popularity for better or worse, both nationally and in individual constituencies. </li><li>Walk the fine line between ideological dogma and convenient opportunism. </li><li>Additionally, the game has been modified to support the sidestepping of fairness and justice. </li>`;
 
 function updateRunningMateForm() {
   try {
@@ -44,7 +48,25 @@ let y = new MutationObserver((mutationsList, observer) => {
 
 y.observe(document, { subtree: true, childList: true });
 
-document.getElementById("inner_window_1").children[1].innerHTML = `<li>You will navigate the filth that is parliamentary politics. </li><li>The answers will affect your popularity for better or worse, both nationally and in individual constituencies. </li><li>Walk the fine line between ideological dogma and convenient opportunism. </li><li>Additionally, the game has been modified to support the sidestepping of fairness and justice. </li>`;
+
+let overallResultObserver = new MutationObserver((mutationsList, observer) => {
+    let overallResultObserver = document.querySelector("#overall_result");
+    if (overallResultObserver) {
+        let pvButton = document.querySelector("#pvswitcher");
+        if (pvButton && pvButton.textContent != "Switch to Seat Estimate") {
+        	pvButton.textContent = "Switch to Seat Estimate";
+        }
+    }
+	if (overallResultObserver) {
+        const evButton = document.querySelector("#ev_est");
+          if (evButton && evButton.textContent != "Seat Count Estimate") {
+            evButton.textContent = "Seat Count Estimate"
+          }
+    }
+});
+
+overallResultObserver.observe(document, { subtree: true, childList: true });
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -481,9 +503,10 @@ $(".container")[0].style.backgroundColor = "#364b5c";
 
 document.getElementById("header").src = "https://i.imgur.com/T87PVFP.png";
 
+
+//Background
 document.body.background = "https://i.imgur.com/t9TvSnq.png";
 document.body.style.backgroundRepeat = "no-repeat";
-//document.body.style.backgroundSize = "cover";
 
 // Music Player
 
@@ -717,7 +740,7 @@ var soundtracks = {
 	  {
 		"name": "Bersatulah Kaum Muslimin - PAS",
 		"url": "https://files.catbox.moe/46wjrv.mp3"
-	  },
+	  }
     ]
   }
 }
@@ -774,8 +797,8 @@ function addDynamicCSS() {
         }
 
         #overall_result_container {
-                    height: auto;
-                    min-height: 6em;
+            height: auto;
+            min-height: 6em;
         }
 
         #state_result_container {
