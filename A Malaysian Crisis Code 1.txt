@@ -7,57 +7,24 @@ const introTitle = document.querySelector("#inner_window_1 h3");
 
 document.getElementById("inner_window_1").children[1].innerHTML = `<li>You will navigate the filth that is parliamentary politics. </li><li>The answers will affect your popularity for better or worse, both nationally and in individual constituencies. </li><li>Walk the fine line between ideological dogma and convenient opportunism. </li><li>Additionally, the game has been modified to support the sidestepping of fairness and justice. </li>`;
 
-function updateRunningMateForm() {
-  try {
-    const form = document.querySelector("#running_mate_form form");
-    const heading = form.querySelector("h3");
-
-    heading.textContent = "Your loyal men:";
-  } catch {}
-}
-window.setInterval(updateRunningMateForm,50)
-
-function updateCandidateForm() {
-  try {
-      const form = document.querySelector("#candidate_form form");
-      const heading = form.querySelector("h3");
-
-      heading.textContent = "You:";
-    } catch {}
-}
-window.setInterval(updateCandidateForm,50)
-
 let z = new MutationObserver((mutationsList, observer) => {
     let runningMateSummary = document.querySelector("#running_mate_summary");
     if (runningMateSummary && runningMateSummary.children[0].children[1].innerHTML != runningMateSummary.children[0].children[1].innerHTML.replaceAll("Party", "Ideology")) {
         runningMateSummary.children[0].children[1].innerHTML = runningMateSummary.children[0].children[1].innerHTML.replaceAll("Party", "Ideology");
     }
-	if (runningMateSummary && runningMateSummary.children[0].children[2].innerHTML != runningMateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency")) {
-        runningMateSummary.children[0].children[2].innerHTML = runningMateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency");
-    }
 });
 
 z.observe(document, { subtree: true, childList: true });
 
-let y = new MutationObserver((mutationsList, observer) => {
-    let candidateSummary = document.querySelector("#candidate_summary");
-	if (candidateSummary && candidateSummary.children[0].children[2].innerHTML != candidateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency")) {
-        candidateSummary.children[0].children[2].innerHTML = candidateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency");
-    }
-});
-
-y.observe(document, { subtree: true, childList: true });
-
-
 let overallResultObserver = new MutationObserver((mutationsList, observer) => {
-    let overallResultObserver = document.querySelector("#overall_result");
-    if (overallResultObserver) {
+    let overallResult = document.querySelector("#overall_result");
+    if (overallResult) {
         let pvButton = document.querySelector("#pvswitcher");
         if (pvButton && pvButton.textContent != "Switch to Seat Estimate") {
         	pvButton.textContent = "Switch to Seat Estimate";
         }
     }
-	if (overallResultObserver) {
+	if (overallResult) {
         const evButton = document.querySelector("#ev_est");
           if (evButton && evButton.textContent != "Seat Count Estimate") {
             evButton.textContent = "Seat Count Estimate"
@@ -66,6 +33,21 @@ let overallResultObserver = new MutationObserver((mutationsList, observer) => {
 });
 
 overallResultObserver.observe(document, { subtree: true, childList: true });
+
+let stateSummaryChanger = new MutationObserver((mutationsList, observer) => {
+    let stateSummary = document.querySelector("#state_info h3");
+    if (stateSummary && stateSummary.textContent != "SEAT SUMMARY") {
+        stateSummary.textContent = "SEAT SUMMARY"
+    }
+
+    let stateInfo = document.querySelector("#state_info");
+    if (stateInfo && stateInfo.children[3].textContent != "") {
+        stateInfo.children[3].textContent = ""
+     }
+});
+
+stateSummaryChanger.observe(document, { subtree: true, childList: true });
+
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -432,7 +414,14 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Straits"
+campaignTrail_temp.credits = "<button onclick='credits()'>The Sheraton Concierge</button>"
+
+credits = function() {
+    credits = [""]
+    text = "Primary Coder:\nSimple_Peasant \n\nPrimary Writer:\nStraits\n\nCode:\n1960 Kennedy\n\nWriters:\nhezrinrifa\nKelantan Hater \n\nPlaytesters:"
+    text += credits[0]
+    alert(text)
+}
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -823,6 +812,10 @@ tooltipList = [
     {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
+
+e.CandidText = "You:"
+e.VpText = "Your Loyal Men:";
+e.HomeStateText = "Constituency:";
 
 //
 
