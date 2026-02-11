@@ -20,7 +20,7 @@ let overallResultObserver = new MutationObserver((mutationsList, observer) => {
     let overallResult = document.querySelector("#overall_result");
     if (overallResult) {
         let pvButton = document.querySelector("#pvswitcher");
-        if (pvButton && pvButton.textContent != "Switch to Seat Estimate") {
+        if (pvButton && pvButton.textContent == "Switch to State Estimate") {
         	pvButton.textContent = "Switch to Seat Estimate";
         }
     }
@@ -418,7 +418,7 @@ campaignTrail_temp.credits = "<button onclick='credits()'>The Sheraton Concierge
 
 credits = function() {
     credits = [""]
-    text = "Primary Coder:\nSimple_Peasant \n\nPrimary Writer:\nStraits\n\nCode:\n1960 Kennedy\n\nWriters:\nhezrinrifa\nKelantan Hater \n\nPlaytesters:"
+    text = "Primary Coder:\nSimple_Peasant \n\nPrimary Writer:\nStraits\n\nCode:\n1960 Kennedy\n\nWriters:\nhezrinrifa\nSteb \n\nPlaytesters:"
     text += credits[0]
     alert(text)
 }
