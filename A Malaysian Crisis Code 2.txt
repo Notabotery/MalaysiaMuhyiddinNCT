@@ -32174,16 +32174,15 @@ var johor_win = false;
 var anwar_arrested = false;
 
 // Variable Text
-var patText = "calm";
-var coaText = "poor";
-var covText = "few";
-var cohyText = "weak";
+var patText = "calm.";
+var coaText = "grumbling.";
+var covText = "COVID-19 hasn't reached our shores.";
+var cohText = "breaking apart at the seams.";
 
 // Credit to Astro
 e=campaignTrail_temp
 
 function patienceTranslate() {
-    var result = '';
 
     if (patience >= 3) {
         return 'calm.';
@@ -32192,7 +32191,42 @@ function patienceTranslate() {
     } else {
         return 'furious.';
     }
+}
 
+function coalitionTranslate() {
+    if (coalition_coop >= 3) {
+        return 'united.';
+    } else if (coalition_coop >= 0) {
+        return 'grumbling.';
+    } else {
+        return 'infighting.';
+    }
+}
+
+/*
+function covidTranslate() {
+    if (covid >= 8) {
+        return 'Everyone can name one relative who died suffering. Hundreds of thousands dead.';
+    } else if (covid >= 5) {
+        return 'The bell tolls. A couple thousand Malaysians are dead from COVID-19.';
+    } else if (covid >= 3) {
+        return 'Below a hundred Malaysians are dead from COVID-19.';
+    } else if (covid >= 1) {
+        return 'A couple thousand Malaysians are infected with COVID-19.';
+    } else {
+        return 'COVID-19 hasn't reached our shores.';
+    }
+}
+*/
+
+function cohesionTranslate() {
+    if (party_cohesion >= 3) {
+        return 'speaking with one voice.';
+    } else if (party_cohesion >= 0) {
+        return 'barely a party.';
+    } else {
+        return 'breaking apart at the seams.';
+    }
 }
 
 function addHeadquarterButton() {
@@ -32225,22 +32259,10 @@ function addHeadquarterButton() {
 
 function openHeadquarter() {
 
-    /*
-    Leaving this in here: instead of having the functions in the text, if you want, you can have the text change based on the number from the function, like so. You'll need to create a secondary function to hold the text, and then call that function in the text. - Astro
-
-    if (policyForeign < -3) {
-        fpScore = 'isolationist.'
-    }
-    if (policyForeign > -3 && policyForeign < 3) {
-    fpScore = 'balanced.'
-    }
-    if (policyForeign > 3) {
-         fpScore = 'hawkish.'
-    }
-
-    */
-
-    var patText = patienceTranslate();
+    patText = patienceTranslate();
+    coaText = coalitionTranslate();
+    // covText = covidTranslate();
+    cohText = cohesionTranslate();
 
     let questions = document.querySelector(".inner_window_question");
 
@@ -32288,6 +32310,7 @@ function openHeadquarter() {
     headerText.textContent = 'State of Malaysia';
     headerText.style.textAlign = 'center';  // Center the text
     headerText.style.flexGrow = '1';  // Make h3 take up the maximum space available
+    headerText.style.color = 'black';
     headerDiv.appendChild(headerText);
 
     // Append headerDiv to the main hqDiv
@@ -32315,14 +32338,37 @@ function openHeadquarter() {
 
     // This is the bulk of the content you can edit. You can add more text or images here.
 
-    // Create Bulk of the Text
-    // Duplicate this section to add more lines of text. Make sure to change the variable name "a" to something else. In this case, I changed it to "b".
+    // Agong Patience
     let a = document.createElement('p');
-    a.innerHTML = 'The Agong is <b>' + patText + '</b> (' + patience + ')'; // This is the text that will be displayed. You can change this to whatever you want. ' + function + ' will display the number from the function.
-    // a.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
-    a.style.color = 'black'; // Can be used to change the color of the text
-    a.style.margin = '8px'; // Can be used to change the space in between the text. Useful if you have a lot of functions.
+    a.innerHTML = 'The Agong is <b>' + patText + '</b> (' + patience + ')';
+    // a.style.flexGrow = '0.1';
+    a.style.color = 'black';
+    a.style.margin = '8px';
     hqDiv.appendChild(a);
+
+    // Coalition Cooperativeness
+    let b = document.createElement('p');
+    b.innerHTML = 'Our coalition is <b>' + coaText + '</b> (' + coalition_coop + ')';
+    // a.style.flexGrow = '0.1';
+    b.style.color = 'black';
+    b.style.margin = '8px';
+    hqDiv.appendChild(b);
+
+    // Covid
+    let c = document.createElement('p');
+    c.innerHTML = '<b>' + covText + '</b> (' + covid + ')';
+    // a.style.flexGrow = '0.1';
+    c.style.color = 'black';
+    c.style.margin = '8px';
+    hqDiv.appendChild(c);
+
+    // Party Cohesion
+    let d = document.createElement('p');
+    d.innerHTML = 'Bersatu is <b>' + cohText + '</b> (' + party_cohesion + ')';
+    // a.style.flexGrow = '0.1';
+    d.style.color = 'black';
+    d.style.margin = '8px';
+    hqDiv.appendChild(d);
 
     // Image
     let img = document.createElement('img');
