@@ -818,37 +818,12 @@ e.VpText = "Your Loyal Men:";
 e.HomeStateText = "Constituency:";
 
 campaignTrail_temp.achievements = {
-    // Muhyiddin Achievements - 25
-    "Pakatan... Rakyat?" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/cool.png",
-        "description" : "Have a coalition of PKR, DAP and PAS form.",
-        "cannotBeCheated" : true
-     },
+    // Miscellaneous Achievements - 10
     "WOKESATU" : {
         "image" : "https://itsastronomical.com/assets/1924/ach/john.png",
-        "description" : "Win GE15 with the highest apathy for the LGBTQ+ community.",
+        "description" : "Win GE15 while being apathetic (not hating) to the LGBTQ+ community.",
         "cannotBeCheated" : true
      },
-     "Marxism–Leninism-Muhyiddinism" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/treasure.png",
-        "description" : "Somehow win 112 seats in GE15 in a BERSATU-PSM-MUDA-GERAKAN coalition, and have PSM win at least one seat",
-        "cannotBeCheated" : true
-     },
-    "Hidup Melayu!" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/car.png",
-        "description" : "Achieve victory in a BERSATU-PAS-UMNO-PUTRA coalition.",
-        "cannotBeCheated" : true
-    },
-    "Green Droplet" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/farm.png",
-        "description" : "Gain PAS's loyalty but win 50 seats or less.",
-        "cannotBeCheated" : true
-    },
-    "Into History's Trashcan" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/drink.png",
-        "description" : "Win less than 20 seats in GE15.",
-        "cannotBeCheated" : true
-    },
     "Daulat Tuanku!" : {
         "image" : "https://itsastronomical.com/assets/1924/ach/happy.png",
         "description" : "Have the Agong override the democratic process and instate an Emergency Council",
@@ -859,11 +834,6 @@ campaignTrail_temp.achievements = {
         "description" : "Maximise COVID-19 deaths.",
         "cannotBeCheated" : true
     },
-    "Sick Man of Malaysia" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/bee.png",
-        "description" : "Form a government without UMNO.",
-        "cannotBeCheated" : true
-    },
     "Let Bygones be Bygones" : {
         "image" : "https://itsastronomical.com/assets/1924/ach/tell.png",
         "description" : "Reunify BERSATU and UMNO.",
@@ -872,26 +842,6 @@ campaignTrail_temp.achievements = {
     "Third Time's the Charm" : {
         "image" : "https://itsastronomical.com/assets/1924/ach/last.png",
         "description" : "Arrest Anwar over sodomy again.",
-        "cannotBeCheated" : true
-    },
-    "Malayan Malaysia" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/devils.png",
-        "description" : "Form a government without the Bornean parties.",
-        "cannotBeCheated" : true
-    },
-    "SuperMahajority" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/tax.png",
-        "description" : "Achieve a 2/3rds majority as Muhyiddin against any candidate.",
-        "cannotBeCheated" : true
-    },
-    "Pak Lah's Forgiveness" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/fail.png",
-        "description" : "Lose 20 seats or less as Muhyiddin against any candidate in GE15. (Cakewalk Difficulty Allowed)",
-        "cannotBeCheated" : true
-    },
-    "Tunku Would be Proud" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/hate.png",
-        "description" : "Lose 5 seats or less as Muhyiddin against any candidate in GE15. (Cakewalk Difficulty Allowed)",
         "cannotBeCheated" : true
     },
     "Kesana-Kesini" : {
@@ -909,16 +859,6 @@ campaignTrail_temp.achievements = {
         "description" : "...why?",
         "cannotBeCheated" : true
     },
-    "Sons of the Soil" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/klan.png",
-        "description" : "Win all Malay-majority electoral districts in GE15.",
-        "cannotBeCheated" : true
-    },
-    "Kuantan would be nice..." : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/equal.png",
-        "description" : "Lose GE15, but win Kuantan.",
-        "cannotBeCheated" : true
-    },
     "The Moo Colossus" : {
         "image" : "https://itsastronomical.com/assets/1924/ach/fire.png",
         "description" : "Win all 3 state elections (Sabah, Malacca and Johor).",
@@ -929,9 +869,45 @@ campaignTrail_temp.achievements = {
         "description" : "Win Tambun and have BN lose Bagan Datu in GE15.",
         "cannotBeCheated" : true
     },
-    "Undemocratic Majority" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/friend.png",
-        "description" : "Form a government with less than 40% of the vote between  all coalition members.",
+    // Election Achievements - 9
+    "Green Droplet" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/farm.png",
+        "description" : "Gain PAS's loyalty but win 50 seats or less.",
+        "cannotBeCheated" : true
+    },
+    "Into History's Trashcan" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/drink.png",
+        "description" : "Win less than 20 seats in GE15.",
+        "cannotBeCheated" : true
+    },
+    "SuperMahajority" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/tax.png",
+        "description" : "Achieve a 2/3rds majority as Muhyiddin against any candidate.",
+        "cannotBeCheated" : true
+    },
+    "Pak Lah's Forgiveness" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/fail.png",
+        "description" : "Lose 20 seats or less as Muhyiddin against any candidate in GE15. (Cakewalk Difficulty Allowed)",
+        "cannotBeCheated" : true
+    },
+    "Tunku Would be Proud" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/hate.png",
+        "description" : "Lose 5 seats or less as Muhyiddin against any candidate in GE15. (Cakewalk Difficulty Allowed)",
+        "cannotBeCheated" : true
+    },
+    "Sons of the Soil" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/klan.png",
+        "description" : "Win all Malay-majority electoral districts in GE15.",
+        "cannotBeCheated" : true
+    },
+    "Kuantan would be nice..." : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/equal.png",
+        "description" : "Lose GE15, but win Kuantan.",
+        "cannotBeCheated" : true
+    },
+    "Switcheroo" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/sam.png",
+        "description" : "Win at least 9 seats in Selangor while PH wins at least 4 seats in Kelantan.",
         "cannotBeCheated" : true
     },
     "It Was Just a Dream" : {
@@ -939,9 +915,35 @@ campaignTrail_temp.achievements = {
         "description" : "Lose GE15 while BN forms a majority government without PH or PN.",
         "cannotBeCheated" : true
     },
-    "Switcheroo" : {
-        "image" : "https://itsastronomical.com/assets/1924/ach/sam.png",
-        "description" : "Win at least 9 seats in Selangor while PH wins at least 4 seats in Kelantan.",
+    // Coalition Achievements - 5
+    "Pakatan... Rakyat?" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/cool.png",
+        "description" : "Have a coalition of PKR, DAP and PAS form.",
+        "cannotBeCheated" : true
+    },
+    "Marxism–Leninism-Muhyiddinism" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/treasure.png",
+        "description" : "Somehow win 112 seats in GE15 in a BERSATU-PSM-MUDA-GERAKAN coalition, and have PSM win at least one seat",
+        "cannotBeCheated" : true
+     },
+    "Hidup Melayu!" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/car.png",
+        "description" : "Achieve victory in a BERSATU-PAS-UMNO-PUTRA coalition.",
+        "cannotBeCheated" : true
+    },
+    "Sick Man of Malaysia" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/bee.png",
+        "description" : "Form a government without UMNO.",
+        "cannotBeCheated" : true
+    },
+    "Undemocratic Majority" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/friend.png",
+        "description" : "Form a government with less than 40% of the vote between all coalition members.",
+        "cannotBeCheated" : true
+    },
+    "Malayan Malaysia" : {
+        "image" : "https://itsastronomical.com/assets/1924/ach/devils.png",
+        "description" : "Form a government without the Bornean parties.",
         "cannotBeCheated" : true
     },
     // Opponent Achievements - 6
@@ -975,6 +977,6 @@ campaignTrail_temp.achievements = {
         "description" : "Win against a Mat Sabu-led PH.",
         "cannotBeCheated" : true
     }
-  }
+}
 
 //#endcode
