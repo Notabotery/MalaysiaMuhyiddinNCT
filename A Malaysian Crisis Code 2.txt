@@ -32157,6 +32157,9 @@ var covid = 0;
 // Party Cohesion. This represents how united Bersatu is internally. Bersatu can be small but united or large and disunited
 var party_cohesion = 0;
 
+// Ideology. This is how Malaysia perceives Muhyiddin as a politician. He will start as being seen as Conservative or a score of 5
+var ideology = 5;
+
 // Minor Variables
 // Sabah Election Variable. Represents the strength of PN in Sabah. Higher values lead to more positive outcomes in Sabah
 var sabah_points = 0;
@@ -32178,56 +32181,91 @@ var patText = "calm.";
 var coaText = "grumbling.";
 var covText = "COVID-19 hasn't reached our shores.";
 var cohText = "breaking apart at the seams.";
+var ideText = "Conservative";
 
 // Credit to Astro
 e=campaignTrail_temp
 
 function patienceTranslate() {
 
-    if (patience >= 3) {
-        return 'calm.';
-    } else if (patience >= 0) {
-        return 'wary.';
+    if (patience >= 5) {
+        return '<span style="color:darkgreen; font-weight:bold"> pleased.</span> (<span style="color:darkgreen">' + patience + '</span>)';
+    } else if (patience >= 2) {
+        return '<span style="color:green; font-weight: bold"> calm.</span> (<span style="color:green;">' + patience + '</span>)';
+    } else if (patience >= -1) {
+        return '<span style="color:yellow; font-weight: bold"> ambivalent.</span> (<span style="color:yellow">' + patience + '</span>)';
+    } else if (patience >= -4) {
+        return '<span style="color:indianred; font-weight: bold"> wary.</span> (<span style="color:indianred">' + patience + '</span>)';
     } else {
-        return 'furious.';
+        return '<span style="color:red; font-weight: bold"> furious.</span> (<span style="color:red">' + patience + '</span>)';
     }
 }
 
 function coalitionTranslate() {
-    if (coalition_coop >= 3) {
-        return 'united.';
-    } else if (coalition_coop >= 0) {
-        return 'grumbling.';
+    if (coalition_coop >= 5) {
+        return '<span style="color:darkgreen; font-weight:bold"> integrated like a party.</span> (<span style="color:darkgreen">' + coalition_coop + '</span>)';
+    } else if (coalition_coop >= 2) {
+        return '<span style="color:green; font-weight: bold"> united.</span> (<span style="color:green;">' + coalition_coop + '</span>)';
+    } else if (coalition_coop >= -1) {
+        return '<span style="color:yellow; font-weight: bold"> amenable.</span> (<span style="color:yellow">' + coalition_coop + '</span>)';
+    } else if (coalition_coop >= -4) {
+        return '<span style="color:indianred; font-weight: bold"> grumbling.</span> (<span style="color:indianred">' + coalition_coop + '</span>)';
     } else {
-        return 'infighting.';
+        return '<span style="color:red; font-weight: bold"> rebelling.</span> (<span style="color:red">' + coalition_coop + '</span>)';
+    }
+}
+
+function covidTranslate() {
+    if (covid >= 12) {
+        return '<b>Malaysia will take at least a decade to recover. Numbers are meaningless.</b> (<b>' + covid + '</b>)';
+    } else if (covid >= 9) {
+        return '<span style="color:red; font-weight: bold">Everyone can name one relative who died suffering. Hundreds of thousands dead.</span> (<span style="color:red; font-weight: bold">' + covid + '</span>)';
+    } else if (covid >= 6) {
+        return '<span style="color:indianred; font-weight: bold">The bell tolls. A couple thousand Malaysians are dead from COVID-19.</span> (<span style="color:indianred; font-weight: bold">' + covid + '</span>)';
+    } else if (covid >= 4) {
+        return '<span style="color:yellow; font-weight: bold">Below a hundred Malaysians are dead from COVID-19.</span> (<span style="color:yellow; font-weight: bold">' + covid + '</span>)';
+    } else if (covid >= 1) {
+        return '<span style="color:green; font-weight: bold">A couple thousand Malaysians are infected with COVID-19.</span> (<span style="color:green; font-weight: bold">' + covid + '</span>)';
+    } else {
+        return '<span style="color:darkgreen; font-weight: bold">COVID-19 hasn\'t reached our shores.</span> (<span style="color:darkgreen; font-weight: bold">' + covid + '</span>)';
+    }
+}
+
+
+function cohesionTranslate() {
+    if (party_cohesion >= 5) {
+        return '<span style="color:darkgreen; font-weight:bold"> speaking with one voice.</span> (<span style="color:darkgreen">' + party_cohesion + '</span>)';
+    } else if (party_cohesion >= 2) {
+        return '<span style="color:green; font-weight: bold"> disciplined enough.</span> (<span style="color:green;">' + party_cohesion + '</span>)';
+    } else if (party_cohesion >= -1) {
+        return '<span style="color:yellow; font-weight: bold"> factionalised.</span> (<span style="color:yellow">' + party_cohesion + '</span>)';
+    } else if (party_cohesion >= -4) {
+        return '<span style="color:indianred; font-weight: bold"> barely a party.</span> (<span style="color:indianred">' + party_cohesion + '</span>)';
+    } else {
+        return '<span style="color:red; font-weight: bold"> about to be deregistered.</span> (<span style="color:red">' + party_cohesion + '</span>)';
+    }
+}
+
+function ideologyTranslate() {
+    if (ideology >= 8) {
+        return '<span style="color:forestgreen">Raging Reactionary.</span>'
+    } else if (ideology >= 4) {
+        return '<span style="color:darkblue">Conservative.</span>'
+    } else if (ideology >= -2) {
+        return 'Moderate.'
+    } else if (ideology >= -7) {
+        return '<span style="color:crimson">Liberal.</span>'
+    } else {
+        return '<span style="background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Flaming Progressive.</span>'
     }
 }
 
 /*
-function covidTranslate() {
-    if (covid >= 8) {
-        return 'Everyone can name one relative who died suffering. Hundreds of thousands dead.';
-    } else if (covid >= 5) {
-        return 'The bell tolls. A couple thousand Malaysians are dead from COVID-19.';
-    } else if (covid >= 3) {
-        return 'Below a hundred Malaysians are dead from COVID-19.';
-    } else if (covid >= 1) {
-        return 'A couple thousand Malaysians are infected with COVID-19.';
-    } else {
-        return 'COVID-19 hasn't reached our shores.';
-    }
+function changePatience(value){
+    console.log('Changing patience by %d to %d', value, patience + value);
+    patience += value;
 }
 */
-
-function cohesionTranslate() {
-    if (party_cohesion >= 3) {
-        return 'speaking with one voice.';
-    } else if (party_cohesion >= 0) {
-        return 'barely a party.';
-    } else {
-        return 'breaking apart at the seams.';
-    }
-}
 
 function addHeadquarterButton() {
     // Check if the button already exists
@@ -32261,8 +32299,9 @@ function openHeadquarter() {
 
     patText = patienceTranslate();
     coaText = coalitionTranslate();
-    // covText = covidTranslate();
+    covText = covidTranslate();
     cohText = cohesionTranslate();
+    ideText = ideologyTranslate();
 
     let questions = document.querySelector(".inner_window_question");
 
@@ -32278,8 +32317,8 @@ function openHeadquarter() {
     hqDiv.id = 'headquarter';
     hqDiv.style.display = 'flex'; // Set layout to flex to allow columns
     hqDiv.style.color = 'white';
-    hqDiv.style.backgroundColor = '#383838';
-    hqDiv.style.backgroundImage = 'url(https://itsastronomical.com/assets/1912/wilsonbg.png)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
+    hqDiv.style.backgroundColor = '#dbdbdb';
+    // hqDiv.style.backgroundImage = 'url(https://itsastronomical.com/assets/1912/wilsonbg.png)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
     hqDiv.style.border = '5px solid black';
     hqDiv.style.borderRadius = '10px';
     hqDiv.style.height = '56%';
@@ -32340,7 +32379,7 @@ function openHeadquarter() {
 
     // Agong Patience
     let a = document.createElement('p');
-    a.innerHTML = 'The Agong is <b>' + patText + '</b> (' + patience + ')';
+    a.innerHTML = 'The Agong is' + patText;
     // a.style.flexGrow = '0.1';
     a.style.color = 'black';
     a.style.margin = '8px';
@@ -32348,7 +32387,7 @@ function openHeadquarter() {
 
     // Coalition Cooperativeness
     let b = document.createElement('p');
-    b.innerHTML = 'Our coalition is <b>' + coaText + '</b> (' + coalition_coop + ')';
+    b.innerHTML = 'Our coalition is' + coaText ;
     // a.style.flexGrow = '0.1';
     b.style.color = 'black';
     b.style.margin = '8px';
@@ -32356,7 +32395,7 @@ function openHeadquarter() {
 
     // Covid
     let c = document.createElement('p');
-    c.innerHTML = '<b>' + covText + '</b> (' + covid + ')';
+    c.innerHTML = covText;
     // a.style.flexGrow = '0.1';
     c.style.color = 'black';
     c.style.margin = '8px';
@@ -32364,11 +32403,19 @@ function openHeadquarter() {
 
     // Party Cohesion
     let d = document.createElement('p');
-    d.innerHTML = 'Bersatu is <b>' + cohText + '</b> (' + party_cohesion + ')';
+    d.innerHTML = 'Bersatu is' + cohText;
     // a.style.flexGrow = '0.1';
     d.style.color = 'black';
     d.style.margin = '8px';
     hqDiv.appendChild(d);
+
+    // Ideology
+    let e = document.createElement('p');
+    e.innerHTML = 'People see you as a <b>' + ideText + '</b> (' + ideology + ')';
+    // a.style.flexGrow = '0.1';
+    e.style.color = 'black';
+    e.style.margin = '8px';
+    hqDiv.appendChild(e);
 
     // Image
     let img = document.createElement('img');
