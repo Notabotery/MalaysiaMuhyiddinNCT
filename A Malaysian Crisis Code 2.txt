@@ -32176,6 +32176,25 @@ var johor_win = false;
 // Anwar Arrested. Variable to show if Anwar is arrested or not.
 var anwar_arrested = false;
 
+// Candidate Variables
+// Anwar is leading PH
+var anwar_candidate = true;
+
+// Wan Azizah is leading PH
+var azizah_candidate = false;
+
+// Rafizi Ramli is leading PH
+var rafizi_candidate = false;
+
+// Saifuddin is leading PH
+var saifuddin_candidate = false;
+
+// Syed Saddiq is leading PH
+var syed_saddiq_candidate = false;
+
+// Mat Sabu is leading PH
+var mat_sabu_candidate = false;
+
 // Variable Text
 var patText = "calm.";
 var coaText = "grumbling.";
@@ -32189,74 +32208,74 @@ e=campaignTrail_temp
 function patienceTranslate() {
 
     if (patience >= 5) {
-        return '<span style="color:#004d00; font-weight:bold"> pleased.</span> (<span style="color:#004d00; font-weight:bold">' + patience + '</span>)';
+        return '<span style="color:#004d00; font-weight:bold"> pleased</span>. (<span style="color:#004d00; font-weight:bold">' + patience + '</span>)';
     } else if (patience >= 2) {
-        return '<span style="color:green; font-weight: bold"> calm.</span> (<span style="color:green; font-weight:bold">' + patience + '</span>)';
+        return '<span style="color:green; font-weight: bold"> calm</span>. (<span style="color:green; font-weight:bold">' + patience + '</span>)';
     } else if (patience >= -1) {
-        return '<span style="color:goldenrod; font-weight: bold"> ambivalent.</span> (<span style="color:goldenrod; font-weight:bold">' + patience + '</span>)';
+        return '<span style="color:goldenrod; font-weight: bold"> ambivalent</span>. (<span style="color:goldenrod; font-weight:bold">' + patience + '</span>)';
     } else if (patience >= -4) {
-        return '<span style="color:indianred; font-weight: bold"> wary.</span> (<span style="color:indianred; font-weight:bold">' + patience + '</span>)';
+        return '<span style="color:indianred; font-weight: bold"> wary</span>. (<span style="color:indianred; font-weight:bold">' + patience + '</span>)';
     } else {
-        return '<span style="color:red; font-weight: bold"> furious.</span> (<span style="color:red; font-weight:bold">' + patience + '</span>)';
+        return '<span style="color:red; font-weight: bold"> furious</span>. (<span style="color:red; font-weight:bold">' + patience + '</span>)';
     }
 }
 
 function coalitionTranslate() {
     if (coalition_coop >= 5) {
-        return '<span style="color:#004d00; font-weight:bold"> integrated like a party.</span> (<span style="color:#004d00; font-weight:bold">' + coalition_coop + '</span>)';
+        return '<span style="color:#004d00; font-weight:bold"> integrated like a party</span>. (<span style="color:#004d00; font-weight:bold">' + coalition_coop + '</span>)';
     } else if (coalition_coop >= 2) {
-        return '<span style="color:green; font-weight: bold"> united.</span> (<span style="color:green; font-weight:bold">' + coalition_coop + '</span>)';
+        return '<span style="color:green; font-weight: bold"> united</span>. (<span style="color:green; font-weight:bold">' + coalition_coop + '</span>)';
     } else if (coalition_coop >= -1) {
-        return '<span style="color:goldenrod; font-weight: bold"> amenable.</span> (<span style="color:goldenrod; font-weight:bold">' + coalition_coop + '</span>)';
+        return '<span style="color:goldenrod; font-weight: bold"> amenable</span>. (<span style="color:goldenrod; font-weight:bold">' + coalition_coop + '</span>)';
     } else if (coalition_coop >= -4) {
-        return '<span style="color:indianred; font-weight: bold"> grumbling.</span> (<span style="color:indianred; font-weight:bold">' + coalition_coop + '</span>)';
+        return '<span style="color:indianred; font-weight: bold"> grumbling</span>. (<span style="color:indianred; font-weight:bold">' + coalition_coop + '</span>)';
     } else {
-        return '<span style="color:red; font-weight: bold"> rebelling.</span> (<span style="color:red; font-weight:bold">' + coalition_coop + '</span>)';
+        return '<span style="color:red; font-weight: bold"> rebelling</span>. (<span style="color:red; font-weight:bold">' + coalition_coop + '</span>)';
     }
 }
 
 function covidTranslate() {
     if (covid >= 12) {
-        return '<b>Malaysia will take at least a decade to recover. Numbers are meaningless.</b> (<b>' + covid + '</b>)';
+        return '<b>Malaysia will take at least a decade to recover. Numbers are meaningless</b>. (<b>' + covid + '</b>)';
     } else if (covid >= 9) {
-        return '<span style="color:red; font-weight: bold">Everyone can name one relative who died suffering. Hundreds of thousands dead.</span> (<span style="color:red; font-weight: bold">' + covid + '</span>)';
+        return '<span style="color:red; font-weight: bold">Everyone can name one relative who died suffering. Hundreds of thousands dead</span>. (<span style="color:red; font-weight: bold">' + covid + '</span>)';
     } else if (covid >= 6) {
-        return '<span style="color:indianred; font-weight: bold">The bell tolls. A couple thousand Malaysians are dead from COVID-19.</span> (<span style="color:indianred; font-weight: bold">' + covid + '</span>)';
+        return '<span style="color:indianred; font-weight: bold">The bell tolls. A couple thousand Malaysians are dead from COVID-19</span>. (<span style="color:indianred; font-weight: bold">' + covid + '</span>)';
     } else if (covid >= 4) {
-        return '<span style="color:goldenrod; font-weight: bold">Below a hundred Malaysians are dead from COVID-19.</span> (<span style="color:goldenrod; font-weight: bold">' + covid + '</span>)';
+        return '<span style="color:goldenrod; font-weight: bold">Below a hundred Malaysians are dead from COVID-19</span>. (<span style="color:goldenrod; font-weight: bold">' + covid + '</span>)';
     } else if (covid >= 1) {
-        return '<span style="color:green; font-weight: bold">A couple thousand Malaysians are infected with COVID-19.</span> (<span style="color:green; font-weight: bold">' + covid + '</span>)';
+        return '<span style="color:green; font-weight: bold">A couple thousand Malaysians are infected with COVID-19</span>. (<span style="color:green; font-weight: bold">' + covid + '</span>)';
     } else {
-        return '<span style="color:#004d00; font-weight: bold">COVID-19 hasn\'t reached our shores.</span> (<span style="color:#004d00; font-weight: bold">' + covid + '</span>)';
+        return '<span style="color:#004d00; font-weight: bold">COVID-19 hasn\'t reached our shores</span>. (<span style="color:#004d00; font-weight: bold">' + covid + '</span>)';
     }
 }
 
 
 function cohesionTranslate() {
     if (party_cohesion >= 5) {
-        return '<span style="color:#004d00; font-weight:bold"> speaking with one voice.</span> (<span style="color:#004d00; font-weight:bold">' + party_cohesion + '</span>)';
+        return '<span style="color:#004d00; font-weight:bold"> speaking with one voice</span>. (<span style="color:#004d00; font-weight:bold">' + party_cohesion + '</span>)';
     } else if (party_cohesion >= 2) {
-        return '<span style="color:green; font-weight: bold"> disciplined enough.</span> (<span style="color:green; font-weight:bold">' + party_cohesion + '</span>)';
+        return '<span style="color:green; font-weight: bold"> disciplined enough</span>. (<span style="color:green; font-weight:bold">' + party_cohesion + '</span>)';
     } else if (party_cohesion >= -1) {
-        return '<span style="color:goldenrod; font-weight: bold"> factionalised.</span> (<span style="color:goldenrod; font-weight:bold">' + party_cohesion + '</span>)';
+        return '<span style="color:goldenrod; font-weight: bold"> factionalised</span>. (<span style="color:goldenrod; font-weight:bold">' + party_cohesion + '</span>)';
     } else if (party_cohesion >= -4) {
-        return '<span style="color:indianred; font-weight: bold"> barely a party.</span> (<span style="color:indianred; font-weight:bold">' + party_cohesion + '</span>)';
+        return '<span style="color:indianred; font-weight: bold"> barely a party</span>. (<span style="color:indianred; font-weight:bold">' + party_cohesion + '</span>)';
     } else {
-        return '<span style="color:red; font-weight: bold"> about to be deregistered.</span> (<span style="color:red; font-weight:bold">' + party_cohesion + '</span>)';
+        return '<span style="color:red; font-weight: bold"> about to be deregistered</span>. (<span style="color:red; font-weight:bold">' + party_cohesion + '</span>)';
     }
 }
 
 function ideologyTranslate() {
     if (ideology >= 8) {
-        return '<span style="color:forestgreen; font-weight:bold">Raging Reactionary.</span>'
+        return ' <span style="color:forestgreen; font-weight:bold">Raging Reactionary</span>. (<span style="color:forestgreen; font-weight:bold">' + ideology + '</span>)'
     } else if (ideology >= 4) {
-        return '<span style="color:darkblue; font-weight:bold">Conservative.</span>'
+        return ' <span style="color:darkblue; font-weight:bold">Conservative</span>. (<span style="color:darkblue; font-weight:bold">' + ideology + '</span>)'
     } else if (ideology >= -2) {
-        return '<b>Moderate.</b>'
+        return ' <b>Moderate</b>. (<b>' + ideology + '</b>)'
     } else if (ideology >= -7) {
-        return '<span style="color:crimson; font-weight:bold">Liberal.</span>'
+        return ' <span style="color:crimson; font-weight:bold">Liberal</span>. (<span style="color:crimson; font-weight:bold">' + ideology + '</span>)'
     } else {
-        return '<span style="background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight:bold">Flaming Progressive.</span>'
+        return ' <span style="background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight:bold">Flaming Progressive</span>. (<b>' + ideology + '</b>)'
     }
 }
 
@@ -32383,7 +32402,7 @@ function openHeadquarter() {
     // a.style.flexGrow = '0.1';
     a.style.color = 'black';
     a.style.margin = '8px';
-    hqDiv.appendChild(a);
+    leftCol.appendChild(a);
 
     // Coalition Cooperativeness
     let b = document.createElement('p');
@@ -32391,7 +32410,7 @@ function openHeadquarter() {
     // a.style.flexGrow = '0.1';
     b.style.color = 'black';
     b.style.margin = '8px';
-    hqDiv.appendChild(b);
+    leftCol.appendChild(b);
 
     // Covid
     let c = document.createElement('p');
@@ -32399,7 +32418,7 @@ function openHeadquarter() {
     // a.style.flexGrow = '0.1';
     c.style.color = 'black';
     c.style.margin = '8px';
-    hqDiv.appendChild(c);
+    leftCol.appendChild(c);
 
     // Party Cohesion
     let d = document.createElement('p');
@@ -32407,17 +32426,18 @@ function openHeadquarter() {
     // a.style.flexGrow = '0.1';
     d.style.color = 'black';
     d.style.margin = '8px';
-    hqDiv.appendChild(d);
+    leftCol.appendChild(d);
 
     // Ideology
     let e = document.createElement('p');
-    e.innerHTML = 'People see you as a <b>' + ideText + '</b> (' + ideology + ')';
+    e.innerHTML = 'People see you as a' + ideText;
     // a.style.flexGrow = '0.1';
     e.style.color = 'black';
     e.style.margin = '8px';
-    hqDiv.appendChild(e);
+    leftCol.appendChild(e);
 
     // Image
+    /*
     let img = document.createElement('img');
     img.src = 'https://itsastronomical.com/assets/1912/wilsonbanner.png';
     img.style.height = '30%';
@@ -32425,7 +32445,7 @@ function openHeadquarter() {
     img.style.flexGrow = '0.1';
     img.style.border = '3px solid black';  // Add thin white border to the image
     hqDiv.appendChild(img);
-
+    */
 }
 
 function handleMutations(mutationsList, observer) {
