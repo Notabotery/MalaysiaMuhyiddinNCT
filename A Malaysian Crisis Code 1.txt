@@ -881,8 +881,14 @@ satiricalTooltipList = [
 ];
 
 informativeTooltipList = [
-    {searchString: "Pakatan Harapan", explanationText: "Representing the mainstream centre-left of Malaysian politics."},
-    {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"},
+    {searchString: "Pakatan Harapan", explanationText: "Pakatan Harapan (Pact of Hope) is the broad centre-left coalition representing the interests of racial minorities, Malay liberals and reformists. Its iterations have served as the main opposition force since 1998."},
+    {searchString: "PH", explanationText: "Pakatan Harapan (Pact of Hope) is the broad centre-left coalition representing the interests of racial minorities, Malay liberals and reformists. Its iterations have served as the main opposition force since 1998."},
+    {searchString: "Anwar", explanationText: "Anwar Ibrahim is the leader of PKR and by extension, PH. He has served as the main opposition figure in Malaysia since being sacked by Mahathir in 1998."},
+    {searchString: "reformasi", explanationText: "Reformasi, inspired by Indonesia, is a reformist political movement that was popularised by Anwar after the events of 1998 which called for the end of BN’s dominance in Malaysia, democracy and transparency."},
+    {searchString: "1998", explanationText: "In 1998, Anwar Ibrahim was fired from the cabinet, removed from UMNO, placed under investigation for sodomy, and was beaten in the eye by the Inspector General of Police. This was considered the start of Reformasi."},
+    {searchString: "Azmin Ali", explanationText: "A deputy president of PKR and Economic Minister under Mahathir’s government."},
+    {searchString: "Najib", explanationText: "Najib Razak is the 6th Prime Minister. Originally a moderate, he was implicated in the 1MDB scandal which causing protests, causing him to crack down. Along with other unpopular measures like a Goods and Services Tax, this contributed to BN’s loss in the 14th GE."},
+    {searchString: "Mahathir", explanationText: "Mahathir Mohamad is the 4th and 7th Prime Minister of Malaysia. He originally was considered the stalwart UMNO man but has increasingly criticised UMNO for the corruption under Najib He would then join the opposition, contributing to BN’s loss in 2018."},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
 
