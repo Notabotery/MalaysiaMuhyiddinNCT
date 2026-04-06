@@ -32088,6 +32088,13 @@ campaignTrail_temp.running_mate_state_id = '1104';
 // Set up tooltips
     function getTooltips(str) {
     let matches = [];
+    let tooltipList = [];
+
+    if (informative_tooltips) {
+        tooltipList = informativeTooltipList;
+    } else {
+        tooltipList = satiricalTooltipList;
+    }
 
     tooltipList.forEach((tooltip, index) => {
         // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
@@ -32122,6 +32129,14 @@ function applyTooltips(str) {
     const matches = getTooltips(str);
     let result = '';
     let lastIndex = 0;
+
+    let tooltipList = [];
+
+    if (informative_tooltips) {
+        tooltipList = informativeTooltipList;
+    } else {
+        tooltipList = satiricalTooltipList;
+    }
 
     matches.forEach(match => {
         const tooltip = tooltipList[match.tooltipIndex];

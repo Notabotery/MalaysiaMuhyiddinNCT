@@ -46,6 +46,19 @@ let stateSummaryChanger = new MutationObserver((mutationsList, observer) => {
      }
 });
 
+// Observer wrapper
+if(!campaignTrail_temp.observer){
+    campaignTrail_temp.observer = true;
+
+    let masterObserver = new MutationObserver(function() {
+        masterObserver.disconnect();
+        changeTooltips();
+        masterObserver.observe(document.body, { childList: true, subtree: true });
+    });
+
+    masterObserver.observe(document.body, { childList: true, subtree: true });
+}
+
 stateSummaryChanger.observe(document, { subtree: true, childList: true });
 
 
@@ -462,6 +475,60 @@ campaignTrail_temp.temp_election_list = [
     }
 ]
 
+informative_tooltips = true;
+
+// This is taken from 1996 - Hope
+function changeTooltips() {
+    var difficultyDiv = document.getElementById("difficulty_level");
+    if (difficultyDiv && !document.getElementById("informative")) { // Prevent multiple additions
+
+        // Informative tooltips selection form
+        var informativeForm = document.createElement("form");
+        informativeForm.name = "informative_tooltip_selection";
+
+        var informativeHeader = document.createElement("h3");
+        informativeHeader.textContent = "Informative Tooltips:";
+        informativeForm.appendChild(informativeHeader);
+
+        var informativeCheckbox = document.createElement("input");
+        informativeCheckbox.type = "checkbox";
+        informativeCheckbox.id = "informative";
+        informativeCheckbox.checked = true;
+        informativeForm.appendChild(informativeCheckbox);
+
+        difficultyDiv.appendChild(informativeForm);
+
+        // Informative checkbox logic
+        informativeCheckbox.addEventListener("change", function() {
+            var c = campaignTrail_temp.candidate_json;
+            if (!c || c.length < 2) return;
+
+            if (this.checked) {
+                informative_tooltips = true;
+            } else {
+                informative_tooltips = false;
+            }
+        });
+
+        // Adjust difficulty header safely
+        var difficultyForm = document.querySelector('form[name="difficulty_level_selection"]');
+        if (difficultyForm) {
+            var difficultyHeader = difficultyForm.querySelector('h3');
+            if (difficultyHeader) {
+                difficultyHeader.textContent = "Select campaign difficulty:";
+            }
+        }
+
+        // Style forms safely
+        var forms = difficultyDiv.querySelectorAll("form");
+        forms.forEach(f => {
+            f.style.display = "inline-block";
+            f.style.paddingLeft = "10px";
+            f.style.paddingRight = "10px";
+        });
+    }
+}
+
 jet_data = {
     "headerColor": "#003152",
     "windowColor": "#003152",
@@ -807,8 +874,14 @@ function addDynamicCSS() {
 
 addDynamicCSS();
 
-tooltipList = [
+satiricalTooltipList = [
     {searchString: "Pakatan Harapan", explanationText: "Neolibs"},
+    {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"},
+    {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
+];
+
+informativeTooltipList = [
+    {searchString: "Pakatan Harapan", explanationText: "Representing the mainstream centre-left of Malaysian politics."},
     {searchString: "Mahathir", explanationText: " <img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Stinky"},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
