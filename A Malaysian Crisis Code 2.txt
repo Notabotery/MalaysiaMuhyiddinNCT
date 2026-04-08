@@ -20,7 +20,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1300,
         "fields": {
             "priority": 1,
-            "description": "More than a year on from our victory in 2018 treachery is being committed. Leader of PKR Anwar remains adamant on his self-proclaimed righteous liberal reformasi and a handover date of the Prime Ministership from your mentor Mahathir. But he is an inherently incapable man, your mentor is smart in keeping Anwar away from the throne all those years ago and it would be wise to repeat the same today. Azmin Ali is the only guy wise enough in PKR to understand Anwar’s threat and the havoc he would bring to Malay-kind, he is your ally there. The Sword of Damocles in the form of a potential motion of no confidence hangs above your mentor, what shall you do?",
+            "description": "A year since our victory, treachery is planned. Anwar remains adamant on his self-proclaimed righteous reformasi and a handover date of the PMship from Mahathir. But as he is incapable, your mentor was smart in keeping Anwar away from the throne back in 1998 and it would be wise to do so again. Azmin Ali is the only guy wise enough in PKR to recognise Anwar’s threat and the havoc he would bring to Malays. The Sword of Damocles in the form of a no confidence motion hangs above your mentor, what shall you do?",
             "likelihood": 1
         }
     },
@@ -29,7 +29,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1301,
         "fields": {
             "priority": 2,
-            "description": "Tun M disdains the men in UMNO, especially against Najib and his ilk for “ruining the Malay spirit”. Given that our plan is predicated on their support, how should we approach them?",
+            "description": "Bad blood remains between many BERSATU members and their old colleagues in UMNO. While you have remained mum, Mahathir has been quite vocal about his hatred against Najib’s ilk. Given that they and Barisan Nasional command 30 seats in parliament, their support or lack thereof may make or break your plans.",
             "likelihood": 1
         }
     },
@@ -248,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6109,
         "fields": {
             "question": 1300,
-            "description": "Azmin Ali and his faction in PKR are already willing frogs. However his faction and BERSATU alone wouldn’t be sufficient for a parliamentary majority, you’d still need the ever pissed off UMNO that condemned you as a traitor for working with DAP."
+            "description": "Azmin Ali and his faction in PKR are already willing frogs. However his faction and BERSATU alone wouldn’t be sufficient for a parliamentary majority, I’d still need the ever pissed off UMNO that condemned me as a traitor for working with DAP."
         }
     },
     {
@@ -264,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6111,
         "fields": {
             "question": 1300,
-            "description": "PAS and UMNO together hold nearly 1/3rd of the Dewan Rakyat."
+            "description": "Dire times require desperate measures, a minority government could be possible with a confidence and supply agreement from UMNO and PAS. Though they dislike me, they’d never agree to work with DAP either."
         }
     },
     {
@@ -31569,7 +31569,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6109,
             "candidate": 300,
-            "answer_feedback": "Though Najib Razak’s indictment remains a thorn against full reconciliation with UMNO, they’ve acted cordially during the meeting. Outwardly you agree to their demands, but of course promises are made to be broken."
+            "answer_feedback": "Though Najib Razak’s indictment remains a thorn against full reconciliation with UMNO, they’ve acted cordially during the meeting alongside a much more willing PAS. Both agree to a coalition with some concessions from you. <br><br>But promises are made to be broken."
         }
     },
     {
@@ -31587,7 +31587,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6111,
             "candidate": 300,
-            "answer_feedback": "Anwar, ever the naive man, believes in you fully and the rumours pause. However Tun M reminds you this is merely a delay, not an end."
+            "answer_feedback": "Talks with PAS prove more positive than expected, in fact they even propose forming a coalition government with you instead. Ahmad Zahid tacitly approves of the coalition as well."
         }
     },
     {
