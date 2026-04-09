@@ -114,7 +114,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Muhyiddin Yassin - ",
             "last_name": "PN",
             "election": 21,
-            "party": "Parti Pribumi Bersatu Malaysia (BERSATU - Malaysian United Indigenous Party)",
+            "party": "Parti Pribumi Bersatu Malaysia (BERSATU)",
             "state": "Pagoh",
             "priority": 1,
             "description": "<div style=\"max-height: 200px; overflow-y: auto;\"><p>Operating under the nom de guerre of Muhyiddin Yassin, this rebel is a creature born out of Malaysia’s oldest and grandest political party - UMNO. Son of a cleric and protege of Mahathir Mohammad’s, he was the experienced model stalwart of flag and faith conservatism with a seemingly inevitable path to the premiership ahead of him.</p>  <p>Yet he was sacked by then Prime Minister Najib Razak for the crime of being against corruption. Despite the fall from grace the sacking had altered his name into one of equality and fairness aligned to the tune of the ever more desperate opposition who soon cooperated with him. The fools gladly opened the door for him, and his footprints now dot the Ministry of Home Affairs.</p> <p>The historic upset in the election has paved a way for the prodigal son who had seemingly returned, but beneath it was nothing more than a wolf in sheep’s clothing.</p>",
@@ -544,7 +544,7 @@ jet_data = {
 //#startcode
 
 
-corrr = '\n              <h2>𝐌𝐔𝐇𝐘𝐈𝐃𝐃𝐈𝐍.</h2><font id="wittyquote" size="4" color="white"><em>"Sudden change, even if it is for the good, is disruptive" - Mahathir Mohamad</em></font>\n            ';
+corrr = '\n              <h2>𝐌𝐔𝐇𝐘𝐈𝐃𝐃𝐈𝐍</h2><font id="wittyquote" size="4" color="white"><em>"Sudden change, even if it is for the good, is disruptive" - Mahathir Mohamad</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#003152";
@@ -887,7 +887,10 @@ informativeTooltipList = [
     {searchString: "reformasi", explanationText: "Reformasi, inspired by Indonesia, is a reformist political movement that was popularised by Anwar after the events of 1998 which called for the end of BN’s dominance in Malaysia, democracy and transparency."},
     {searchString: "1998", explanationText: "In 1998, Anwar Ibrahim was fired from the cabinet, removed from UMNO, placed under investigation for sodomy, and was beaten in the eye by the Inspector General of Police. This was considered the start of Reformasi."},
     {searchString: "Azmin Ali", explanationText: "A deputy president of PKR and Economic Minister under Mahathir’s government."},
+    {searchString: "Azmin", explanationText: "A deputy president of PKR and Economic Minister under Mahathir’s government."},
     {searchString: "Najib", explanationText: "Najib Razak is the 6th Prime Minister. Originally a moderate, he was implicated in the 1MDB scandal sparking protests, causing him to crack down. Along with other unpopular measures like a Goods and Services Tax, this contributed to BN’s loss in the 14th GE."},
+    {searchString: "Zahid", explanationText: "Ahmad Zahid Hamidi was the Leader of the Opposition immediately after PH’s victory and the current president of UMNO after winning convincingly in the leadership elections after Najib stepped down. MP of Bagan Datuk, Perak."},
+    {searchString: "Ahmad Zahid", explanationText: "Ahmad Zahid Hamidi was the Leader of the Opposition immediately after PH’s victory and the current president of UMNO after winning convincingly in the leadership elections after Najib stepped down. MP of Bagan Datuk, Perak."},
     {searchString: "Mahathir", explanationText: "Mahathir Mohamad is the 4th and 7th Prime Minister of Malaysia. He originally was considered the stalwart UMNO man but has increasingly criticised UMNO for the corruption under Najib He would then join the opposition, contributing to BN’s loss in 2018."},
     {searchString: "Tun M", explanationText: "Mahathir Mohamad is the 4th and 7th Prime Minister of Malaysia. He originally was considered the stalwart UMNO man but has increasingly criticised UMNO for the corruption under Najib He would then join the opposition, contributing to BN’s loss in 2018."},
     {searchString: "PKR", explanationText: "Parti Keadilan Rakyat (People’s Justice Party) is a reformist political party that is lead by Anwar Ibrahim. It is the leading party in PH. Its membership consists of reformist and liberal Malays with some Chinese and Indians."},
@@ -903,11 +906,17 @@ informativeTooltipList = [
     {searchString: "MUDA", explanationText: "Malaysian United Democratic Alliance. The acronym spells out 'Young'. The party claims to represent Youth Interests though most people believe it to be Syed Saddiq’s personal political vehicle."},
     {searchString: "GRS", explanationText: "Gabungan Rakyat Sabah (Sabah People’s Coalition) is a coalition of regionalist Sabah-based parties. The parties used to be members of BN before leaving after BN’s loss in GE14. The main rival of Warisan in Sabah."},
     {searchString: "Warisan", explanationText: "Parti Warisan Sabah (Sabah Heritage Party) is a Sabah based regional party lead by Shafie Apdal. It assisted in PH’s campaign against Najib in GE14 though it still maintains its independence from PH."},
-    {searchString: "Sabah", explanationText: "Sabah is a state in North East Malaysian Borneo. Politics is dominated by Warisan, GRS with some presence of PH in the cities."},
+    {searchString: "Sabah", explanationText: "Sabah is a state in Northeast Malaysian Borneo. Politics is dominated by Warisan, GRS with some presence of PH in the cities. Patronage networks and personality politics reign here."},
+    {searchString: "Sarawak", explanationText: "Sarawak is a state in Southwest Malaysian Borneo. The largest of the 13 states and the only majority Christian state in Malaysia. Politics is dominated by regional parties in coalition as part of GPS with minor DAP presence in Chinese majority, urban seats."},
+    {searchString: "Selangor", explanationText: "Selangor is a state in the Southwest Malaysian Peninsula. It is the most populous state in the country with a mixed ethnic population of urban dwellers. The first state that fell to PH’s predecessors and has been a bastion of liberal politics since."},
+    {searchString: "Kelantan", explanationText: "Kelantan is a state in the Northeast Malaysian Peninsula. It is considered the pearl in PAS’s crown of northern state dominance as they have ruled it for decades. Though BN still gives a challenge up there. Made up of rural, religious conservative Malays."},
+    {searchString: "Pulau Pinang", explanationText: "Pulau Pinang is a state in the Northwest Malaysian Peninsula, bordering Kedah. It is the only state with a Malaysian Chinese plurality and is considered to be DAP’s backyard, though some BN and PAS hold outs exist on the mainland."},
+    {searchString: "Johor", explanationText: "Johor is a state in the southern tip of the Malaysian Peninsula, adjacent to Singapore. It was the last independent sultanate in the country before joining Malaya with an independently minded Sultan. One of the few states BN dominates."},
+    {searchString: "Perak", explanationText: "Perak is a state on the west coast of the Malaysian Peninsula, north of Selangor. It is considered a Northern state but unlike the others, has a notable minority population. Somewhat middle-of-the-road politically as most mainstream parties are competitive here."},
     {searchString: "The King", explanationText: "Malaysia operates, de jure, under an elective monarch, called the Agong, who is elected among the 9 monarchs of Malaysia. De facto, it is a rotational system where each state gets a turn every 5 years. Current YDPA is Sultan Abdullah of Pahang."},
     {searchString: "our victory", explanationText: "GE14 which was held in 2018, is the first election in which the BN coalition was voted out. A coalition of Malay liberals and reformists, Chinese and Indians, Sabah regionalists and disaffected conservatives worked together to achieve this victory."},
-    {searchString: "Rakyat", explanationText: "Malay word meaning 'The People'.'"},
-    {searchString: "1MDB", explanationText: "Malay word meaning 'The People'.'"},
+    {searchString: "Rakyat", explanationText: "Malay word meaning 'The People'."},
+    {searchString: "1MDB", explanationText: "1Malaysia Development Berhad was a sovereign wealth fund that was used to systematically embezzle $700 million in 2015 into Najib Razak’s bank account, contributing to his loss in GE14."},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
 
