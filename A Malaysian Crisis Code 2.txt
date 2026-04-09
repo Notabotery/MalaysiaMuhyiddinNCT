@@ -272,7 +272,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6112,
         "fields": {
             "question": 1301,
-            "description": "No love lost by sidelining Najib, he is a bastard who ruined the Razak legacy. I will give some concessions to Zahid, maybe drop one or two cases but I will not cooperate with him directly."
+            "description": "We won in 2018 because we were championing against corruption and for change from the Grand Old Party. Any collaboration with UMNO would have to be preceded by a thorough investigation into the kleptocrat Ahmad Zahid."
         }
     },
     {
@@ -280,7 +280,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6113,
         "fields": {
             "question": 1301,
-            "description": "Tun M is vengeful and seeking blood but I can’t let him tear the Grand Old Party apart just because we are temporarily opposed to each other. He will not like this but it’s the best way to secure a win."
+            "description": "We won in 2018 because we were championing against corruption and for change from the Grand Old Party. However, 1MDB was primarily Najib’s doing, it would be wise to not make any more enemies inside the party."
         }
     },
     {
@@ -873,6 +873,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1319,
             "description": "People on the left continue to spread lies and misinformation about our attempts to develop a vaccine. No less than Kamala Harris just said she wouldn't take it. That's the biggest threat to recovery during my second term."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52989,
+        "fields": {
+            "question": 1301,
+            "description": "We can’t underestimate Najib’s support among the rural poor who still revere him as Bossku for his handouts and welfare policies. Nostalgia may also work in our favour if we recruit him onboard, many see his tenure as a stable one."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52990,
+        "fields": {
+            "question": 1301,
+            "description": "We can’t underestimate Najib’s support among the rural poor who still revere him as Bossku for his handouts and welfare policies. However we have to keep him at arms length from the administration, his name has been tainted by corruption."
         }
     }
 ]
@@ -31794,7 +31810,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6134,
             "candidate": 300,
-            "answer_feedback": "Eliminating Syed Saddiq and his clique within Bersatu was expected. Removing all opponents within Bersatu was not. It was a bloodbath. No one would have expected measures as extreme as this. In the end, you managed to take full control of Bersatu but the dissidents started to see what Tun M meant. Tun M’s Pejuang, and to a lesser extent, UMNO’s ranks swell. Syed Saddiq would move on to form a youth oriented party called MUDA aligned with the opposition."
+            "answer_feedback": "Eliminating SS and his clique within Bersatu was expected. Removing all opponents withinwas not. It was a bloodbath. No one would have expected measures as extreme. You managed to take full control of Bersatu but the dissidents started to see what Tun M meant. Tun M’s Pejuang, and to a lesser extent, UMNO’s ranks swell. Syed Saddiq would form a youth-oriented party called MUDA aligned with the opposition."
         }
     },
     {
@@ -31803,7 +31819,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6135,
             "candidate": 300,
-            "answer_feedback": "Syed Saddiq was brought onto Bersatu to appeal to Malaysians who weren’t so keen on naked Ketuanan Melayu. The younger Malays. His services are no longer needed. He was disappointed, perhaps naively so. Later you would find out that Syed Saddiq has established a youth oriented party called MUDA, aligned with the Opposition"
+            "answer_feedback": "[SS was brought onto Bersatu to appeal to Malaysians who weren’t so keen on naked Ketuanan Melayu. The younger Malays. His services are no longer needed. He was disappointed, perhaps naively so. Later you would find out that Syed Saddiq has established a youth oriented party called MUDA, aligned with the Opposition."
         }
     },
     {
@@ -31812,7 +31828,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6136,
             "candidate": 300,
-            "answer_feedback": "Perhaps you could still find use with Syed Saddiq. He seems grateful that you are giving him a chance but Tun M is outraged by what seems like another betrayal by another protege.Syed Saddiq will remain in BERSATU, saying he will try to reach a compromise with Tun M but you know that will never happen. However, all your other enemies within BERSATU smell weakness."
+            "answer_feedback": "Perhaps you could still find use with SS. He seems grateful that you are giving him a chance but Tun M is outraged by what seems like betrayal by another protege.Syed Saddiq will remain in BERSATU, saying he will try to reach a compromise with Tun M but you know that will never happen. However, all your other enemies within BERSATU smell weakness."
         }
     },
     {
@@ -32029,6 +32045,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 6203,
             "candidate": 300,
             "answer_feedback": "Let's see what kind of an effect this story has on the final days of the campaign."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52991,
+        "fields": {
+            "answer": 52989,
+            "candidate": 300,
+            "answer_feedback": "[No Feedback Yet]"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52992,
+        "fields": {
+            "answer": 52990,
+            "candidate": 300,
+            "answer_feedback": "[No Feedback Yet]"
         }
     }
 ]

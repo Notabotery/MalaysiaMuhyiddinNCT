@@ -906,6 +906,8 @@ informativeTooltipList = [
     {searchString: "Sabah", explanationText: "Sabah is a state in North East Malaysian Borneo. Politics is dominated by Warisan, GRS with some presence of PH in the cities."},
     {searchString: "The King", explanationText: "Malaysia operates, de jure, under an elective monarch, called the Agong, who is elected among the 9 monarchs of Malaysia. De facto, it is a rotational system where each state gets a turn every 5 years. Current YDPA is Sultan Abdullah of Pahang."},
     {searchString: "our victory", explanationText: "GE14 which was held in 2018, is the first election in which the BN coalition was voted out. A coalition of Malay liberals and reformists, Chinese and Indians, Sabah regionalists and disaffected conservatives worked together to achieve this victory."},
+    {searchString: "Rakyat", explanationText: "Malay word meaning 'The People'.'"},
+    {searchString: "1MDB", explanationText: "Malay word meaning 'The People'.'"},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"}
 ];
 
