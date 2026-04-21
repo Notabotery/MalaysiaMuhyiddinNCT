@@ -20,7 +20,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1300,
         "fields": {
             "priority": 1,
-            "description": "A year since our victory, treachery is planned. Anwar remains adamant on his self-proclaimed righteous reformasi and a handover date of the PMship from Mahathir. But as he is incapable, your mentor was smart in keeping Anwar away from the throne back in 1998 and it would be wise to do so again. Azmin Ali is the only guy wise enough in PKR to recognise Anwar’s threat and the havoc he would bring to Malays. The Sword of Damocles in the form of a no confidence motion hangs above your mentor, what shall you do?",
+            "description": "A year since our victory, treachery is planned. Anwar is adamant on his self-righteous reformasi and a handover date of the executive from Mahathir. But as he is incapable, your mentor was smart in keeping him away from the throne back in 1998 and it would be wise to repeat that. Azmin Ali is the only guy wise enough in PKR to recognise Anwar’s threat and the havoc he would bring to Malays. Damocles' Sword in the form of a no confidence motion hangs above your mentor. What shall you do?",
             "likelihood": 1
         }
     },
@@ -4010,7 +4010,7 @@ campaignTrail_temp.issues_json = [
         "pk": 110,
         "fields": {
             "name": "Identity Politics",
-            "description": 0,
+            "description": "The main issue in Malaysian politics, even more than class or corruption is ethnicity. Malays and non-Malays tend to live siloed lives, consume different media and rarely marry interethnically. Ethnicity accurately predicts party lines almost cleanly. So far no party has managed to transcend this divide.",
             "stance_1": "Nazi Goreng",
             "stance_desc_1": 0,
             "stance_2": "Malay Majority",
@@ -4033,7 +4033,7 @@ campaignTrail_temp.issues_json = [
         "pk": 111,
         "fields": {
             "name": "Piety",
-            "description": 0,
+            "description": "How Islamic a parliament constituency is. Seats in the north and east of the peninsula tend to lean more Islamic while those on the south and west coast less so. Sarawak is the most unislamic state as it is Christian.",
             "stance_1": "Taliban",
             "stance_desc_1": 0,
             "stance_2": "True Believers",
@@ -4056,7 +4056,7 @@ campaignTrail_temp.issues_json = [
         "pk": 112,
         "fields": {
             "name": "Corruption",
-            "description": 0,
+            "description": "Corruption used to be an open secret among Malaysian politicians in the past - Nothing wrong with pocketing a little while enriching the people. The 1MDB scandal, with the scale and the imposition of higher sales taxes has made corruption unacceptable to reform-minded voters. Mostly to the detriment of BN.",
             "stance_1": "Bersihkan Malaysia!",
             "stance_desc_1": 0,
             "stance_2": "Bersihkan Malaysia!",
@@ -4079,7 +4079,7 @@ campaignTrail_temp.issues_json = [
         "pk": 113,
         "fields": {
             "name": "Development",
-            "description": 0,
+            "description": "Kuala Lumpur and to a lesser extent, Pulau Pineng, has benefitted through government and private investment. Not all of the country hass experienced the benefits of modernisation, however. Some due to federal neglect but sometimes due to state-level incompetence.",
             "stance_1": "Tree Dwelling",
             "stance_desc_1": 0,
             "stance_2": "Rural",
@@ -4102,7 +4102,7 @@ campaignTrail_temp.issues_json = [
         "pk": 114,
         "fields": {
             "name": "Mosques",
-            "description": 0,
+            "description": "Even in the more religious minded areas of the country, there are BN-aligned mosques and PAS-aligned mosques. Mosque-goers don't tend to cross-over to the other mosque. Predictably, clerics preach in support of their aligned parties.",
             "stance_1": "Munafik",
             "stance_desc_1": 0,
             "stance_2": "Pro-BN",
