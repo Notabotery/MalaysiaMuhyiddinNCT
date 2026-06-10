@@ -4079,7 +4079,7 @@ campaignTrail_temp.issues_json = [
         "pk": 113,
         "fields": {
             "name": "Development",
-            "description": "Kuala Lumpur and to a lesser extent, Pulau Pineng, has benefitted through government and private investment. Not all of the country hass experienced the benefits of modernisation, however. Some due to federal neglect but sometimes due to state-level incompetence.",
+            "description": "Kuala Lumpur and to a lesser extent, Pulau Pineng, has benefitted through government and private investment. Not all of the country has experienced the benefits of modernisation, however. Some due to federal neglect but sometimes due to state-level incompetence.",
             "stance_1": "Tree Dwelling",
             "stance_desc_1": 0,
             "stance_2": "Rural",
