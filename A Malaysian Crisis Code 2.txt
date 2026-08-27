@@ -20,7 +20,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1300,
         "fields": {
             "priority": 1,
-            "description": "A year since our victory, treachery is planned. Anwar is adamant on his self-righteous reformasi and a handover date of the executive from Mahathir. But as he is incapable, your mentor was smart in keeping him away from the throne back in 1998 and it would be wise to repeat that. Azmin Ali is the only guy wise enough in PKR to recognise Anwar’s threat and the havoc he would bring to Malays. Damocles' Sword in the form of a no confidence motion hangs above your mentor. What shall you do?",
+            "description": "From its inception Pakatan Harapan was but a ploy to get us into power and eventually oust the Chinese and Anwar from politics, forever. The handshake with Lim Kit Siang was just a temporary truce with the devil, not a peace treaty. We have dragged our feet as long as possible to delay progress on their manifesto, but smoke and mirrors can only take us so far. There’s already a palpable sense of betrayal within the national atmosphere. Of course it was never meant to be for them, their delusions were never going to be fulfilled. We are racing against the clock before Anwar gets suspicious. ",
             "likelihood": 1
         }
     },
@@ -29,7 +29,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1301,
         "fields": {
             "priority": 2,
-            "description": "Bad blood remains between many BERSATU members and their old colleagues in UMNO. While you have remained mum, Mahathir has been quite vocal about his hatred against Najib’s ilk. Given that they and Barisan Nasional command 30 seats in parliament, their support or lack thereof may make or break your plans.",
+            "description": "Barisan Nasional, and by extension UMNO, commands 37 seats in the Dewan Rakyat which provides a good deal of MPs for any attempt to form a governing majority. The choice to include them in Operation Hijrah is obvious. But Tun M is too stuck in his old grudges to see the future, he would rather die than let Ahmad Zahid in. In fact he has been itching to deal one final blow to the old party and complete the half-done burial from 1988 by deregistering the party again to force their members over into BERSATU. The young, like you, are more open-minded in this regard.",
             "likelihood": 1
         }
     },
@@ -38,7 +38,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1302,
         "fields": {
             "priority": 3,
-            "description": "For the first time since your days as Deputy Prime Minister you have a chance of securing the premiership. Tun M understands his mortality and is keen on finding a steward who can keep the seat warm for his son to take the reins. Azmin used to be the old man’s favourite, but the sex tapes scandal and the ECRL project fiasco has made him a liability.",
+            "description": "Tun M promised Anwar two things before the election. Firstly, a royal pardon to release him from Sungai Buloh. Secondly, the position of Prime Minister. While the former has been dutifully fulfilled, the latter was a red line the old man was never going to cross. Yet Anwar still childishly clings onto the possibility, harping about a timeline for the transfer of power. This charade has gone on longer than we would’ve liked, but we aren’t ready to throw him out yet. How should we excuse ourselves without arousing too much suspicion?",
             "likelihood": 1
         }
     },
@@ -47,7 +47,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1303,
         "fields": {
             "priority": 3,
-            "description": "Your eyes and ears, Syed Saddiq and Azmin were in the meeting with the other leaders of PH. Old and frail, Tun M had reportedly given in to Anwar’s demands signalling a potential handover after APEC in November. This could squander your effort assembling the Signatory Declaration list.",
+            "description": "Azmin Ali is a man of many talents, and many faces. A decade ago, he was a PKR stalwart and Anwar's right-hand man. Today he’s at blows with his old protege despite still nominally being second in command. Perhaps he has realised that prolonged mentorship under Anwar would never truly satiate his ambitions and is now seeking more from us. Tun M recruited him back in 2018 as the newly created Economic Affairs Minister to rein in on the powers of Lim Guan Eng as the Finance Minister. Since then he’s practically become the adoptive son of the old man and a favourite to succeed him as Prime Minister, which complicates your own pathway to the coveted position. Regardless of your opinion on him, he’s still a valuable asset for the time being. ",
             "likelihood": 1
         }
     },
@@ -56,7 +56,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1304,
         "fields": {
             "priority": 3,
-            "description": "It's 9pm. Chants of “Hidup Tun!” echo throughout the Sheraton Hotel, shouted by supporters clad in BERSATU red. An announcement was to be made soon and there would be no turning back, and yet amidst the crowd you see Syed Saddiq and Rina Harun charging right through the front door. “Call it off!”, they cried.",
+            "description": "Depending on who you ask, most still remember you as the Deputy Prime Minister sacked by Najib Razak for speaking out against the 1MDB scandal back in 2015. The Rakyat doesn’t seem to have a strong opinion on the man known as Muhyiddin Yassin at the moment, a man with a good shot at becoming the Prime Minister if, God forbid, things go south for Tun M. Thankfully, besides your secondary work as a conspirator, you are still in charge of the Ministry of Home Affairs. What shall you do?",
             "likelihood": 1
         }
     },
@@ -65,7 +65,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1305,
         "fields": {
             "priority": 3,
-            "description": "The swift end to the government has made the Rakyat shocked and the aristocracy now scrambles for a new leader. The King has decided to interview all 221 MPs except Tun M in search of a candidate with parliamentarian backing. So far the list of supporters you’ve gained was done under the old man’s name, not yours. If you’re to see any chance of securing a position, tread carefully.",
+            "description": "Azmin Ali’s luck has finally run out. He was absent. Instead he decided to announce the cancellation all by himself in front of the press, infuriating the old man in the process. The only other player in contention to become Tun M’s designated successor just took himself out of the game. The only issue now is, how do you convey your wishes to Tun M privately?",
             "likelihood": 1
         }
     },
@@ -74,7 +74,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1306,
         "fields": {
             "priority": 4,
-            "description": "Emerging from the debris is you—Muhyiddin Yassin. Once thought to have been a politically exhausted roadside attraction, you now stand as the 8th Prime Minister. Flanked by the Jalur Gemilang on your sides, you begin your first ever televised speech to a disoriented Rakyat.",
+            "description": "21 February 2020. Operation Hijrah is nearing completion, all that’s left is to kickstart it. Tun M decided to host a late-night retreat at his home with other Pakatan Harapan leaders for one final confrontation on the handover. There the truth was to be revealed, and for you to deliver the coup de grace. Due to your outstation duties for the operation, you had sent Youth Chief Syed Saddiq as your eyes and ears in the meeting instead of attending. You sit at the bedside awaiting a message from him to greenlight the move. It never comes. Instead, the meeting turns tense. Tun M relents. Anwar gets his date. November after APEC. The conspiracy is cancelled",
             "likelihood": 1
         }
     },
@@ -83,7 +83,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1307,
         "fields": {
             "priority": 4,
-            "description": "You’ve barely started picking out your cabinet when another crisis has been thrusted upon your desk. It appears that the emerging pandemic has since developed into a full blown global crisis as the Tablighi Jamaat conference which coincidentally occurred just a day before your speech has now become South East Asia’s largest COVID-19 superspreader event.",
+            "description": "While the sun had risen, the nightmare had yet to end. During the morning extraordinary meeting you showed Tun M the statutory declaration list containing 134 politicians from BERSATU, UMNO, PAS, Azmin’s faction from PKR, GPS, and Warisan, more than enough to form a majority government. To your horror, the old man hems and haws on the decision to start Operation Hijrah. He’s still holding out to some false hope that cooperation with UMNO could be sidestepped, and that we simply had to reassure the King we still maintained majority support. Anwar has certainly caught wind of the betrayal and is on the move to stop us, the clock is ticking. ",
             "likelihood": 1
         }
     },
@@ -92,7 +92,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1308,
         "fields": {
             "priority": 4,
-            "description": "Managing the executive branch is a much trickier task. Thankfully our constitution is much more forgiving in this regard allowing you some leniency in opening and closing positions. This works in your favour when you need to get as much support as possible. You need to figure out where to distribute your sweets, which backdoor deals to seal.",
+            "description": "9pm. A sea of supporters clad in BERSATU red have filled up the ballroom of the Sheraton Hotel chanting “Hidup Tun!”. Unbeknownst to them, Tun M has not given you the greenlight. An announcement for BERSATU to pull out of Pakatan Harapan was to be made soon and there would be no turning back. A new governing coalition called Perikatan Nasional would be formed based on politicians from the Statutory Declaration list. Yet amidst the crowd you see Syed Saddiq and Rina Harun charging right through the front door. “Call it off!”, they cried. It’s a message straight from the old man.",
             "likelihood": 1
         }
     },
@@ -101,7 +101,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1309,
         "fields": {
             "priority": 5,
-            "description": "Elephants do not forget, and Tun M is an old elephant who has toiled in the halls of politics for as long as anyone can remember. Still seeking vengeance from your betrayal, rumours have spread of a collaboration between him and Shafie Apdal in tabling a motion of no confidence against your rule on the 18th of May a few weks from now. Though a passing of the motion is unlikely, a motion being tabled at all is not a good look.",
+            "description": "You’ve gone from a humble vizier to the face of BERSATU overnight, much to your old master’s dismay. Unwilling to have his moment in the spotlight be taken away, Tun M had rallied an abortive attempt to ally with Anwar and DAP to prevent a BERSATU-UMNO-PAS takeover of the government. Parliament is now split between three candidacies, Tun M, Anwar, and you. Perdana Putra is just an arms reach away and you hold a slight advantage against the other two. PAS has already confirmed it will join the Perikatan Nasional alliance you’ve been touting, and UMNO has been receptive to being a partner of your government, all that’s left is to ensure that they’ll throw their full weight behind you.",
             "likelihood": 1
         }
     },
@@ -110,7 +110,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1310,
         "fields": {
             "priority": 5,
-            "description": "The party you founded and led alongside Tun M still remains bitterly divided even as your hold on leadership remains strong. It appears that a faction within the party led by Syed Saddiq, along with the old man himself, still harbours delusions of remaining within PH. Syed Saddiq reaches out to you to try and make amends but a part of you laughs. You hold all the cards.",
+            "description": "They all doubted you could ever mount a comeback, but you’ve proven all the naysayers wrong. You’ve outwitted the oldest political veteran in this country and won. Flanked by the Jalur Gemilang on your sides, you begin your first ever televised speech to a disoriented nation as the 8th Prime Minister of Malaysia.",
             "likelihood": 1
         }
     },
@@ -119,7 +119,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1311,
         "fields": {
             "priority": 5,
-            "description": "Next up the chopping block is the Speaker Mohamad Ariff. The margin of support for and against him is slim and the voting procedure could go down to the wire. Even if we manage to vote him out, there’s still the question of his replacement. If we are able to elect a sympathetic speaker, it will make passing any substantive legislation all the more easier.",
+            "description": "A month has passed since the first case of an infectious disease known as the coronavirus was reported in Malaysia. A religious event known as the Tablighi Jamaat conference was held in Kuala Lumpur just a day before your first speech as Prime Minister. It has since become Southeast Asia’s largest COVID-19 superspreader event less than a week into your tenureship. This may prove to be the biggest crisis faced by any sitting Prime Minister since the May 13th Incident.",
             "likelihood": 1
         }
     },
@@ -248,23 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6109,
         "fields": {
             "question": 1300,
-            "description": "Azmin Ali and his faction in PKR are already willing frogs. However his faction and BERSATU alone wouldn’t be sufficient for a parliamentary majority, I’d still need the ever pissed off UMNO that condemned me as a traitor for working with DAP."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6110,
-        "fields": {
-            "question": 1300,
-            "description": "The handover date was nothing but a gentlemanly agreement between Mahathir and Anwar, the old man should be free to walk at his own pace."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6111,
-        "fields": {
-            "question": 1300,
-            "description": "Dire times require desperate measures, a minority government could be possible with a confidence and supply agreement from UMNO and PAS. Though they dislike me, they’d never agree to work with DAP either."
+            "description": "Tun M gives you an order to organise the disparate Malay parties into one united front by brokering backroom deals with PAS. Hishamuddin will be the charge d'affaires for UMNO-BERSATU relations, trying to broker a similar deal to yours. Once critical mass is reached, we’ll throw DAP and Anwar out from within. Operation Hijrah."
         }
     },
     {
@@ -272,7 +256,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6112,
         "fields": {
             "question": 1301,
-            "description": "We won in 2018 because we were championing against corruption and for change from the Grand Old Party. Any collaboration with UMNO would have to be preceded by a thorough investigation into the kleptocrat Ahmad Zahid."
+            "description": "Actually, Tun M might have the right idea. We shouldn’t show mercy to an unrehabilitated UMNO, and this means weeding out any remaining Najib sympathisers starting with Ahmad Zahid. Once we deregister their party they’ll jump like rats off a sinking ship."
         }
     },
     {
@@ -280,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6113,
         "fields": {
             "question": 1301,
-            "description": "We won in 2018 because we were championing against corruption and for change from the Grand Old Party. However, 1MDB was primarily Najib’s doing, it would be wise to not make any more enemies inside the party."
+            "description": "It would be an impossible task to sway the vast civil service overnight. UMNO has maintained a trance-like grip over them since Independence. Unification would have to be gradual; we need time to assuage the institutions and prepare ourselves for their arrival."
         }
     },
     {
@@ -288,7 +272,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6114,
         "fields": {
             "question": 1302,
-            "description": "Azmin commands the support of 16 PKR MPs, we can’t risk his loyalty by throwing him to the curb. I’ll talk to Tun M, he’s wise, he should know how important this guy is."
+            "description": "The handover date was nothing but a gentlemen’s agreement between Tun M and Anwar with no legal binding effect. A handover of the most powerful position in this country is an entirely different beast to handle than a royal pardon, Anwar should know that."
         }
     },
     {
@@ -296,7 +280,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6115,
         "fields": {
             "question": 1302,
-            "description": "Things are moving very fast right now, Azmin might’ve already caught wind of his falling out with the old man. Schedule me a meeting with Tun M. I formed this party with him, I fought Najib, I know the game."
+            "description": "Everything should go at its own pace. Reform is a slow and arduous process, and it would be unwise if our current progress is disturbed by a sudden change in leadership so early into Tun M’s tenure. We don’t want a lame duck, do we?"
         }
     },
     {
@@ -304,7 +288,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6116,
         "fields": {
             "question": 1302,
-            "description": "Tun M is an astute man who knows his cards, if I’m going to play I should play by his rules. Get me Daim and we’ll have a meeting."
+            "description": "Well in fact I’ve been thinking about a potential timeline. Doesn’t mean it has to be fulfilled, it just has to be shown to the public. We still have enough residual credibility from the royal pardon to make it believable."
         }
     },
     {
@@ -312,7 +296,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6117,
         "fields": {
             "question": 1303,
-            "description": "Coward! I can’t let him derail all our progress so close to fruition. I’m doing this with or without him."
+            "description": "I’m handling Operation Hijrah work just fine, no need to reveal unnecessary information to an asset. Have him keep his head down and continue work as minister until the go ahead to jump over is given. We don’t want to overplay our own deck."
         }
     },
     {
@@ -320,7 +304,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6118,
         "fields": {
             "question": 1303,
-            "description": "We have to convince him, maybe a compromise can be made without his involvement?"
+            "description": "The media will be all over the PKR Congress in Melaka this coming December. We should entertain them, show them what the party of Reformasi is really like. Maybe something that will rile the senses, perhaps an angry walkout from Azmin Ali and his faction."
         }
     },
     {
@@ -328,7 +312,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6119,
         "fields": {
             "question": 1303,
-            "description": "Fine, I’m not risking going against his orders."
+            "description": "Have him over at the Mont Kiara office, his insights into PKR would be very valuable for contingency planning in case we screw up. You can’t kill people like that with one fell swoop. Remember how they treat their own men once they’re out of line? Poor old Khalid Ibrahim."
         }
     },
     {
@@ -336,7 +320,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6120,
         "fields": {
             "question": 1304,
-            "description": "Call it off."
+            "description": "I need something to shore up my Malay right credentials. DAP harbours a bunch of Liberation Tigers of Tamil Eelam terrorist sympathisers. I’ve seen their Facebook accounts, they need to be brought into light."
         }
     },
     {
@@ -344,7 +328,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6121,
         "fields": {
             "question": 1304,
-            "description": "No."
+            "description": "Border security and sovereignty, simple as that. Sabah has been subjected to an out-of-control immigration policy for far too long, it’s time to deport illegal boat people back to where they belong and unify the confusing web of documentation into one slick temporary pass."
         }
     },
     {
@@ -352,7 +336,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6122,
         "fields": {
             "question": 1305,
-            "description": "Tun M had the right idea before his cowardice overtook him. We need a unity government with all the previous PH component parties and the opposition. Dire times call for dire measures."
+            "description": "I’ll just say what Tun M wants to hear. That I’ve always maintained caution around Azmin Ali and kept him at arm's length. That his maverick status is going to be a liability when Operation Hijrah is implemented. That he’s just too erratic to be trustworthy even if he’s entirely loyal."
         }
     },
     {
@@ -360,7 +344,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6123,
         "fields": {
             "question": 1305,
-            "description": "We share the same ideological roots with UMNO and PAS and I know they would definitely abhor any deal with DAP and PKR. We just have to convince them that I would lead a truly Malay government."
+            "description": "Tun M has been playing this game longer than anyone else here, my words won’t change his mind. Hell, in terms of age I am practically his son. If I want to get to him, I have to get his own to be my representative. Call up Daim and remind Tun M of the good old times. "
         }
     },
     {
@@ -368,7 +352,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6124,
         "fields": {
             "question": 1306,
-            "description": "'...I'm not a traitor, I only wanted to save the country…'"
+            "description": "I’m not letting some spur of the moment cowardice derail what we…no, what<b> I </b>did. I’m not calling it off just because Tun M gets cold feet after all I’ve done. Azmin Ali is still in on the plan, call him. I’ll not have that old man throw away my only chance at salvation."
         }
     },
     {
@@ -376,31 +360,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6125,
         "fields": {
             "question": 1307,
-            "description": "Light Controls."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6126,
-        "fields": {
-            "question": 1307,
-            "description": "Medium Controls."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6127,
-        "fields": {
-            "question": 1307,
-            "description": "Heavy Controls."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6128,
-        "fields": {
-            "question": 1307,
-            "description": "Racism."
+            "description": "We need a final push to convince him. If we make it a fait accompli, he’ll be forced to accept the fact and remain Prime Minister, wouldn’t he? We just need to show the King that Tun M has the numbers for a majority government without Anwar or DAP. "
         }
     },
     {
@@ -408,7 +368,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6129,
         "fields": {
             "question": 1308,
-            "description": "We need the Rakyat’s support as much as the parliamentarians. Technocrats, young guns, mid-level bureaucrats that won’t bat an eye, those that haven’t gotten enough time to tarnish their own reputation, those will be my men."
+            "description": "We...we're done. He knows. We can't challenge him. It’s over. Call it off."
         }
     },
     {
@@ -416,7 +376,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6130,
         "fields": {
             "question": 1308,
-            "description": "We need to consolidate parliamentary support to pass legislation and that means consolidating support from Muafakat Nasional as well. What Azmin started in PKR could very well happen over here as well and I’m not looking forward to a repeat."
+            "description": "No."
         }
     },
     {
@@ -424,7 +384,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6131,
         "fields": {
             "question": 1309,
-            "description": "All I need is to convince the old man to drop the charade and that a fight against me would be worthless, after all a sweetener always works."
+            "description": "I want to run a tight ship with people who share my vision. Historically having two Deputy Prime Ministers is not unheard of, and I feel they should be awarded to UMNO and PAS for their loyalty. As for the Borneans, they’re fence-sitters who would go with anyone who becomes the victor, feeding them now would be overkill."
         }
     },
     {
@@ -432,15 +392,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6132,
         "fields": {
             "question": 1309,
-            "description": "Shafie Apdal’s position in Sabah isn’t the most stable. What if I help shore up his support in exchange for his silence?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6133,
-        "fields": {
-            "question": 1309,
-            "description": "If we remove any sympathisers within the Dewan Rakyat’s bureaucracy the plan won’t go anywhere. The secretary seems suspicious."
+            "description": "There’s always plenty of cake to go around. The question surrounding favouritism in regard to the Deputy position is a non-issue. There is no constitutional article demanding there to be one Deputy, I could have 4 Deputies for that matter, awarded for loyalty. A little bit of sacrifice in ideological rigidity goes a long way in ensuring I have a support base."
         }
     },
     {
@@ -448,23 +400,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6134,
         "fields": {
             "question": 1310,
-            "description": "Purge the traitors within our ranks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6135,
-        "fields": {
-            "question": 1310,
-            "description": "Don’t be too hasty, let’s just expel the liberals and their associates."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 6136,
-        "fields": {
-            "question": 1310,
-            "description": "Malay Unity must hold."
+            "description": "“I am a Prime Minister for all Malaysians from Perlis to Sabah. Whatever race or ethnicity, I am your Prime Minister. Give me a chance to use my 40 years of experience in politics and government to steer Malaysia to glory.”"
         }
     },
     {
@@ -472,7 +408,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6137,
         "fields": {
             "question": 1311,
-            "description": "Sack the guy and skip the voting process for our nominee, just state that it's an emergency nomination due to COVID."
+            "description": "It's the <i>Chinese</i> - I mean the tourists from China who are bringing the disease in. If we put a hold onto their movement, we will be safe. Issue a travel ban to and from the People’s Republic of China, the disease will die out and solve itself eventually."
         }
     },
     {
@@ -480,7 +416,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6138,
         "fields": {
             "question": 1311,
-            "description": "We still need to respect the democratic process at the very least. Let the vote happen and nominate our own."
+            "description": "We need to act swiftly and firmly. I’m hearing advice from Noor Hisham that we need to implement a complete lockdown and a curfew on all sectors of life. Friday prayers would be limited. A duration of two weeks should be enough to cover the coming April hump. "
         }
     },
     {
@@ -488,7 +424,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6139,
         "fields": {
             "question": 1311,
-            "description": "We still need to respect the democratic process at the very least. Let the vote happen and nominate our own."
+            "description": "We need to act swiftly and firmly. I’m hearing advice from Noor Hisham that we need to implement a complete lockdown and a curfew on all sectors of life. Friday prayers would be limited. A duration of one month should be enough to cover the coming April hump."
         }
     },
     {
@@ -880,7 +816,7 @@ campaignTrail_temp.answers_json = [
         "pk": 52989,
         "fields": {
             "question": 1301,
-            "description": "We can’t underestimate Najib’s support among the rural poor who still revere him as Bossku for his handouts and welfare policies. Nostalgia may also work in our favour if we recruit him onboard, many see his tenure as a stable one."
+            "description": "UMNO could die but the infrastructure of revolving doors could not. What we can do is position ourselves as the lifeboat and inherit any would-be survivors, including the institutions. We don’t need to hasten the inevitable. No merger, no deregistration."
         }
     },
     {
@@ -888,7 +824,39 @@ campaignTrail_temp.answers_json = [
         "pk": 52990,
         "fields": {
             "question": 1301,
-            "description": "We can’t underestimate Najib’s support among the rural poor who still revere him as Bossku for his handouts and welfare policies. However we have to keep him at arms length from the administration, his name has been tainted by corruption."
+            "description": "We don’t need UMNO where we are going. We’ll get the numbers as we go, and with PAS onboard we are already halfway there. Abang Jo will make up the remaining deficit. Whatever the case, we shouldn’t give them the possibility of a revival."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52993,
+        "fields": {
+            "question": 1302,
+            "description": "This is an internal issue that should be discussed internally, not worth publicly squabbling over. It paints a bad image of ourselves to the Rakyat. All Pakatan Harapan leaders should have a say on this matter. Until then we should continue our work."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52995,
+        "fields": {
+            "question": 1304,
+            "description": "While it’s not exactly my manifesto, I can still fulfill some of it for the sake of PR. I’ll commit to repealing SOSMA and the Sedition Act. DAP can chimp all they want about Malay supremacy in the future, but at least I would’ve done actual substantial reform and differentiated ourselves from UMNO."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52996,
+        "fields": {
+            "question": 1304,
+            "description": "It would be best if this effort was spent on strengthening our party apparatus and appealing to curious frogs. The Ministry is already doing fine as it is and our current poster boy is Tun M, not me. My leadership and experience will speak for itself when the time comes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 52999,
+        "fields": {
+            "question": 1311,
+            "description": "All we need to do is to follow some precautions. Masking up and maintaining social distancing will be mandated in all public and private premises. However, businesses, schools, and mosques will be allowed to operate as is. We just took over the government. Let's not make the Rakyat panic more."
         }
     }
 ]
@@ -29583,26 +29551,6 @@ campaignTrail_temp.candidate_state_multiplier_json = [
 campaignTrail_temp.answer_score_global_json = [
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 4000,
-        "fields": {
-            "answer": 6110,
-            "candidate": 301,
-            "affected_candidate": 301,
-            "global_multiplier": 0.062
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 4001,
-        "fields": {
-            "answer": 6111,
-            "candidate": 301,
-            "affected_candidate": 301,
-            "global_multiplier": 0.0585
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 4002,
         "fields": {
             "answer": 6112,
@@ -29713,42 +29661,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 4088,
-        "fields": {
-            "answer": 6128,
-            "candidate": 301,
-            "affected_candidate": 301,
-            "global_multiplier": -0.0015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 4089,
         "fields": {
             "answer": 6130,
             "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": 0.0005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 4090,
-        "fields": {
-            "answer": 6133,
-            "candidate": 301,
-            "affected_candidate": 301,
-            "global_multiplier": -0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 4091,
-        "fields": {
-            "answer": 6136,
-            "candidate": 301,
-            "affected_candidate": 301,
-            "global_multiplier": -0.00125
         }
     },
     {
@@ -30051,46 +29969,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 6109,
             "issue": 114,
             "issue_score": -0.4875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3137,
-        "fields": {
-            "answer": 6110,
-            "issue": 110,
-            "issue_score": -0.5875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3138,
-        "fields": {
-            "answer": 6110,
-            "issue": 111,
-            "issue_score": -0.2375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3139,
-        "fields": {
-            "answer": 6110,
-            "issue": 114,
-            "issue_score": -0.6875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3140,
-        "fields": {
-            "answer": 6111,
-            "issue": 114,
-            "issue_score": -0.6875,
             "issue_importance": 1
         }
     },
@@ -30406,56 +30284,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 3172,
-        "fields": {
-            "answer": 6126,
-            "issue": 112,
-            "issue_score": -0.3875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3173,
-        "fields": {
-            "answer": 6126,
-            "issue": 114,
-            "issue_score": -0.6375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3174,
-        "fields": {
-            "answer": 6127,
-            "issue": 114,
-            "issue_score": -0.5375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3175,
-        "fields": {
-            "answer": 6128,
-            "issue": 112,
-            "issue_score": -0.3375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3176,
-        "fields": {
-            "answer": 6128,
-            "issue": 114,
-            "issue_score": -0.4875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 3177,
         "fields": {
             "answer": 6132,
@@ -30486,26 +30314,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 3180,
-        "fields": {
-            "answer": 6133,
-            "issue": 110,
-            "issue_score": -0.5375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3181,
-        "fields": {
-            "answer": 6133,
-            "issue": 114,
-            "issue_score": -0.7875,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 3182,
         "fields": {
             "answer": 6134,
@@ -30521,46 +30329,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 6134,
             "issue": 114,
             "issue_score": -0.6375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3184,
-        "fields": {
-            "answer": 6135,
-            "issue": 110,
-            "issue_score": -0.4375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3185,
-        "fields": {
-            "answer": 6135,
-            "issue": 114,
-            "issue_score": -0.6375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3186,
-        "fields": {
-            "answer": 6136,
-            "issue": 110,
-            "issue_score": -0.4375,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 3187,
-        "fields": {
-            "answer": 6136,
-            "issue": 114,
-            "issue_score": -0.4375,
             "issue_importance": 1
         }
     },
@@ -31585,25 +31353,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6109,
             "candidate": 300,
-            "answer_feedback": "Though Najib Razak’s indictment remains a thorn against full reconciliation with UMNO, they’ve acted cordially during the meeting alongside a much more willing PAS. Both agree to a coalition with some concessions from you. <br><br>But promises are made to be broken."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3059,
-        "fields": {
-            "answer": 6110,
-            "candidate": 300,
-            "answer_feedback": "You reassure the public of a handover date in the making with a subtle hint of anger at Anwar’s insubordination. This spooks the enemy and they scream."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3060,
-        "fields": {
-            "answer": 6111,
-            "candidate": 300,
-            "answer_feedback": "Talks with PAS prove more positive than expected, in fact they even propose forming a coalition government with you instead. Ahmad Zahid tacitly approves of the coalition as well."
+            "answer_feedback": "You begin your secret work tucked away in the corner of an office near Mont Kiara, courtesy of your colleague Hamzah Zainuddin. One call after another, you assemble a crackpot cabinet and a Signatory Declaration list that would one day be shown to the King. Inshaallah!"
         }
     },
     {
@@ -31612,7 +31362,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6112,
             "candidate": 300,
-            "answer_feedback": "[No Feedback Yet]"
+            "answer_feedback": "“A witch hunt!” cry the Najib dead-enders. You did them a service by throwing out a lifeline, but they just couldn’t keep their egos at bay. Your change in attitude surprises Tun M, whose eyes now seem to glisten more with you around like a prideful father.]"
         }
     },
     {
@@ -31621,7 +31371,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6113,
             "candidate": 300,
-            "answer_feedback": "[No Feedback Yet]"
+            "answer_feedback": "Tun M is very unhappy with the decision to collaborate with UMNO as is and decides to stick with his old plans. While the final call is on him, who knows what would happen in the future?"
         }
     },
     {
@@ -31630,7 +31380,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6114,
             "candidate": 300,
-            "answer_feedback": "Tun M is shocked. He had previously put you aside, thought you were too ambitious. But now you’ve gained his full trust by putting the party above your own self-interest. He designates you as his successor."
+            "answer_feedback": "It’s a lame excuse that goes over as well as one would expect, Anwar is now adamant that he’s being snuffed out, which makes the headlines tomorrow."
         }
     },
     {
@@ -31639,7 +31389,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6115,
             "candidate": 300,
-            "answer_feedback": "Barging right into his house demanding for a spot? He had always thought you were too ambitious, but never so brazen. He says no."
+            "answer_feedback": "In essence we’ve kicked the can down the road again, but at least there’s an actual excuse this time. It fails to fully satisfy the crowd, but the Rakyat buys into the facade surely?"
         }
     },
     {
@@ -31648,7 +31398,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6116,
             "candidate": 300,
-            "answer_feedback": "With Daim’s backing you talked to the old man, he seems to be considering you but he doesn’t give you an answer. Before leaving you hear him whisper to his aide that he would support any victor, maybe it's his way of endorsing."
+            "answer_feedback": "Tun M ruminates for a while and decides on 2020 May, exactly two years after the electoral victory in 2018. If all else goes to plan, Anwar would already be politically irrelevant by then with no outlet to complain."
         }
     },
     {
@@ -31657,7 +31407,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6117,
             "candidate": 300,
-            "answer_feedback": "You march for a leaderless cause. Istana Negara rejects the Signatory Declarations list you’ve sent them once they realised Tun M was not supporting it."
+            "answer_feedback": "This ticks off Azmin Ali a bit, but he decides it's for the better and comes around the same conclusion. His work at the Economic Ministry continues to impress Tun M, much to your chagrin. You may need to pull your weight more from now on."
         }
     },
     {
@@ -31666,7 +31416,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6118,
             "candidate": 300,
-            "answer_feedback": "The next morning you arrive as the messenger at the gates of Istana Negara with the list of Signatory Declarations made by 134 MPs showing their support. Tun M is not pleased but he decides to monitor the situation back home..."
+            "answer_feedback": "It spirals out of control with the Youth congress devolving into bloodied faces and stones throwed. Azmin Ali doesn’t say where the blackshirts came from, only that they’ve more than done their job. The walkout goes as planned, and PKR has been stripped bare for all to see."
         }
     },
     {
@@ -31675,7 +31425,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6119,
             "candidate": 300,
-            "answer_feedback": "Azmin disobeys your orders and goes at it alone, there is no telling what the repercussions of this will be."
+            "answer_feedback": "The second in command of BERSATU and PKR working in an outstation office right after the latter had been the subject of a gay sex tape scandal would turn the heads of many. Political infidelity is one thing, but sexual too? Well, that’s just Azmin Ali’s paranoia talking, he declines the offer."
         }
     },
     {
@@ -31684,7 +31434,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6120,
             "candidate": 300,
-            "answer_feedback": "Try as you might, the momentum has grown too strong to control. However, hesitating like this undermines the legitimacy of the coup. BERSATU members are beginning to question your leadership. No matter what, Anwar and others have gotten wind of the situation. The Rubicon has been crossed. Mahathir resigns."
+            "answer_feedback": "The arrests amount to nothing substantial and are stuck in the High Courts. Only the most fanatical of Walauns believe in these conspiracies. Thankfully, DAP doesn’t dare retaliate for its own members and no harm is done to you either."
         }
     },
     {
@@ -31693,7 +31443,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6121,
             "candidate": 300,
-            "answer_feedback": "The momentum has grown beyond the control of one man, he is now powerless to contain his own creation. Anwar and others have gotten wind of the situation. The Rubicon has been crossed. Mahathir resigns."
+            "answer_feedback": "Sabahans blame Tun M for the immigration policies due to Project IC, and this move is welcomed by them. If not, they are bewildered that it is coming from his second in command. Expectedly, Amnesty International decries this as inhumane, but it's not like they can vote you out."
         }
     },
     {
@@ -31702,7 +31452,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6122,
             "candidate": 300,
-            "answer_feedback": "UMNO and PAS scoff at your suggestion, in fact Tun M seems to have been touting the same suggestions as well. The system is now in deadlock as neither side has gained enough support while PH remains decapitated."
+            "answer_feedback": "Tun M contemplates for a while. You can feel his eyes scanning the room as if looking for a designated successor. There’s no one else but you. The choice is obvious. You feign humility when accepting. Inshallah"
         }
     },
     {
@@ -31711,7 +31461,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6123,
             "candidate": 300,
-            "answer_feedback": "Luckily for you Tun M has made a massive blunder touting a unity government while you were giving sweet candy to the Malay parties. Soon the parties in Borneo fall in line and you’re sworn in as the 8th Prime Minister."
+            "answer_feedback": "Daim calls the old man and you hear both of them reminiscing about the 80s. Tun M chuckles for a few times, before telling you that you’ll be the designated successor. You feign humility when accepting. Inshallah"
         }
     },
     {
@@ -31720,7 +31470,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6124,
             "candidate": 300,
-            "answer_feedback": "It could’ve gone worse."
+            "answer_feedback": "Frantic calls ring out all across Kuala Lumpur and Putrajaya. Several extraordinary party meetings are scheduled for tomorrow morning. A conspiracy is alive, but no one is sure what to make of it. You hope this too is God’s will."
         }
     },
     {
@@ -31729,34 +31479,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6125,
             "candidate": 300,
-            "answer_feedback": "A lot of people die"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3075,
-        "fields": {
-            "answer": 6126,
-            "candidate": 300,
-            "answer_feedback": "Most people die"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3076,
-        "fields": {
-            "answer": 6127,
-            "candidate": 300,
-            "answer_feedback": "Some people die"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3077,
-        "fields": {
-            "answer": 6128,
-            "candidate": 300,
-            "answer_feedback": "Racism"
+            "answer_feedback": "You, Azmin Ali, and several other politicians from the Statutory Declaration list meet up in the Istana Negara later in the evening as a show of force in support of Tun M in absentia. You give one last call to the old man; he remains stubborn in his indecision. It’s not working."
         }
     },
     {
@@ -31765,7 +31488,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6129,
             "candidate": 300,
-            "answer_feedback": "A relatively unknown slate of politicians have been chosen and to the surprise of many. Tok Hassan and Hadi Awang have been left out despite their support of the government. Perhaps this would be a moderate government after all and not one of an Islamic outlook."
+            "answer_feedback": "Try as you might, the momentum has grown too strong to control. However, hesitating undermines the legitimacy of the coup. BERSATU members are questioning your leadership. No matter what, Anwar and others have gotten wind of the situation. The Rubicon has been crossed. The old man, in a fit of rage against your insolence, submits his resignation to the King."
         }
     },
     {
@@ -31774,7 +31497,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6130,
             "candidate": 300,
-            "answer_feedback": "A list containing Tok Hassan and Hadi Awang was released in a move highly anticipated by the liberals. Rumours of islamisation that have started ever since PAS’s announcement of support for your government has only been inflamed with their leader’s appointment as one of the ministers. It doesn’t help that this is a blatant attempt at gaining support."
+            "answer_feedback": "The momentum has grown beyond the control of one man, he is now powerless to contain his own creation. The Rubicon has been crossed. The old man, in a fit of rage against your insolence, submits his resignation to the King."
         }
     },
     {
@@ -31783,7 +31506,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6131,
             "candidate": 300,
-            "answer_feedback": "[No Feedback]"
+            "answer_feedback": "This quickly secures UMNO and PAS’s support at the expense of Azmin Ali who feels snuffed out without a Deputy position. The process took a lot longer than you would’ve liked due to Abang Jo’s indecision until it was apparent you were the victor, but it worked. The specifics for each ministry would be decided later on."
         }
     },
     {
@@ -31792,16 +31515,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6132,
             "candidate": 300,
-            "answer_feedback": "[No Feedback]"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3083,
-        "fields": {
-            "answer": 6133,
-            "candidate": 300,
-            "answer_feedback": "[No Feedback]"
+            "answer_feedback": "A very unconventional jab, but it does its magic. The parties fall into lock-step, bar Abang Jo’s GPS who maintain they’re simply in a confidence and supply arrangement. The 4 Deputies would be renamed as Senior Ministers when the cabinet is announced. The specifics for each ministry would be decided later on."
         }
     },
     {
@@ -31810,25 +31524,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6134,
             "candidate": 300,
-            "answer_feedback": "Eliminating SS and his clique within Bersatu was expected. Removing all opponents withinwas not. It was a bloodbath. No one would have expected measures as extreme. You managed to take full control of Bersatu but the dissidents started to see what Tun M meant. Tun M’s Pejuang, and to a lesser extent, UMNO’s ranks swell. Syed Saddiq would form a youth-oriented party called MUDA aligned with the opposition."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3085,
-        "fields": {
-            "answer": 6135,
-            "candidate": 300,
-            "answer_feedback": "[SS was brought onto Bersatu to appeal to Malaysians who weren’t so keen on naked Ketuanan Melayu. The younger Malays. His services are no longer needed. He was disappointed, perhaps naively so. Later you would find out that Syed Saddiq has established a youth oriented party called MUDA, aligned with the Opposition."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 3086,
-        "fields": {
-            "answer": 6136,
-            "candidate": 300,
-            "answer_feedback": "Perhaps you could still find use with SS. He seems grateful that you are giving him a chance but Tun M is outraged by what seems like betrayal by another protege.Syed Saddiq will remain in BERSATU, saying he will try to reach a compromise with Tun M but you know that will never happen. However, all your other enemies within BERSATU smell weakness."
+            "answer_feedback": "None of this is reflective of the actual policies you’re going to push. You could not have been more generic if you tried. The Bursa Malaysia opened 22 points lower today."
         }
     },
     {
@@ -31837,7 +31533,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6137,
             "candidate": 300,
-            "answer_feedback": "Mohamad Ariff is fired in the name of a vaguely worded emergency, mentioning COVID somewhere, there’s uproar of course. Art Harun could barely control the Dewan Rakyat which devolved into shouting and throwing matches. Nga Kor Ming resigns in solidarity."
+            "answer_feedback": "This might’ve been effective if it was done back in January. It is already March. The local Chinese press decry the selectiveness as racially charged, while experts are horrified by the late and lacklustre government responses. A lockdown is announced eventually but with minimal containment effect."
         }
     },
     {
@@ -31846,7 +31542,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6138,
             "candidate": 300,
-            "answer_feedback": "Mohamad Ariff is out by a 2 vote margin. Art Harun’s first day was filled with jeers and the booting of one MP from the Dewan Rakyat for disturbance and interference. Nga Kor Ming resigns in solidarity."
+            "answer_feedback": "The first deaths in Malaysia due to COVID-19 are recorded just a day after the lockdown announcement. Officially called the Movement Control Order, the lockdown would eventually be extended by another two weeks. It was the right call."
         }
     },
     {
@@ -31855,7 +31551,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6139,
             "candidate": 300,
-            "answer_feedback": "Mohamad Ariff remains by a 2 vote margin. Stuck in deadlock another attempt to dethrone him is made and succeeds with Art Harun as the new speaker. Trust in your government has been shaken by the whole ordeal."
+            "answer_feedback": "The first deaths in Malaysia due to COVID-19 are recorded just a day after the lockdown announcement. Officially called the Movement Control Order, the lockdown was first condemned as draconian by the public before a spike in cases ceased all complaints. It was the right call."
         }
     },
     {
@@ -32053,7 +31749,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 52989,
             "candidate": 300,
-            "answer_feedback": "[No Feedback Yet]"
+            "answer_feedback": "This amounts to nothing being done at the moment, a wait-and-see game from both sides. If Operation Hijrah pulls out nicely for you, you’d be in an advantageous position to persuade them."
         }
     },
     {
@@ -32062,7 +31758,43 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 52990,
             "candidate": 300,
-            "answer_feedback": "[No Feedback Yet]"
+            "answer_feedback": "A conspirator must wholly believe in their own conspiracy. Otherwise, why go with the plan at all? This comes as a shock to Tun M who actually still wants a few UMNO frogs just without Najib’s ilk."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52994,
+        "fields": {
+            "answer": 52993,
+            "candidate": 300,
+            "answer_feedback": "Publicly it’s not your game to play and this is a right move. Still as President of BERSATU, most feel you have a duty to placate the confusion and that you’re skirting around the question."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52997,
+        "fields": {
+            "answer": 52995,
+            "candidate": 300,
+            "answer_feedback": "This arouses the suspicion of conservatives within BERSATU who aren’t happy with your decision. Regardless, any review of the “draconian” acts would take ages, let alone a full repeal. It doesn’t move the needle in terms of popularity."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52998,
+        "fields": {
+            "answer": 52996,
+            "candidate": 300,
+            "answer_feedback": "No harm done not throwing yourself out there, but no advantages either."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 53000,
+        "fields": {
+            "answer": 52999,
+            "candidate": 300,
+            "answer_feedback": "It becomes apparent very quickly that this was not enough with a lockdown announced a week later. However by that point cases had risen beyond the Health Ministry’s capability for containment. His Majesty the King contracts the disease on the 26th of March."
         }
     }
 ]
