@@ -563,6 +563,7 @@ document.getElementById("header").src = "https://i.imgur.com/T87PVFP.png";
 //Background
 document.body.background = "https://i.imgur.com/t9TvSnq.png";
 document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
 
 // Music Player
 
@@ -879,9 +880,10 @@ satiricalTooltipList = [
     {searchString: "Mahathir", explanationText: "The Old Man Mahathir Mohammad, the Greatest Prime Minister of Malaysia. Author of the Malay Dilemma."},
     {searchString: "Tun M", explanationText: "The Old Man Mahathir Mohammad, the Greatest Prime Minister of Malaysia. Author of the Malay Dilemma."},
     {searchString: "Putrajaya", explanationText: "<img src = https://pbs.twimg.com/media/Dv6qBaTUwAAB1Ck.jpg> Home of the Victorious"},
-    {searchString: "Anwar Ibrahim", explanationText: "Formerly the Deputy Prime Minister under Tun M, sacked for his betrayal in 1998. Some say he is the prodigal son, more like a forever spoilt petulant child."},
+    {searchString: "Anwar Ibrahim", explanationText: "Formerly the Deputy Prime Minister under Tun M, sacked for his betrayal in 1998. Some say he is the prodigal son, more like a forever spoilt petulant brat."},
+    {searchString: "Anwar", explanationText: "Formerly the Deputy Prime Minister under Tun M, sacked for his betrayal in 1998. Some say he is the prodigal son, more like a forever spoilt petulant brat."},
     {searchString: "BERSATU", explanationText: "Our Party, formed from the disgruntled majority tired of UMNO’s inaction and corruption."},
-    {searchString: "Azmin Ali", explanationText: "Protege of Anwar Ibrahim. Following in his footsteps, politically and sexually"},
+    {searchString: "Azmin Ali", explanationText: "Protege of Anwar Ibrahim. Like his mentor, he'll be coming through the backdoor."},
 ];
 
 informativeTooltipList = [

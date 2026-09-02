@@ -4036,9 +4036,9 @@ campaignTrail_temp.issues_json = [
             "stance_5": "Slightly Oppose",
             "stance_desc_5": 0,
             "stance_6": "Hidup Bossku!",
-            "stance_desc_6": 0,
+            "stance_desc_6": "'Corruption? What corruption? It was all lies spun by Anwar and if it was real, Najib at least took care of us'",
             "stance_7": "Hidup Bossku!",
-            "stance_desc_7": 0,
+            "stance_desc_7": "'Corruption? What corruption? It was all lies spun by Anwar and if it was real, Najib at least took care of us'",
             "election": 21
         }
     },
@@ -31938,8 +31938,8 @@ var covid = 0;
 // Party Cohesion. This represents how united Bersatu is internally. Bersatu can be small but united or large and disunited
 var party_cohesion = 0;
 
-// Ideology. This is how Malaysia perceives Muhyiddin as a politician. He will start as being seen as Conservative or a score of 5
-var ideology = 5;
+// Ideology. This is how Malaysia perceives Muhyiddin as a politician. He will start as being seen as Conservative or a score of 4
+var ideology = 4;
 
 // Minor Variables
 // Sabah Election Variable. Represents the strength of PN in Sabah. Higher values lead to more positive outcomes in Sabah
@@ -32017,7 +32017,7 @@ function coalitionTranslate() {
 
 function covidTranslate() {
     if (covid >= 12) {
-        return '<b>Malaysia will take at least a decade to recover. Numbers are meaningless</b>. (<b>' + covid + '</b>)';
+        return '<b>Malaysia will take at least half a decade to recover. Numbers are meaningless</b>. (<b>' + covid + '</b>)';
     } else if (covid >= 9) {
         return '<span style="color:red; font-weight: bold">Everyone can name one relative who died suffering. Hundreds of thousands dead</span>. (<span style="color:red; font-weight: bold">' + covid + '</span>)';
     } else if (covid >= 6) {
@@ -32060,12 +32060,31 @@ function ideologyTranslate() {
     }
 }
 
-/*
+
 function changePatience(value){
     console.log('Changing patience by %d to %d', value, patience + value);
     patience += value;
 }
-*/
+
+function changeCoalition(value){
+    console.log('Changing coalition cooperativeness by %d to %d', value, coalition_coop + value);
+    coalition_coop += value;
+}
+
+function changeCovid(value){
+    console.log('Changing COVID severity by %d to %d', value, covid + value);
+    covid += value;
+}
+
+function changeCohesion(value){
+    console.log('Changing party cohesion by %d to %d', value, party_cohesion + value);
+    party_cohesion += value;
+}
+
+function changeIdeology(value){
+    console.log('Changing party cohesion by %d to %d', value, ideology + value);
+    ideology += value;
+}
 
 function addHeadquarterButton() {
     // Check if the button already exists
